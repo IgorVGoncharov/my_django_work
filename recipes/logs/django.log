@@ -1,0 +1,24 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+INFO 2024-10-06 22:51:22,209 autoreload 2020 1656 Watching for file changes with StatReloader
+INFO 2024-10-06 22:51:26,389 basehttp 2020 12560 "GET /recipes/ HTTP/1.1" 200 38
+INFO 2024-10-06 22:51:32,142 basehttp 2020 12560 "GET /about/ HTTP/1.1" 200 8
+INFO 2024-10-06 22:51:35,313 basehttp 2020 12560 "GET /about HTTP/1.1" 301 0
+INFO 2024-10-06 22:51:35,313 basehttp 2020 8244 "GET /about/ HTTP/1.1" 200 8
+INFO 2024-10-06 22:51:36,563 views 2020 8244 Index page accessed
+INFO 2024-10-06 22:51:36,564 basehttp 2020 8244 "GET / HTTP/1.1" 200 13
+INFO 2024-10-07 21:35:21,369 autoreload 15728 15732 Watching for file changes with StatReloader
+INFO 2024-10-07 21:35:25,176 views 15728 15908 Index page accessed
+INFO 2024-10-07 21:35:25,177 basehttp 15728 15908 "GET / HTTP/1.1" 200 13
+WARNING 2024-10-07 21:35:25,215 log 15728 15908 Not Found: /favicon.ico
+WARNING 2024-10-07 21:35:25,217 basehttp 15728 15908 "GET /favicon.ico HTTP/1.1" 404 2973
+INFO 2024-10-07 22:26:38,357 autoreload 352 10372 Watching for file changes with StatReloader
+INFO 2024-10-07 22:27:13,416 autoreload 352 10372 C:\Django_Final_work\recipes\myapp\models.py changed, reloading.
+INFO 2024-10-07 22:27:20,523 autoreload 1252 9504 Watching for file changes with StatReloader
+INFO 2024-10-07 22:28:03,791 autoreload 1252 9504 C:\Django_Final_work\recipes\myapp\models.py changed, reloading.
+INFO 2024-10-07 22:28:04,297 autoreload 11720 14096 Watching for file changes with StatReloader
+INFO 2024-10-07 22:28:29,187 autoreload 11720 14096 C:\Django_Final_work\recipes\myapp\models.py changed, reloading.
+INFO 2024-10-07 22:28:29,686 autoreload 16208 7376 Watching for file changes with StatReloader
+INFO 2024-10-07 22:29:56,298 autoreload 13740 13256 Watching for file changes with StatReloader
+INFO 2024-10-07 22:30:20,582 autoreload 15408 15016 Watching for file changes with StatReloader
+INFO 2024-10-07 22:32:44,231 autoreload 11784 2808 Watching for file changes with StatReloader
