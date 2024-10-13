@@ -6,7 +6,7 @@
   </component>
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DatabaseBrowserManager">
@@ -24,15 +24,20 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="fdbcc4e8-826d-461b-87ef-26e1da302074" object-ref="schemas/main/tables/myapp_post" />
-      <object connection-id="fdbcc4e8-826d-461b-87ef-26e1da302074" object-ref="schemas/main/tables/myapp_user" />
-      <object connection-id="fdbcc4e8-826d-461b-87ef-26e1da302074" object-ref="schemas/main/tables/myapp_recipes" />
-      <object connection-id="fdbcc4e8-826d-461b-87ef-26e1da302074" object-ref="schemas/main/tables/myapp_author" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="fdbcc4e8-826d-461b-87ef-26e1da302074" />
+  </component>
+  <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="fdbcc4e8-826d-461b-87ef-26e1da302074" dataset="main.myapp_user" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="fdbcc4e8-826d-461b-87ef-26e1da302074" dataset="main.myapp_post" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="fdbcc4e8-826d-461b-87ef-26e1da302074" dataset="main.myapp_recipes" active-filter-id="84a166b7-4e67-4f59-9700-7ddd78d50abc">
+      <filter id="84a166b7-4e67-4f59-9700-7ddd78d50abc" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="id" operator="=" value="" active="true" />
+      </filter>
+    </filter-actions>
+    <filter-actions connection-id="fdbcc4e8-826d-461b-87ef-26e1da302074" dataset="main.myapp_author" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />

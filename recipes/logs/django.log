@@ -24,3 +24,548 @@ INFO 2024-10-07 22:30:20,582 autoreload 15408 15016 Watching for file changes wi
 INFO 2024-10-07 22:32:44,231 autoreload 11784 2808 Watching for file changes with StatReloader
 INFO 2024-10-08 22:34:33,779 autoreload 16784 12964 Watching for file changes with StatReloader
 INFO 2024-10-09 18:53:57,934 autoreload 13608 13732 Watching for file changes with StatReloader
+INFO 2024-10-11 18:37:58,824 autoreload 14224 9708 Watching for file changes with StatReloader
+WARNING 2024-10-11 18:38:01,966 log 14224 2288 Not Found: /
+WARNING 2024-10-11 18:38:01,969 basehttp 14224 2288 "GET / HTTP/1.1" 404 2666
+WARNING 2024-10-11 18:38:02,059 log 14224 2288 Not Found: /favicon.ico
+WARNING 2024-10-11 18:38:02,059 basehttp 14224 2288 "GET /favicon.ico HTTP/1.1" 404 2717
+INFO 2024-10-11 18:38:20,158 basehttp 14224 2288 "GET /hello HTTP/1.1" 301 0
+INFO 2024-10-11 18:38:20,164 basehttp 14224 7604 "GET /hello/ HTTP/1.1" 200 26
+WARNING 2024-10-11 18:38:28,131 log 14224 7604 Not Found: /hello1/
+WARNING 2024-10-11 18:38:28,137 basehttp 14224 7604 "GET /hello1/ HTTP/1.1" 404 2705
+INFO 2024-10-11 18:38:37,582 basehttp 14224 7604 "GET /hello2/ HTTP/1.1" 200 23
+INFO 2024-10-11 18:41:51,751 autoreload 14224 9708 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-11 18:41:52,633 autoreload 8868 10180 Watching for file changes with StatReloader
+INFO 2024-10-11 18:42:12,851 autoreload 8868 10180 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-11 18:42:13,643 autoreload 2000 3896 Watching for file changes with StatReloader
+INFO 2024-10-11 18:47:34,412 autoreload 2000 3896 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-11 18:47:35,088 autoreload 4524 1988 Watching for file changes with StatReloader
+INFO 2024-10-11 18:48:40,646 autoreload 4524 1988 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-11 18:48:41,483 autoreload 13628 4528 Watching for file changes with StatReloader
+INFO 2024-10-11 18:48:48,947 autoreload 13628 4528 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-11 18:48:49,732 autoreload 14808 4872 Watching for file changes with StatReloader
+INFO 2024-10-11 18:49:02,395 autoreload 14808 4872 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-11 18:49:03,301 autoreload 9344 11336 Watching for file changes with StatReloader
+INFO 2024-10-11 18:49:19,240 autoreload 9344 11336 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-11 18:49:19,955 autoreload 11260 3216 Watching for file changes with StatReloader
+INFO 2024-10-11 18:49:31,815 autoreload 11260 3216 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-11 18:49:32,470 autoreload 7532 9240 Watching for file changes with StatReloader
+INFO 2024-10-11 18:49:44,130 autoreload 7532 9240 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-11 18:49:44,895 autoreload 7760 14616 Watching for file changes with StatReloader
+INFO 2024-10-11 18:49:49,311 autoreload 7760 14616 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-11 18:53:54,816 autoreload 14588 14060 Watching for file changes with StatReloader
+INFO 2024-10-11 18:54:07,408 autoreload 14588 14060 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-11 18:54:08,144 autoreload 2916 10972 Watching for file changes with StatReloader
+INFO 2024-10-11 18:56:44,119 autoreload 9008 8012 Watching for file changes with StatReloader
+INFO 2024-10-11 18:56:49,688 basehttp 9008 14528 "GET /hello2/ HTTP/1.1" 200 23
+INFO 2024-10-11 18:56:51,797 basehttp 9008 14528 "GET /hello2/ HTTP/1.1" 200 23
+INFO 2024-10-11 18:56:52,339 basehttp 9008 14528 "GET /hello2/ HTTP/1.1" 200 23
+WARNING 2024-10-11 18:56:55,460 log 9008 14528 Not Found: /
+WARNING 2024-10-11 18:56:55,460 basehttp 9008 14528 "GET / HTTP/1.1" 404 3545
+WARNING 2024-10-11 18:57:03,858 log 9008 14528 Not Found: /post/2022
+WARNING 2024-10-11 18:57:03,866 basehttp 9008 14528 "GET /post/2022 HTTP/1.1" 404 3590
+WARNING 2024-10-11 18:57:07,200 log 9008 14528 Not Found: /post/2022/
+WARNING 2024-10-11 18:57:07,200 basehttp 9008 14528 "GET /post/2022/ HTTP/1.1" 404 3593
+INFO 2024-10-11 18:57:16,203 basehttp 9008 14528 "GET /posts/2022/ HTTP/1.1" 200 19
+INFO 2024-10-11 18:57:24,959 basehttp 9008 14528 "GET /posts/2027/ HTTP/1.1" 200 19
+INFO 2024-10-11 18:57:29,989 basehttp 9008 14528 "GET /posts/2027/02/ HTTP/1.1" 200 21
+INFO 2024-10-11 18:59:59,827 autoreload 9008 8012 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-11 19:00:00,544 autoreload 11548 4040 Watching for file changes with StatReloader
+INFO 2024-10-11 19:01:25,613 basehttp 11548 9592 "GET /posts/2027/02/puthon HTTP/1.1" 301 0
+INFO 2024-10-11 19:01:25,623 basehttp 11548 11244 "GET /posts/2027/02/puthon/ HTTP/1.1" 200 359
+INFO 2024-10-11 19:10:22,270 autoreload 11548 4040 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-11 19:10:23,203 autoreload 11244 9208 Watching for file changes with StatReloader
+INFO 2024-10-11 19:10:39,555 autoreload 11244 9208 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-11 19:10:40,481 autoreload 6080 9508 Watching for file changes with StatReloader
+INFO 2024-10-11 19:11:37,083 autoreload 6080 9508 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-11 19:11:37,861 autoreload 7328 13096 Watching for file changes with StatReloader
+INFO 2024-10-11 19:14:02,881 autoreload 7328 13096 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-11 19:14:03,707 autoreload 11236 9408 Watching for file changes with StatReloader
+INFO 2024-10-11 19:14:31,845 autoreload 11236 9408 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-11 19:14:32,513 autoreload 8000 12336 Watching for file changes with StatReloader
+INFO 2024-10-11 19:14:45,591 autoreload 8000 12336 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-11 19:14:46,394 autoreload 9120 9276 Watching for file changes with StatReloader
+INFO 2024-10-11 19:14:56,448 autoreload 9120 9276 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-11 19:14:57,343 autoreload 11116 804 Watching for file changes with StatReloader
+INFO 2024-10-11 19:15:32,859 autoreload 1988 5684 Watching for file changes with StatReloader
+INFO 2024-10-11 19:15:35,170 basehttp 1988 7296 "GET / HTTP/1.1" 200 205
+INFO 2024-10-11 22:32:02,536 autoreload 1988 5684 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-11 22:32:03,571 autoreload 18164 17064 Watching for file changes with StatReloader
+INFO 2024-10-11 22:32:20,938 autoreload 18164 17064 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-11 22:32:21,723 autoreload 17296 13068 Watching for file changes with StatReloader
+INFO 2024-10-11 22:33:51,706 autoreload 17296 13068 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-11 22:33:52,427 autoreload 13876 14808 Watching for file changes with StatReloader
+INFO 2024-10-11 22:37:43,365 autoreload 13876 14808 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-11 22:37:44,297 autoreload 11024 5860 Watching for file changes with StatReloader
+INFO 2024-10-11 22:37:56,949 autoreload 11024 5860 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-11 22:37:57,686 autoreload 15976 16964 Watching for file changes with StatReloader
+INFO 2024-10-11 22:38:05,187 autoreload 15976 16964 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-11 22:38:06,064 autoreload 8216 8696 Watching for file changes with StatReloader
+INFO 2024-10-11 22:38:40,369 autoreload 8216 8696 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-11 22:38:41,099 autoreload 17064 2108 Watching for file changes with StatReloader
+INFO 2024-10-11 22:39:23,364 autoreload 8228 16740 Watching for file changes with StatReloader
+INFO 2024-10-11 22:39:27,978 basehttp 8228 12576 "GET / HTTP/1.1" 200 205
+INFO 2024-10-11 22:39:31,855 basehttp 8228 12576 "GET /if HTTP/1.1" 200 335
+INFO 2024-10-12 21:41:31,033 autoreload 8228 16740 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-12 21:41:32,790 autoreload 7220 19816 Watching for file changes with StatReloader
+INFO 2024-10-12 21:42:38,961 autoreload 7220 19816 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-12 21:42:39,383 autoreload 9236 19588 Watching for file changes with StatReloader
+INFO 2024-10-12 21:45:25,644 autoreload 9236 19588 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-12 21:45:26,073 autoreload 18140 5020 Watching for file changes with StatReloader
+INFO 2024-10-12 21:45:54,190 autoreload 18140 5020 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-12 21:45:54,630 autoreload 18828 11500 Watching for file changes with StatReloader
+INFO 2024-10-12 21:46:13,455 autoreload 18828 11500 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-12 21:46:13,862 autoreload 16756 14932 Watching for file changes with StatReloader
+INFO 2024-10-12 21:46:42,723 autoreload 13572 11180 Watching for file changes with StatReloader
+INFO 2024-10-12 21:46:48,037 basehttp 13572 14720 "GET / HTTP/1.1" 200 205
+ERROR 2024-10-12 21:46:53,128 log 13572 14720 Internal Server Error: /for
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 86, in view_for
+    return render(request, 'myapp/templ_for.html', context)
+  File "C:\my_django_work\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/templ_for.html
+ERROR 2024-10-12 21:46:53,131 basehttp 13572 14720 "GET /for HTTP/1.1" 500 81302
+WARNING 2024-10-12 21:47:15,716 log 13572 14720 Not Found: /for/
+WARNING 2024-10-12 21:47:15,716 basehttp 13572 14720 "GET /for/ HTTP/1.1" 404 4328
+WARNING 2024-10-12 21:47:56,457 log 13572 14720 Not Found: /if/
+WARNING 2024-10-12 21:47:56,458 basehttp 13572 14720 "GET /if/ HTTP/1.1" 404 4325
+INFO 2024-10-12 21:48:20,122 basehttp 13572 14720 "GET / HTTP/1.1" 200 205
+INFO 2024-10-12 21:48:25,152 basehttp 13572 14720 "GET /if HTTP/1.1" 200 335
+ERROR 2024-10-12 21:48:29,906 log 13572 14720 Internal Server Error: /for
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 86, in view_for
+    return render(request, 'myapp/templ_for.html', context)
+  File "C:\my_django_work\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/templ_for.html
+ERROR 2024-10-12 21:48:29,909 basehttp 13572 14720 "GET /for HTTP/1.1" 500 81302
+INFO 2024-10-12 21:49:47,140 autoreload 13572 11180 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-12 21:49:47,545 autoreload 18544 9496 Watching for file changes with StatReloader
+ERROR 2024-10-12 21:49:51,913 log 18544 8144 Internal Server Error: /for/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 86, in view_for
+    return render(request, 'myapp/templ_for.html', context)
+  File "C:\my_django_work\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/templ_for.html
+ERROR 2024-10-12 21:49:51,916 basehttp 18544 8144 "GET /for/ HTTP/1.1" 500 81314
+INFO 2024-10-12 21:50:42,799 autoreload 18544 9496 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-12 21:50:46,212 autoreload 10092 3856 Watching for file changes with StatReloader
+ERROR 2024-10-12 21:50:48,970 log 10092 12016 Internal Server Error: /for/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 86, in view_for
+    return render(request, 'myapp/templ_for.html', context)
+  File "C:\my_django_work\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/templ_for.html
+ERROR 2024-10-12 21:50:48,972 basehttp 10092 12016 "GET /for/ HTTP/1.1" 500 81451
+ERROR 2024-10-12 21:50:50,728 log 10092 12016 Internal Server Error: /for/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 86, in view_for
+    return render(request, 'myapp/templ_for.html', context)
+  File "C:\my_django_work\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/templ_for.html
+ERROR 2024-10-12 21:50:50,730 basehttp 10092 12016 "GET /for/ HTTP/1.1" 500 81451
+INFO 2024-10-12 21:50:54,384 basehttp 10092 12016 "GET /if/ HTTP/1.1" 200 335
+ERROR 2024-10-12 21:50:59,331 log 10092 12016 Internal Server Error: /for/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 86, in view_for
+    return render(request, 'myapp/templ_for.html', context)
+  File "C:\my_django_work\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/templ_for.html
+ERROR 2024-10-12 21:50:59,334 basehttp 10092 12016 "GET /for/ HTTP/1.1" 500 81314
+INFO 2024-10-12 21:54:43,880 autoreload 10188 16848 Watching for file changes with StatReloader
+INFO 2024-10-12 21:54:51,281 basehttp 10188 19608 "GET /if/ HTTP/1.1" 200 335
+INFO 2024-10-12 21:54:56,201 basehttp 10188 19608 "GET /for HTTP/1.1" 301 0
+ERROR 2024-10-12 21:54:56,246 log 10188 15880 Internal Server Error: /for/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 86, in view_for
+    return render(request, 'myapp/templ_for.html', context)
+  File "C:\my_django_work\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/templ_for.html
+ERROR 2024-10-12 21:54:56,249 basehttp 10188 15880 "GET /for/ HTTP/1.1" 500 81314
+INFO 2024-10-12 21:56:20,243 autoreload 15364 17520 Watching for file changes with StatReloader
+INFO 2024-10-12 21:56:23,135 basehttp 15364 18840 "GET /for/ HTTP/1.1" 200 820
+INFO 2024-10-12 22:14:58,816 autoreload 15364 17520 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-12 22:14:59,348 autoreload 1676 20104 Watching for file changes with StatReloader
+INFO 2024-10-12 22:15:28,718 autoreload 1676 20104 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-12 22:15:29,154 autoreload 12796 8016 Watching for file changes with StatReloader
+INFO 2024-10-12 22:15:36,540 autoreload 12796 8016 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-12 22:15:37,041 autoreload 7680 8984 Watching for file changes with StatReloader
+INFO 2024-10-12 22:15:54,655 autoreload 7680 8984 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-12 22:15:55,053 autoreload 12956 6848 Watching for file changes with StatReloader
+INFO 2024-10-12 22:16:22,133 autoreload 12956 6848 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-12 22:16:22,555 autoreload 19664 18572 Watching for file changes with StatReloader
+INFO 2024-10-12 22:16:35,240 autoreload 19664 18572 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-12 22:16:35,669 autoreload 15100 18268 Watching for file changes with StatReloader
+INFO 2024-10-12 22:17:54,696 autoreload 15100 18268 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-12 22:17:55,116 autoreload 7656 19904 Watching for file changes with StatReloader
+INFO 2024-10-12 22:19:02,298 autoreload 16104 10932 Watching for file changes with StatReloader
+INFO 2024-10-12 22:19:05,962 basehttp 16104 12796 "GET /for/ HTTP/1.1" 200 820
+INFO 2024-10-12 22:19:10,723 basehttp 16104 12796 "GET /index/ HTTP/1.1" 200 257
+INFO 2024-10-12 22:19:17,833 basehttp 16104 12796 "GET /about/ HTTP/1.1" 200 264
+INFO 2024-10-12 22:27:24,238 autoreload 16824 13848 Watching for file changes with StatReloader
+INFO 2024-10-12 22:27:31,769 basehttp 16824 11356 "GET /index/ HTTP/1.1" 200 301
+INFO 2024-10-12 22:29:21,051 autoreload 16824 13848 C:\my_django_work\recipes\recipes\urls.py changed, reloading.
+INFO 2024-10-12 22:29:21,470 autoreload 13348 12948 Watching for file changes with StatReloader
+INFO 2024-10-12 22:29:38,023 autoreload 13348 12948 C:\my_django_work\recipes\recipes\urls.py changed, reloading.
+INFO 2024-10-12 22:29:38,463 autoreload 18704 8056 Watching for file changes with StatReloader
+INFO 2024-10-12 22:29:57,062 autoreload 18704 8056 C:\my_django_work\recipes\recipes\urls.py changed, reloading.
+INFO 2024-10-12 22:29:57,505 autoreload 11592 13088 Watching for file changes with StatReloader
+INFO 2024-10-12 22:30:07,095 autoreload 11592 13088 C:\my_django_work\recipes\recipes\urls.py changed, reloading.
+INFO 2024-10-12 22:30:07,507 autoreload 2328 19140 Watching for file changes with StatReloader
+INFO 2024-10-12 22:30:26,379 autoreload 2328 19140 C:\my_django_work\recipes\recipes\urls.py changed, reloading.
+INFO 2024-10-12 22:30:26,802 autoreload 4164 6200 Watching for file changes with StatReloader
+INFO 2024-10-12 22:31:14,259 autoreload 14684 15924 Watching for file changes with StatReloader
+WARNING 2024-10-12 22:31:18,498 log 14684 5008 Not Found: /index/
+WARNING 2024-10-12 22:31:18,499 basehttp 14684 5008 "GET /index/ HTTP/1.1" 404 2485
+WARNING 2024-10-12 22:31:19,442 log 14684 5008 Not Found: /index/
+WARNING 2024-10-12 22:31:19,443 basehttp 14684 5008 "GET /index/ HTTP/1.1" 404 2485
+WARNING 2024-10-12 22:31:25,807 log 14684 5008 Not Found: /myapp/index/
+WARNING 2024-10-12 22:31:25,808 basehttp 14684 5008 "GET /myapp/index/ HTTP/1.1" 404 5053
+INFO 2024-10-12 22:31:37,402 basehttp 14684 5008 "GET / HTTP/1.1" 200 301
+WARNING 2024-10-12 22:31:44,214 log 14684 5008 Not Found: /myapp/
+WARNING 2024-10-12 22:31:44,215 basehttp 14684 5008 "GET /myapp/ HTTP/1.1" 404 5035
+WARNING 2024-10-12 22:31:55,114 log 14684 5008 Not Found: /myapp/hello/
+WARNING 2024-10-12 22:31:55,115 basehttp 14684 5008 "GET /myapp/hello/ HTTP/1.1" 404 5053
+INFO 2024-10-12 22:32:26,292 autoreload 14684 15924 C:\my_django_work\recipes\recipes\urls.py changed, reloading.
+INFO 2024-10-12 22:32:26,857 autoreload 18776 288 Watching for file changes with StatReloader
+INFO 2024-10-12 22:32:28,039 basehttp 18776 17744 "GET /myapp/hello/ HTTP/1.1" 200 26
+WARNING 2024-10-12 22:32:33,716 log 18776 17744 Not Found: /myapp//
+WARNING 2024-10-12 22:32:33,716 basehttp 18776 17744 "GET /myapp// HTTP/1.1" 404 5048
+INFO 2024-10-12 22:32:40,143 basehttp 18776 17744 "GET /myapp/for/ HTTP/1.1" 200 820
+INFO 2024-10-13 11:54:00,860 autoreload 12368 15380 Watching for file changes with StatReloader
+INFO 2024-10-13 11:54:14,888 basehttp 12368 11796 "GET /myapp/author/45 HTTP/1.1" 301 0
+INFO 2024-10-13 11:54:14,905 basehttp 12368 13348 "GET /myapp/author/45/ HTTP/1.1" 200 1310
+ERROR 2024-10-13 11:54:23,642 log 12368 13348 Internal Server Error: /myapp/post/446/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 102, in post_full
+    return render(request, 'myapp/post_full.html', {'post': post})
+  File "C:\my_django_work\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\my_django_work\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\my_django_work\venv\lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\my_django_work\venv\lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+  File "C:\my_django_work\venv\lib\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\base.py", line 573, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'endblock'. Did you forget to register or load this tag?
+ERROR 2024-10-13 11:54:23,642 basehttp 12368 13348 "GET /myapp/post/446/ HTTP/1.1" 500 145156
+INFO 2024-10-13 11:54:38,459 basehttp 12368 13348 "GET /myapp/author/45/ HTTP/1.1" 200 1310
+INFO 2024-10-13 11:56:13,370 basehttp 12368 13348 "GET /myapp/posts/446 HTTP/1.1" 301 0
+INFO 2024-10-13 11:56:13,373 basehttp 12368 12232 "GET /myapp/posts/446/ HTTP/1.1" 200 18
+INFO 2024-10-13 11:56:23,974 basehttp 12368 12232 "GET /myapp/posts/447/ HTTP/1.1" 200 18
+ERROR 2024-10-13 11:56:49,702 log 12368 12232 Internal Server Error: /myapp/post/448/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 102, in post_full
+    return render(request, 'myapp/post_full.html', {'post': post})
+  File "C:\my_django_work\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\my_django_work\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\my_django_work\venv\lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\my_django_work\venv\lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+  File "C:\my_django_work\venv\lib\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\base.py", line 573, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'endblock'. Did you forget to register or load this tag?
+ERROR 2024-10-13 11:56:49,705 basehttp 12368 12232 "GET /myapp/post/448/ HTTP/1.1" 500 145156
+ERROR 2024-10-13 11:57:48,987 log 12368 12232 Internal Server Error: /myapp/post/445/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 102, in post_full
+    return render(request, 'myapp/post_full.html', {'post': post})
+  File "C:\my_django_work\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\my_django_work\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\my_django_work\venv\lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\my_django_work\venv\lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+  File "C:\my_django_work\venv\lib\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\base.py", line 573, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'endblock'. Did you forget to register or load this tag?
+ERROR 2024-10-13 11:57:48,987 basehttp 12368 12232 "GET /myapp/post/445/ HTTP/1.1" 500 144989
+INFO 2024-10-13 11:59:50,132 basehttp 12368 12232 "GET /myapp/post/445/ HTTP/1.1" 200 704
+INFO 2024-10-13 11:59:54,422 basehttp 12368 12232 "GET /myapp/post/446/ HTTP/1.1" 200 684
+INFO 2024-10-13 11:59:57,010 basehttp 12368 12232 "GET /myapp/post/447/ HTTP/1.1" 200 706
+INFO 2024-10-13 12:26:45,611 autoreload 1848 13532 Watching for file changes with StatReloader
+INFO 2024-10-13 12:27:53,563 autoreload 12624 11892 Watching for file changes with StatReloader
+INFO 2024-10-13 12:28:32,546 autoreload 12624 11892 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-13 12:28:32,962 autoreload 9364 10420 Watching for file changes with StatReloader
+INFO 2024-10-13 12:29:18,311 autoreload 9364 10420 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-13 12:29:18,725 autoreload 15428 14172 Watching for file changes with StatReloader
+INFO 2024-10-13 12:29:37,434 basehttp 15428 18744 "GET /myapp/user/add/ HTTP/1.1" 200 816
+INFO 2024-10-13 12:34:52,598 views 15428 6172 Получили name='Игорь', email='igorvgoncharov@mail.ru', age=43.
+INFO 2024-10-13 12:34:52,604 basehttp 15428 6172 "POST /myapp/user/add/ HTTP/1.1" 200 877
+INFO 2024-10-13 12:49:56,359 autoreload 19768 6944 Watching for file changes with StatReloader
+INFO 2024-10-13 12:50:24,067 autoreload 19768 6944 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-13 12:50:24,494 autoreload 13912 9572 Watching for file changes with StatReloader
+WARNING 2024-10-13 12:50:33,346 log 13912 18600 Not Found: /myapp/forns/
+WARNING 2024-10-13 12:50:33,347 basehttp 13912 18600 "GET /myapp/forns/ HTTP/1.1" 404 6170
+INFO 2024-10-13 12:50:44,970 basehttp 13912 18600 "GET /myapp/forms/ HTTP/1.1" 200 1504
+INFO 2024-10-13 12:51:21,260 views 13912 18600 Получили form.cleaned_data={'name': 'Игорь', 'email': 'igorvgoncharov@mail.ru', 'age': 43, 'height': 170.0, 'is_active': False, 'birthdate': datetime.date(2024, 10, 13), 'gender': 'M'}.
+INFO 2024-10-13 12:51:21,267 basehttp 13912 18600 "POST /myapp/forms/ HTTP/1.1" 200 1586
+INFO 2024-10-13 13:04:42,612 autoreload 17992 13452 Watching for file changes with StatReloader
+INFO 2024-10-13 13:04:50,300 basehttp 17992 6848 "POST /myapp/forms/ HTTP/1.1" 200 2197
+INFO 2024-10-13 13:09:02,874 autoreload 3972 11492 Watching for file changes with StatReloader
+INFO 2024-10-13 13:09:06,102 basehttp 3972 352 "POST /myapp/forms/ HTTP/1.1" 200 2218
+INFO 2024-10-13 13:11:16,251 autoreload 3972 11492 C:\my_django_work\recipes\myapp\forms.py changed, reloading.
+INFO 2024-10-13 13:11:16,842 autoreload 15884 6944 Watching for file changes with StatReloader
+INFO 2024-10-13 13:11:37,769 autoreload 15884 6944 C:\my_django_work\recipes\myapp\forms.py changed, reloading.
+INFO 2024-10-13 13:11:38,191 autoreload 5684 14036 Watching for file changes with StatReloader
+INFO 2024-10-13 13:12:22,332 autoreload 5684 14036 C:\my_django_work\recipes\myapp\forms.py changed, reloading.
+INFO 2024-10-13 13:12:22,796 autoreload 20452 12164 Watching for file changes with StatReloader
+INFO 2024-10-13 13:13:04,799 autoreload 20452 12164 C:\my_django_work\recipes\myapp\forms.py changed, reloading.
+INFO 2024-10-13 13:13:05,286 autoreload 15104 11308 Watching for file changes with StatReloader
+INFO 2024-10-13 13:13:24,870 autoreload 15104 11308 C:\my_django_work\recipes\myapp\forms.py changed, reloading.
+INFO 2024-10-13 13:13:25,370 autoreload 7368 15440 Watching for file changes with StatReloader
+INFO 2024-10-13 13:14:12,563 autoreload 7368 15440 C:\my_django_work\recipes\myapp\forms.py changed, reloading.
+INFO 2024-10-13 13:14:13,155 autoreload 8916 9260 Watching for file changes with StatReloader
+INFO 2024-10-13 14:02:00,411 autoreload 8916 9260 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-13 14:02:01,029 autoreload 9944 17968 Watching for file changes with StatReloader
+INFO 2024-10-13 14:02:33,193 autoreload 9944 17968 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-13 14:02:33,748 autoreload 10164 4596 Watching for file changes with StatReloader
+INFO 2024-10-13 14:03:50,415 autoreload 10164 4596 C:\my_django_work\recipes\myapp\models.py changed, reloading.
+INFO 2024-10-13 14:03:50,813 autoreload 8872 14032 Watching for file changes with StatReloader
+INFO 2024-10-13 14:08:32,474 autoreload 4664 11604 Watching for file changes with StatReloader
+INFO 2024-10-13 14:14:21,049 autoreload 8792 19684 Watching for file changes with StatReloader
+WARNING 2024-10-13 14:14:32,071 log 8792 18052 Not Found: /user/
+WARNING 2024-10-13 14:14:32,071 basehttp 8792 18052 "GET /user/ HTTP/1.1" 404 2483
+ERROR 2024-10-13 14:14:42,224 log 8792 18052 Internal Server Error: /myapp/user/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 148, in add_user
+    return render(request, 'myapp/user_form.html', {'form':  form, 'message': message})
+UnboundLocalError: local variable 'form' referenced before assignment
+ERROR 2024-10-13 14:14:42,224 basehttp 8792 18052 "GET /myapp/user/ HTTP/1.1" 500 65699
+INFO 2024-10-13 14:17:52,802 autoreload 8792 19684 C:\my_django_work\recipes\myapp\forms.py changed, reloading.
+INFO 2024-10-13 14:20:20,481 autoreload 20304 8584 Watching for file changes with StatReloader
+INFO 2024-10-13 14:20:25,158 basehttp 20304 19836 "GET /myapp/user/ HTTP/1.1" 200 1574
+INFO 2024-10-13 14:20:42,220 basehttp 20304 19836 "POST /myapp/user/ HTTP/1.1" 200 1758
+INFO 2024-10-13 14:21:29,720 autoreload 20304 8584 C:\my_django_work\recipes\myapp\forms.py changed, reloading.
+INFO 2024-10-13 14:21:30,201 autoreload 3996 19648 Watching for file changes with StatReloader
+ERROR 2024-10-13 14:21:32,282 log 3996 12292 Internal Server Error: /myapp/user/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 140, in add_user
+    gender = form.cleaned_data['male']
+KeyError: 'male'
+ERROR 2024-10-13 14:21:32,282 basehttp 3996 12292 "POST /myapp/user/ HTTP/1.1" 500 68675
+INFO 2024-10-13 14:21:40,144 autoreload 8184 19812 Watching for file changes with StatReloader
+ERROR 2024-10-13 14:21:45,230 log 8184 20308 Internal Server Error: /myapp/user/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 140, in add_user
+    gender = form.cleaned_data['male']
+KeyError: 'male'
+ERROR 2024-10-13 14:21:45,232 basehttp 8184 20308 "POST /myapp/user/ HTTP/1.1" 500 68675
+INFO 2024-10-13 14:21:48,438 basehttp 8184 20308 "GET /myapp/user/ HTTP/1.1" 200 1574
+ERROR 2024-10-13 14:21:57,475 log 8184 20308 Internal Server Error: /myapp/user/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 140, in add_user
+    gender = form.cleaned_data['male']
+KeyError: 'male'
+ERROR 2024-10-13 14:21:57,475 basehttp 8184 20308 "POST /myapp/user/ HTTP/1.1" 500 68675
+INFO 2024-10-13 14:23:39,221 autoreload 6432 20300 Watching for file changes with StatReloader
+ERROR 2024-10-13 14:23:42,999 log 6432 15184 Internal Server Error: /myapp/user/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 140, in add_user
+    gender = form.cleaned_data['male']
+KeyError: 'male'
+ERROR 2024-10-13 14:23:43,003 basehttp 6432 15184 "POST /myapp/user/ HTTP/1.1" 500 68675
+INFO 2024-10-13 14:23:44,410 basehttp 6432 15184 "GET /myapp/user/ HTTP/1.1" 200 1574
+ERROR 2024-10-13 14:23:55,887 log 6432 15184 Internal Server Error: /myapp/user/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 140, in add_user
+    gender = form.cleaned_data['male']
+KeyError: 'male'
+ERROR 2024-10-13 14:23:55,903 basehttp 6432 15184 "POST /myapp/user/ HTTP/1.1" 500 68675
+INFO 2024-10-13 14:24:16,791 autoreload 6432 20300 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-13 14:24:17,231 autoreload 10988 20372 Watching for file changes with StatReloader
+INFO 2024-10-13 14:24:21,921 autoreload 7324 4356 Watching for file changes with StatReloader
+INFO 2024-10-13 14:24:24,991 basehttp 7324 16000 "GET /myapp/user/ HTTP/1.1" 200 1574
+INFO 2024-10-13 14:24:35,347 views 7324 16000 Получили name='Игорь', email='igorvgoncharov@mail.ru', password='123456', age=43, gender='M'. 
+INFO 2024-10-13 14:24:35,363 basehttp 7324 16000 "POST /myapp/user/ HTTP/1.1" 200 1655
+INFO 2024-10-13 14:25:17,920 autoreload 13528 19004 Watching for file changes with StatReloader
+INFO 2024-10-13 14:29:28,722 autoreload 15004 17048 Watching for file changes with StatReloader
+INFO 2024-10-13 14:29:32,612 basehttp 15004 18008 "GET /myapp/user/ HTTP/1.1" 200 1574
+INFO 2024-10-13 14:46:35,670 autoreload 3452 9404 Watching for file changes with StatReloader
+INFO 2024-10-13 14:46:44,445 basehttp 3452 5968 "GET /myapp/upload/ HTTP/1.1" 200 631
