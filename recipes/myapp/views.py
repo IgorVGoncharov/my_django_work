@@ -3,11 +3,16 @@ from django.core.files.storage import FileSystemStorage
 from django.views import View
 from django.http import HttpResponse, JsonResponse
 from django.views.generic import TemplateView
-from django.shortcuts import render, get_object_or_404
-from .models import Author, Post, User
-from .forms import ImageForm
-
-from .forms import UserForm, ManyFieldsForm
+from django.shortcuts import render, get_object_or_404, redirect
+from .models import Author, Post, Recipes_category, Profile, Recipes
+from .forms import ImageForm, RecipeForm, SignUpForm
+from .forms import UserForm, ManyFieldsForm, RecipesCategoryForm
+from django.contrib.auth import login, authenticate
+from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth.forms import AuthenticationForm
+from django.contrib.auth.views import LoginView
+from django.urls import reverse_lazy
+from .forms import LoginForm
 
 
 
@@ -101,9 +106,9 @@ def author_posts(request, author_id):
     posts = Post.objects.filter(author=author).order_by('-id')[:5]
     return render(request, 'myapp/author_posts.html', {'author': author, 'posts': posts})
 
-def post_full(request, post_id):
-    post = get_object_or_404(Post, pk=post_id)
-    return render(request, 'myapp/post_full.html', {'post': post})
+# def post_full(request, post_id):
+#     post = get_object_or_404(Post, pk=post_id)
+#     return render(request, 'myapp/post_full.html', {'post': post})
 
 logger = logging.getLogger(__name__)
 
@@ -130,6 +135,106 @@ def many_fields_form(request):
         form = ManyFieldsForm()
     return render(request, 'myapp/many_fields_form.html', {'form': form})
 
+def recipes_category_form(request):#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    if request.method == 'POST':
+        form = RecipesCategoryForm(request.POST)
+        if form.is_valid():
+            logger.info(f'Получили {form.cleaned_data=}.')
+    else:
+        form = RecipesCategoryForm()
+    return render(request, 'myapp/add_category_recipes.html', {'form': form})
+
+
+
+
+
+def upload_image(request):
+    if request.method == 'POST':
+        form = ImageForm(request.POST, request.FILES)
+        if form.is_valid():
+            image = form.cleaned_data['image']
+            fs = FileSystemStorage()
+            fs.save(image.name, image)
+    else:
+        form = ImageForm()
+    return render(request, 'myapp/upload_image.html', {'form':form})
+
+#UГотово
+
+
+
+def add_category(request):#Готово
+    #Добавление категории
+    if request.method == 'POST':
+        form = RecipesCategoryForm(request.POST, request.FILES)
+        message = 'Ошибка в данных'
+        if form.is_valid():
+            category_name = form.cleaned_data['category_name']
+            category_description = form.cleaned_data['category_description']
+            image = form.cleaned_data['image']
+            fs = FileSystemStorage()
+            fs.save(image.name, image)
+            logger.info(f'Получили {category_name=}, {category_description=}, {image=}. ')
+            category = Recipes_category(category_name=category_name,
+                        category_description=category_description,
+                        image=image)
+            category.save()
+            message = 'Категория рецепта сохранена'
+    else:
+        form = RecipesCategoryForm()
+        message = 'Заполните форму'
+    return render(request, 'myapp/add_category_recipes.html', {'form':  form, 'message': message})
+
+def add_recipe(request):#Готово
+    #Добавление категории
+    if request.method == 'POST':
+        form = RecipeForm(request.POST, request.FILES)
+        message = 'Ошибка в данных'
+        if form.is_valid():
+            name = form.cleaned_data['name']
+            description = form.cleaned_data['description']
+            cooking_steps = form.cleaned_data['cooking_steps']
+            cooking_time = form.cleaned_data['cooking_time']
+            author = form.cleaned_data['author']
+            products = form.cleaned_data['products']
+            image = form.cleaned_data['image']
+            fs = FileSystemStorage()
+            fs.save(image.name, image)
+            logger.info(f'Получили {name=}, {description=}, {cooking_steps=}, '
+                        f'{cooking_time=}, {author=}, {products=}, {image=}. ')
+            #category = Recipes_category(category_name=category_name,
+            #            category_description=category_description,
+            #            image=image)
+            #category.save()
+            message = 'Рецепт сохранен'
+    else:
+        form = RecipeForm()
+        message = 'Заполните форму'
+    return render(request, 'myapp/add_category_recipes.html', {'form':  form, 'message': message})
+
+
+
+# def registration(request):
+#     if request.method == 'POST':
+#         form = SignUpForm(request.POST)
+#         if form.is_valid():
+#             user = form.save()
+#             email = form.cleaned_data.get('email')
+#             age = form.cleaned_data.get('age')
+#             gender = form.cleaned_data.get('gender')
+#             profile = Profile(user=user, email=email, age=age, gender=gender)
+#             profile.save()
+#             raw_password = form.cleaned_data.get('password1')
+#             user = authenticate(username=user.username, password=raw_password)
+#             login(request, user)
+#             return redirect('/')
+#     else:
+#         form = SignUpForm()
+#     return render(request, 'myapp/signup.html', {'form': form})
+
+
+
+
 def add_user(request):
     if request.method == 'POST':
         form = UserForm(request.POST)
@@ -149,14 +254,40 @@ def add_user(request):
         message = 'Заполните форму'
     return render(request, 'myapp/user_form.html', {'form':  form, 'message': message})
 
-
-def upload_image(request):
+def registration(request):#++++Готово++++
+    """Регистрация новго пользователя"""
     if request.method == 'POST':
-        form = ImageForm(request.POST, request.FILES)
+        form = SignUpForm(request.POST)
         if form.is_valid():
-            image = form.cleaned_data['image']
-            fs = FileSystemStorage()
-            fs.save(image.name, image)
+            user = form.save()
+            email = form.cleaned_data.get('email')
+            age = form.cleaned_data.get('age')
+            gender = form.cleaned_data.get('gender')
+            profile = Profile(user=user, email=email, age=age, gender=gender)
+            profile.save()
+            raw_password = form.cleaned_data.get('password1')
+            user = authenticate(username=user.username, password=raw_password)
+            login(request, user)
+            return redirect('/')
     else:
-        form = ImageForm()
-    return render(request, 'myapp/upload_image.html', {'form':form})
+        form = SignUpForm()
+    return render(request, 'myapp/signup.html', {'form': form})
+
+class user_login(LoginView):#++++Готово+++
+    '''Форма авторизации'''
+    form_class = LoginForm
+    template_name = 'myapp/login.html'
+    extra_context = {'title': 'Авторизация на сайте'}
+
+    def get_success_url(self):
+        return reverse_lazy('index')
+
+def one_recipe(request, recipe_id): #+++Готово+++
+    '''Форма отдельного рецепта'''
+    rec = get_object_or_404(Recipes, pk=recipe_id)
+    return render(request, 'myapp/one_recipe.html', {'recipe': rec})
+
+def one_category(request, category_id): #+++Готово+++
+    '''Форма отдельной категории'''
+    category = get_object_or_404(Recipes_category, pk=category_id)
+    return render(request, 'myapp/one_category.html', {'category': category})

@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Авторизация</h2>
+<!--<form method="post">-->
+<!--    {% csrf_token %}-->
+<!--    {% if form.non_field_errors %}-->
+<!--        <div class="alert alert-danger">-->
+<!--            {{ form.non_field_errors }}-->
+<!--        </div>-->
+<!--    {% endif %}-->
+<!--    {% for field in form %}-->
+<!--        <p class="form-label">{{ field.label }}</p>-->
+<!--        <p>{{ field }}</p>-->
+<!--    {% endfor %}-->
+<!--    <button type="submit" class="btn btn-outline-success">Войти</button>-->
+<!--</form>-->
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Отправить</button>
+</form>
+{% endblock %}

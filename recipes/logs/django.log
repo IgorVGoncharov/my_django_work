@@ -569,3 +569,1660 @@ INFO 2024-10-13 14:29:28,722 autoreload 15004 17048 Watching for file changes wi
 INFO 2024-10-13 14:29:32,612 basehttp 15004 18008 "GET /myapp/user/ HTTP/1.1" 200 1574
 INFO 2024-10-13 14:46:35,670 autoreload 3452 9404 Watching for file changes with StatReloader
 INFO 2024-10-13 14:46:44,445 basehttp 3452 5968 "GET /myapp/upload/ HTTP/1.1" 200 631
+INFO 2024-10-13 20:56:22,922 autoreload 12676 14116 Watching for file changes with StatReloader
+INFO 2024-10-13 20:56:25,056 basehttp 12676 5796 "GET / HTTP/1.1" 200 301
+WARNING 2024-10-13 20:56:25,116 log 12676 5796 Not Found: /favicon.ico
+WARNING 2024-10-13 20:56:25,121 basehttp 12676 5796 "GET /favicon.ico HTTP/1.1" 404 2501
+INFO 2024-10-13 20:56:58,795 autoreload 12676 14116 C:\my_django_work\recipes\recipes\urls.py changed, reloading.
+INFO 2024-10-13 20:56:59,566 autoreload 8556 3856 Watching for file changes with StatReloader
+INFO 2024-10-13 20:57:02,677 basehttp 8556 3172 "GET / HTTP/1.1" 200 205
+INFO 2024-10-13 20:57:03,368 basehttp 8556 3172 "GET / HTTP/1.1" 200 205
+INFO 2024-10-13 20:57:33,570 autoreload 8556 3856 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-13 20:57:34,261 autoreload 18780 3448 Watching for file changes with StatReloader
+INFO 2024-10-13 20:57:36,974 basehttp 18780 2348 "GET / HTTP/1.1" 200 301
+INFO 2024-10-13 20:57:48,934 basehttp 18780 2348 "GET /user HTTP/1.1" 301 0
+INFO 2024-10-13 20:57:48,955 basehttp 18780 11808 "GET /user/ HTTP/1.1" 200 1574
+INFO 2024-10-13 20:58:25,329 autoreload 18780 3448 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-13 20:58:26,074 autoreload 18080 13624 Watching for file changes with StatReloader
+INFO 2024-10-13 20:59:15,515 views 18080 20468 Получили name='Иван', email='eee@mail.ru', password='123456789', age=84, gender='M'. 
+INFO 2024-10-13 20:59:15,552 basehttp 18080 20468 "POST /user/ HTTP/1.1" 200 1642
+INFO 2024-10-13 21:00:30,312 basehttp 18080 20468 "GET / HTTP/1.1" 200 301
+INFO 2024-10-13 21:00:34,688 basehttp 18080 20468 "GET /forms HTTP/1.1" 301 0
+INFO 2024-10-13 21:00:34,701 basehttp 18080 13700 "GET /forms/ HTTP/1.1" 200 2058
+INFO 2024-10-13 21:10:15,639 autoreload 18080 13624 C:\my_django_work\recipes\myapp\models.py changed, reloading.
+INFO 2024-10-13 21:10:16,042 autoreload 17004 9140 Watching for file changes with StatReloader
+INFO 2024-10-13 21:10:19,433 autoreload 2684 2548 Watching for file changes with StatReloader
+INFO 2024-10-13 21:10:31,863 basehttp 2684 13640 "GET /forms/ HTTP/1.1" 200 2058
+INFO 2024-10-13 21:10:35,848 basehttp 2684 13640 "GET /forms/ HTTP/1.1" 200 2058
+INFO 2024-10-13 21:10:42,417 basehttp 2684 13640 "GET /forms/ HTTP/1.1" 200 2058
+INFO 2024-10-13 21:10:46,597 basehttp 2684 13640 "GET /for HTTP/1.1" 301 0
+INFO 2024-10-13 21:10:46,604 basehttp 2684 13080 "GET /for/ HTTP/1.1" 200 820
+INFO 2024-10-13 21:10:47,505 basehttp 2684 13080 "GET / HTTP/1.1" 200 301
+INFO 2024-10-13 21:10:52,118 basehttp 2684 13080 "GET /user/ HTTP/1.1" 200 1588
+INFO 2024-10-13 21:11:17,331 autoreload 2684 2548 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-13 21:11:17,729 autoreload 17496 17552 Watching for file changes with StatReloader
+INFO 2024-10-13 21:11:19,660 basehttp 17496 11076 "GET /category/ HTTP/1.1" 200 2058
+INFO 2024-10-13 21:14:04,983 autoreload 17496 17552 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-13 21:14:05,407 autoreload 4536 16980 Watching for file changes with StatReloader
+INFO 2024-10-13 21:14:10,988 basehttp 4536 2892 "GET / HTTP/1.1" 200 301
+INFO 2024-10-13 21:14:17,831 basehttp 4536 2892 "GET /category/ HTTP/1.1" 200 2058
+INFO 2024-10-13 21:15:42,341 autoreload 4536 16980 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-13 21:15:42,987 autoreload 13904 7600 Watching for file changes with StatReloader
+INFO 2024-10-13 21:17:07,299 autoreload 13904 7600 C:\my_django_work\recipes\myapp\forms.py changed, reloading.
+INFO 2024-10-13 21:17:07,763 autoreload 1860 19564 Watching for file changes with StatReloader
+INFO 2024-10-13 21:17:10,115 basehttp 1860 14304 "GET /category/ HTTP/1.1" 200 1120
+INFO 2024-10-13 21:17:25,621 autoreload 1860 19564 C:\my_django_work\recipes\myapp\forms.py changed, reloading.
+INFO 2024-10-13 21:17:26,061 autoreload 16924 11844 Watching for file changes with StatReloader
+INFO 2024-10-13 21:18:18,730 autoreload 16924 11844 C:\my_django_work\recipes\myapp\forms.py changed, reloading.
+INFO 2024-10-13 21:18:19,187 autoreload 2268 12384 Watching for file changes with StatReloader
+INFO 2024-10-13 21:18:30,737 autoreload 2268 12384 C:\my_django_work\recipes\myapp\forms.py changed, reloading.
+INFO 2024-10-13 21:18:35,955 autoreload 10720 11916 Watching for file changes with StatReloader
+INFO 2024-10-13 21:18:40,050 basehttp 10720 19152 "GET /category/ HTTP/1.1" 200 1121
+INFO 2024-10-13 21:18:40,918 basehttp 10720 19152 "GET /category/ HTTP/1.1" 200 1121
+INFO 2024-10-13 21:22:07,166 autoreload 10720 11916 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-13 21:22:07,656 autoreload 2924 13804 Watching for file changes with StatReloader
+INFO 2024-10-13 21:26:54,443 autoreload 2924 13804 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-13 21:26:54,922 autoreload 15992 19384 Watching for file changes with StatReloader
+INFO 2024-10-13 21:26:58,986 basehttp 15992 15828 "GET / HTTP/1.1" 200 301
+INFO 2024-10-13 21:27:04,032 basehttp 15992 15828 "GET /category/ HTTP/1.1" 200 1121
+INFO 2024-10-13 21:29:25,207 basehttp 15992 15828 "POST /category/ HTTP/1.1" 200 3567
+INFO 2024-10-13 21:29:58,179 basehttp 15992 15828 "POST /category/ HTTP/1.1" 200 3567
+INFO 2024-10-13 21:32:41,638 basehttp 15992 15828 "GET /upload/ HTTP/1.1" 200 631
+INFO 2024-10-13 21:32:50,857 basehttp 15992 15828 "POST /upload/ HTTP/1.1" 200 631
+INFO 2024-10-13 21:36:27,658 autoreload 15992 19384 C:\my_django_work\recipes\myapp\models.py changed, reloading.
+INFO 2024-10-13 21:36:28,375 autoreload 5468 6576 Watching for file changes with StatReloader
+INFO 2024-10-13 21:36:51,467 autoreload 5468 6576 C:\my_django_work\recipes\myapp\models.py changed, reloading.
+INFO 2024-10-13 21:36:52,200 autoreload 13568 17588 Watching for file changes with StatReloader
+INFO 2024-10-13 21:36:55,619 autoreload 13568 17588 C:\my_django_work\recipes\myapp\models.py changed, reloading.
+INFO 2024-10-13 21:36:56,174 autoreload 14888 5436 Watching for file changes with StatReloader
+INFO 2024-10-13 21:41:17,703 basehttp 14888 8056 "GET /category/ HTTP/1.1" 200 1121
+INFO 2024-10-13 21:41:36,985 basehttp 14888 8056 "POST /category/ HTTP/1.1" 200 3567
+INFO 2024-10-13 21:42:45,860 basehttp 14888 8056 "POST /category/ HTTP/1.1" 200 1367
+INFO 2024-10-13 21:44:09,669 basehttp 14888 8056 "POST /category/ HTTP/1.1" 200 1375
+INFO 2024-10-13 21:45:07,954 autoreload 14888 5436 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-13 21:45:08,432 autoreload 11364 10908 Watching for file changes with StatReloader
+INFO 2024-10-13 21:45:14,138 basehttp 11364 18920 "POST /category/ HTTP/1.1" 200 1375
+INFO 2024-10-13 21:45:28,383 autoreload 19784 19972 Watching for file changes with StatReloader
+INFO 2024-10-13 21:45:32,273 basehttp 19784 4464 "GET /category/ HTTP/1.1" 200 1129
+INFO 2024-10-13 21:45:49,324 basehttp 19784 4464 "POST /category/ HTTP/1.1" 200 1869
+INFO 2024-10-13 21:46:58,023 autoreload 19784 19972 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-13 21:46:58,484 autoreload 3244 3584 Watching for file changes with StatReloader
+INFO 2024-10-13 21:50:06,887 autoreload 3244 3584 C:\my_django_work\recipes\myapp\models.py changed, reloading.
+INFO 2024-10-13 21:50:07,277 autoreload 20136 17416 Watching for file changes with StatReloader
+INFO 2024-10-13 21:51:13,769 autoreload 17720 4260 Watching for file changes with StatReloader
+INFO 2024-10-13 21:51:21,094 basehttp 17720 2696 "GET / HTTP/1.1" 200 301
+INFO 2024-10-13 21:51:29,420 basehttp 17720 2696 "GET /category/ HTTP/1.1" 200 1129
+INFO 2024-10-13 21:51:46,704 basehttp 17720 2696 "POST /category/ HTTP/1.1" 200 1869
+INFO 2024-10-14 21:54:12,104 autoreload 15012 9400 Watching for file changes with StatReloader
+INFO 2024-10-14 21:54:14,872 basehttp 15012 15384 "GET / HTTP/1.1" 200 301
+INFO 2024-10-14 21:54:29,097 basehttp 15012 15384 "GET /category/ HTTP/1.1" 200 1213
+ERROR 2024-10-14 21:55:32,631 log 15012 15384 Internal Server Error: /category/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 181, in add_category
+    image = form.cleaned_data['image']
+KeyError: 'image'
+ERROR 2024-10-14 21:55:32,631 basehttp 15012 15384 "POST /category/ HTTP/1.1" 500 73784
+INFO 2024-10-14 21:57:25,233 basehttp 15012 11140 "GET /category/ HTTP/1.1" 200 1165
+ERROR 2024-10-14 21:57:42,044 log 15012 7944 Internal Server Error: /category/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 181, in add_category
+    image = form.cleaned_data['image']
+KeyError: 'image'
+ERROR 2024-10-14 21:57:42,045 basehttp 15012 7944 "POST /category/ HTTP/1.1" 500 73784
+INFO 2024-10-14 22:01:22,067 autoreload 15012 9400 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-14 22:01:22,733 autoreload 17424 20428 Watching for file changes with StatReloader
+INFO 2024-10-14 22:01:23,130 basehttp 17424 9424 "GET /category/ HTTP/1.1" 200 1131
+INFO 2024-10-14 22:01:42,030 basehttp 17424 17796 "POST /category/ HTTP/1.1" 200 3577
+INFO 2024-10-14 22:03:18,004 autoreload 11388 13800 Watching for file changes with StatReloader
+INFO 2024-10-14 22:03:21,324 basehttp 11388 1556 "GET /category/ HTTP/1.1" 200 1150
+ERROR 2024-10-14 22:03:40,152 log 11388 18728 Internal Server Error: /category/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 181, in add_category
+    image = form.cleaned_data['image']
+KeyError: 'image'
+ERROR 2024-10-14 22:03:40,155 basehttp 11388 18728 "POST /category/ HTTP/1.1" 500 73787
+INFO 2024-10-14 22:03:59,102 basehttp 11388 13476 "GET /category/ HTTP/1.1" 200 1149
+ERROR 2024-10-14 22:04:09,128 log 11388 16100 Internal Server Error: /category/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 181, in add_category
+    image = form.cleaned_data['image']
+KeyError: 'image'
+ERROR 2024-10-14 22:04:09,132 basehttp 11388 16100 "POST /category/ HTTP/1.1" 500 73787
+INFO 2024-10-14 22:04:56,546 autoreload 11388 13800 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-14 22:04:57,038 autoreload 9576 11812 Watching for file changes with StatReloader
+INFO 2024-10-14 22:04:57,756 basehttp 9576 9092 "GET /category/ HTTP/1.1" 200 1149
+INFO 2024-10-14 22:04:59,583 basehttp 9576 9092 "GET /category/ HTTP/1.1" 200 1149
+INFO 2024-10-14 22:05:01,499 basehttp 9576 9092 "GET /category/ HTTP/1.1" 200 1149
+INFO 2024-10-14 22:05:28,070 autoreload 9576 11812 C:\my_django_work\recipes\myapp\forms.py changed, reloading.
+INFO 2024-10-14 22:05:28,557 autoreload 17304 12312 Watching for file changes with StatReloader
+INFO 2024-10-14 22:05:30,061 basehttp 17304 20400 "GET /category/ HTTP/1.1" 200 968
+INFO 2024-10-14 22:05:43,648 views 17304 12300 Получили category_name='Первые блюда', category_description='Не секрет, что накормить свою семью полезно и вкусно, бывает очень сложно. Тем более предложить мужчине, который предпочитает сочную мясную отбивную, или ребенку, обожающему сладкое, первое блюдо. У вас в семье подобная ситуация? Не стоит отчаиваться – научитесь готовить так, чтобы суп или борщ стали не просто желанным, а излюбленным кушаньем!\r\n\r\nЕсли ваша кулинарная книга изобилует рецептами вкусных первых блюд, которые чаще всего появляются на столе, сравните их с описанием на нашем сайте – скорее всего это поможет вам понять, чего именно не достает для создания превосходного кушанья. Кстати, вполне возможно, что на Finecooking.ru вы найдете рецепты простых первых блюд, которые отсутствуют в вашем “золотом запасе”. Это легкие овощные супчики, молочные супы, крем-супы и супы-пюре, холодники, окрошки, борщи, щи, рассольники, супы грибные, уха и многие другие.\r\n\r\nКроме того, в каждом пошаговом рецепте первых блюд на Finecooking.ru вы найдете не только подробное описание процесса, но и фотографии к ним. Приготовление первых блюд с нашим сайтом станет для вас не только просто, но и увлекательно! А рецепты с фото еще больше упростят процесс готовки, ведь первые блюда – это полезно, вкусно и питательно, поэтому такая пища обязательно должна присутствовать на вашем столе каждый день.'. 
+INFO 2024-10-14 22:05:43,658 basehttp 17304 12300 "POST /category/ HTTP/1.1" 200 3335
+INFO 2024-10-14 22:09:18,587 autoreload 17304 12312 C:\my_django_work\recipes\myapp\forms.py changed, reloading.
+INFO 2024-10-14 22:09:18,993 autoreload 19032 18504 Watching for file changes with StatReloader
+INFO 2024-10-14 22:09:24,177 autoreload 17944 16152 Watching for file changes with StatReloader
+INFO 2024-10-14 22:09:27,898 basehttp 17944 17900 "GET /category/ HTTP/1.1" 200 621
+INFO 2024-10-14 22:09:33,621 views 17944 17900 Получили image=<InMemoryUploadedFile: first.jpg (image/jpeg)>. 
+INFO 2024-10-14 22:09:33,621 basehttp 17944 17900 "POST /category/ HTTP/1.1" 200 621
+INFO 2024-10-14 22:10:37,034 basehttp 17944 13908 "GET /category/ HTTP/1.1" 200 685
+INFO 2024-10-14 22:10:41,660 views 17944 13908 Получили image=<InMemoryUploadedFile: first.jpg (image/jpeg)>. 
+INFO 2024-10-14 22:10:41,663 basehttp 17944 13908 "POST /category/ HTTP/1.1" 200 685
+INFO 2024-10-14 22:11:50,209 autoreload 7924 3972 Watching for file changes with StatReloader
+INFO 2024-10-14 22:11:53,039 basehttp 7924 7132 "GET /category/ HTTP/1.1" 200 1123
+INFO 2024-10-14 22:12:10,489 views 7924 9908 Получили category_name='Первые блюда', category_description='Не секрет, что накормить свою семью полезно и вкусно, бывает очень сложно. Тем более предложить мужчине, который предпочитает сочную мясную отбивную, или ребенку, обожающему сладкое, первое блюдо. У вас в семье подобная ситуация? Не стоит отчаиваться – научитесь готовить так, чтобы суп или борщ стали не просто желанным, а излюбленным кушаньем!\r\n\r\nЕсли ваша кулинарная книга изобилует рецептами вкусных первых блюд, которые чаще всего появляются на столе, сравните их с описанием на нашем сайте – скорее всего это поможет вам понять, чего именно не достает для создания превосходного кушанья. Кстати, вполне возможно, что на Finecooking.ru вы найдете рецепты простых первых блюд, которые отсутствуют в вашем “золотом запасе”. Это легкие овощные супчики, молочные супы, крем-супы и супы-пюре, холодники, окрошки, борщи, щи, рассольники, супы грибные, уха и многие другие.\r\n\r\nКроме того, в каждом пошаговом рецепте первых блюд на Finecooking.ru вы найдете не только подробное описание процесса, но и фотографии к ним. Приготовление первых блюд с нашим сайтом станет для вас не только просто, но и увлекательно! А рецепты с фото еще больше упростят процесс готовки, ведь первые блюда – это полезно, вкусно и питательно, поэтому такая пища обязательно должна присутствовать на вашем столе каждый день.', image=<InMemoryUploadedFile: first.jpg (image/jpeg)>. 
+INFO 2024-10-14 22:12:10,495 basehttp 7924 9908 "POST /category/ HTTP/1.1" 200 3490
+INFO 2024-10-14 22:12:41,280 autoreload 7924 3972 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-14 22:12:41,702 autoreload 6920 12200 Watching for file changes with StatReloader
+INFO 2024-10-14 22:12:44,175 autoreload 10564 18620 Watching for file changes with StatReloader
+INFO 2024-10-14 22:12:53,562 views 10564 17652 Получили category_name='Первые блюда', category_description='Не секрет, что накормить свою семью полезно и вкусно, бывает очень сложно. Тем более предложить мужчине, который предпочитает сочную мясную отбивную, или ребенку, обожающему сладкое, первое блюдо. У вас в семье подобная ситуация? Не стоит отчаиваться – научитесь готовить так, чтобы суп или борщ стали не просто желанным, а излюбленным кушаньем!\r\n\r\nЕсли ваша кулинарная книга изобилует рецептами вкусных первых блюд, которые чаще всего появляются на столе, сравните их с описанием на нашем сайте – скорее всего это поможет вам понять, чего именно не достает для создания превосходного кушанья. Кстати, вполне возможно, что на Finecooking.ru вы найдете рецепты простых первых блюд, которые отсутствуют в вашем “золотом запасе”. Это легкие овощные супчики, молочные супы, крем-супы и супы-пюре, холодники, окрошки, борщи, щи, рассольники, супы грибные, уха и многие другие.\r\n\r\nКроме того, в каждом пошаговом рецепте первых блюд на Finecooking.ru вы найдете не только подробное описание процесса, но и фотографии к ним. Приготовление первых блюд с нашим сайтом станет для вас не только просто, но и увлекательно! А рецепты с фото еще больше упростят процесс готовки, ведь первые блюда – это полезно, вкусно и питательно, поэтому такая пища обязательно должна присутствовать на вашем столе каждый день.', image=<InMemoryUploadedFile: first.jpg (image/jpeg)>. 
+INFO 2024-10-14 22:12:53,608 basehttp 10564 17652 "POST /category/ HTTP/1.1" 200 3490
+INFO 2024-10-14 22:18:30,014 autoreload 6888 17628 Watching for file changes with StatReloader
+INFO 2024-10-14 22:18:32,759 basehttp 6888 10068 "GET /user/ HTTP/1.1" 200 1588
+INFO 2024-10-14 22:20:28,808 autoreload 6888 17628 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-14 22:20:29,212 autoreload 19964 4312 Watching for file changes with StatReloader
+INFO 2024-10-14 22:21:36,194 autoreload 19964 4312 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-14 22:21:36,713 autoreload 2748 11100 Watching for file changes with StatReloader
+INFO 2024-10-14 22:21:59,989 views 2748 10700 Получили name='Вася', email='sss@mail.ru', password='986546', age=84, gender='M'. 
+INFO 2024-10-14 22:22:00,027 basehttp 2748 10700 "POST /user/ HTTP/1.1" 200 1656
+INFO 2024-10-14 22:31:35,670 autoreload 2748 11100 C:\my_django_work\recipes\myapp\forms.py changed, reloading.
+INFO 2024-10-14 22:31:36,196 autoreload 3972 14480 Watching for file changes with StatReloader
+INFO 2024-10-14 22:31:39,668 autoreload 3972 14480 C:\my_django_work\recipes\myapp\forms.py changed, reloading.
+INFO 2024-10-14 22:31:40,067 autoreload 18792 5912 Watching for file changes with StatReloader
+INFO 2024-10-14 22:40:47,930 autoreload 19024 2348 Watching for file changes with StatReloader
+INFO 2024-10-14 22:40:51,555 basehttp 19024 12788 "GET /user/ HTTP/1.1" 200 1588
+WARNING 2024-10-14 22:40:56,489 log 19024 12788 Not Found: /add_recipe/
+WARNING 2024-10-14 22:40:56,490 basehttp 19024 12788 "GET /add_recipe/ HTTP/1.1" 404 6618
+INFO 2024-10-14 22:41:11,375 basehttp 19024 12788 "GET /recipe/ HTTP/1.1" 200 1845
+INFO 2024-10-14 22:43:32,604 basehttp 19024 12788 "GET /recipe/ HTTP/1.1" 200 1845
+INFO 2024-10-14 22:44:48,294 basehttp 19024 12788 "GET /recipe/ HTTP/1.1" 200 1884
+INFO 2024-10-15 21:42:04,905 autoreload 3012 10104 Watching for file changes with StatReloader
+INFO 2024-10-15 21:42:11,904 basehttp 3012 14860 "GET / HTTP/1.1" 200 301
+WARNING 2024-10-15 21:42:11,946 log 3012 14860 Not Found: /favicon.ico
+WARNING 2024-10-15 21:42:11,946 basehttp 3012 14860 "GET /favicon.ico HTTP/1.1" 404 6618
+INFO 2024-10-15 21:42:18,402 basehttp 3012 14860 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-10-15 21:42:18,454 basehttp 3012 14860 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4160
+INFO 2024-10-15 21:42:18,730 basehttp 3012 12336 "GET /static/admin/css/login.css HTTP/1.1" 200 1012
+INFO 2024-10-15 21:42:18,735 basehttp 3012 20384 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2960
+INFO 2024-10-15 21:42:18,737 basehttp 3012 5688 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2934
+INFO 2024-10-15 21:42:18,741 basehttp 3012 14860 "GET /static/admin/css/base.css HTTP/1.1" 200 23271
+INFO 2024-10-15 21:42:18,742 basehttp 3012 19452 "GET /static/admin/js/theme.js HTTP/1.1" 200 1704
+INFO 2024-10-15 21:42:18,742 basehttp 3012 16732 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18939
+INFO 2024-10-15 21:42:18,748 basehttp 3012 16732 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3142
+INFO 2024-10-15 21:44:13,202 autoreload 3012 10104 C:\my_django_work\recipes\recipes\settings.py changed, reloading.
+INFO 2024-10-15 21:44:13,696 autoreload 7064 18976 Watching for file changes with StatReloader
+INFO 2024-10-15 21:44:35,560 basehttp 7064 9844 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4361
+INFO 2024-10-15 21:54:06,097 autoreload 6024 3172 Watching for file changes with StatReloader
+INFO 2024-10-15 21:54:11,690 basehttp 6024 3928 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-10-15 21:54:11,728 basehttp 6024 3928 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4361
+ERROR 2024-10-15 21:54:24,077 log 6024 3928 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\base\base.py", line 303, in _commit
+    return self.connection.commit()
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\contrib\admin\sites.py", line 444, in login
+    return LoginView.as_view(**defaults)(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\views\decorators\debug.py", line 143, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\my_django_work\venv\lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\contrib\auth\views.py", line 89, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\views\generic\edit.py", line 151, in post
+    return self.form_valid(form)
+  File "C:\my_django_work\venv\lib\site-packages\django\contrib\auth\views.py", line 108, in form_valid
+    auth_login(self.request, form.get_user())
+  File "C:\my_django_work\venv\lib\site-packages\django\contrib\auth\__init__.py", line 126, in login
+    request.session.cycle_key()
+  File "C:\my_django_work\venv\lib\site-packages\django\contrib\sessions\backends\base.py", line 432, in cycle_key
+    self.create()
+  File "C:\my_django_work\venv\lib\site-packages\django\contrib\sessions\backends\db.py", line 74, in create
+    self.save(must_create=True)
+  File "C:\my_django_work\venv\lib\site-packages\django\contrib\sessions\backends\db.py", line 126, in save
+    with transaction.atomic(using=using):
+  File "C:\my_django_work\venv\lib\site-packages\django\db\transaction.py", line 263, in __exit__
+    connection.commit()
+  File "C:\my_django_work\venv\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\base\base.py", line 327, in commit
+    self._commit()
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\base\base.py", line 302, in _commit
+    with debug_transaction(self, "COMMIT"), self.wrap_database_errors:
+  File "C:\my_django_work\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\base\base.py", line 303, in _commit
+    return self.connection.commit()
+django.db.utils.OperationalError: database is locked
+ERROR 2024-10-15 21:54:24,087 basehttp 6024 3928 "POST /admin/login/?next=/admin/ HTTP/1.1" 500 186518
+INFO 2024-10-15 21:54:37,387 basehttp 6024 3928 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4361
+INFO 2024-10-15 21:54:43,227 basehttp 6024 3928 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-10-15 21:54:43,254 basehttp 6024 3928 "GET /admin/ HTTP/1.1" 200 6264
+INFO 2024-10-15 21:54:43,329 basehttp 6024 3928 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 470
+INFO 2024-10-15 21:54:43,336 basehttp 6024 3928 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 334
+INFO 2024-10-15 21:54:43,336 basehttp 6024 14340 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 383
+INFO 2024-10-15 22:06:26,143 autoreload 6024 3172 C:\my_django_work\recipes\myapp\models.py changed, reloading.
+INFO 2024-10-15 22:06:26,685 autoreload 13268 7240 Watching for file changes with StatReloader
+INFO 2024-10-15 22:07:18,603 autoreload 13268 7240 C:\my_django_work\recipes\myapp\models.py changed, reloading.
+INFO 2024-10-15 22:07:19,150 autoreload 8476 15612 Watching for file changes with StatReloader
+INFO 2024-10-15 22:20:45,176 autoreload 19376 17000 Watching for file changes with StatReloader
+INFO 2024-10-15 22:20:53,691 basehttp 19376 4416 "GET /admin/ HTTP/1.1" 200 9019
+INFO 2024-10-16 21:50:52,826 autoreload 4168 2416 Watching for file changes with StatReloader
+INFO 2024-10-16 21:50:55,260 basehttp 4168 2872 "GET / HTTP/1.1" 200 301
+INFO 2024-10-16 21:50:59,794 basehttp 4168 2872 "GET /admin/ HTTP/1.1" 200 9019
+INFO 2024-10-16 21:50:59,822 basehttp 4168 2872 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-10-16 21:50:59,826 basehttp 4168 17836 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2024-10-16 21:50:59,826 basehttp 4168 15760 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-10-16 21:50:59,826 basehttp 4168 15088 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-10-16 21:50:59,832 basehttp 4168 6596 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-10-16 21:50:59,832 basehttp 4168 8328 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-10-16 21:50:59,836 basehttp 4168 8328 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-10-16 21:50:59,842 basehttp 4168 8328 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2024-10-16 21:50:59,842 basehttp 4168 6596 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2024-10-16 21:51:04,175 basehttp 4168 6596 "GET /admin/myapp/recipes/ HTTP/1.1" 200 9663
+INFO 2024-10-16 21:51:04,228 basehttp 4168 8328 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-16 21:51:05,155 basehttp 4168 6596 "GET /static/admin/css/changelists.css HTTP/1.1" 200 7221
+INFO 2024-10-16 21:51:05,166 basehttp 4168 6596 "GET /static/admin/js/urlify.js HTTP/1.1" 200 8056
+INFO 2024-10-16 21:51:05,170 basehttp 4168 6596 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1574
+INFO 2024-10-16 21:51:05,188 basehttp 4168 6596 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 331297
+INFO 2024-10-16 21:51:05,199 basehttp 4168 15088 "GET /static/admin/js/core.js HTTP/1.1" 200 6392
+INFO 2024-10-16 21:51:05,217 basehttp 4168 2872 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9337
+INFO 2024-10-16 21:51:05,224 basehttp 4168 8328 "GET /static/admin/js/actions.js HTTP/1.1" 200 8280
+INFO 2024-10-16 21:51:05,224 basehttp 4168 15760 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 355
+INFO 2024-10-16 21:51:05,226 basehttp 4168 17836 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 296030
+INFO 2024-10-16 21:51:05,228 basehttp 4168 17836 "GET /static/admin/js/filters.js HTTP/1.1" 200 1008
+INFO 2024-10-16 21:51:05,265 basehttp 4168 17836 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 334
+INFO 2024-10-16 21:51:12,769 basehttp 4168 17836 "GET /admin/myapp/recipes/add/ HTTP/1.1" 200 16442
+INFO 2024-10-16 21:51:12,805 basehttp 4168 2872 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 601
+INFO 2024-10-16 21:51:12,806 basehttp 4168 17836 "GET /static/admin/css/forms.css HTTP/1.1" 200 9218
+INFO 2024-10-16 21:51:12,807 basehttp 4168 15760 "GET /static/admin/js/calendar.js HTTP/1.1" 200 9380
+INFO 2024-10-16 21:51:12,811 basehttp 4168 8328 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19727
+INFO 2024-10-16 21:51:12,818 basehttp 4168 15088 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-16 21:51:12,823 basehttp 4168 15760 "GET /static/admin/css/widgets.css HTTP/1.1" 200 12157
+INFO 2024-10-16 21:51:12,830 basehttp 4168 15760 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 584
+INFO 2024-10-16 21:51:12,833 basehttp 4168 15088 "GET /static/admin/js/change_form.js HTTP/1.1" 200 622
+INFO 2024-10-16 21:51:12,886 basehttp 4168 15088 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 686
+INFO 2024-10-16 21:51:21,974 basehttp 4168 15088 "GET /admin/myapp/recipes/ HTTP/1.1" 200 9663
+INFO 2024-10-16 21:52:33,698 autoreload 4168 2416 C:\my_django_work\recipes\myapp\admin.py changed, reloading.
+INFO 2024-10-16 21:52:34,579 autoreload 4368 7484 Watching for file changes with StatReloader
+INFO 2024-10-16 21:52:58,222 basehttp 4368 7104 "GET /admin/myapp/recipes/ HTTP/1.1" 200 9663
+INFO 2024-10-16 21:52:58,254 basehttp 4368 7104 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-16 21:52:59,437 basehttp 4368 7104 "GET /admin/myapp/recipes/ HTTP/1.1" 200 9663
+INFO 2024-10-16 21:52:59,458 basehttp 4368 7104 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-16 21:54:28,958 autoreload 4368 7484 C:\my_django_work\recipes\myapp\admin.py changed, reloading.
+INFO 2024-10-16 21:54:29,901 autoreload 8504 16740 Watching for file changes with StatReloader
+INFO 2024-10-16 21:54:37,793 autoreload 8504 16740 C:\my_django_work\recipes\myapp\admin.py changed, reloading.
+INFO 2024-10-16 21:54:38,638 autoreload 13456 19808 Watching for file changes with StatReloader
+INFO 2024-10-16 21:54:56,925 autoreload 13456 19808 C:\my_django_work\recipes\myapp\admin.py changed, reloading.
+INFO 2024-10-16 21:54:57,851 autoreload 11232 3336 Watching for file changes with StatReloader
+INFO 2024-10-16 21:57:56,577 autoreload 11232 3336 C:\my_django_work\recipes\myapp\admin.py changed, reloading.
+INFO 2024-10-16 21:57:57,418 autoreload 11360 19144 Watching for file changes with StatReloader
+INFO 2024-10-16 21:58:20,864 autoreload 11360 19144 C:\my_django_work\recipes\myapp\admin.py changed, reloading.
+INFO 2024-10-16 21:58:21,762 autoreload 7552 16316 Watching for file changes with StatReloader
+INFO 2024-10-16 21:58:33,766 autoreload 7552 16316 C:\my_django_work\recipes\myapp\admin.py changed, reloading.
+INFO 2024-10-16 21:58:34,533 autoreload 17556 20120 Watching for file changes with StatReloader
+INFO 2024-10-16 21:58:40,268 autoreload 17556 20120 C:\my_django_work\recipes\myapp\admin.py changed, reloading.
+INFO 2024-10-16 21:58:41,069 autoreload 1260 18456 Watching for file changes with StatReloader
+INFO 2024-10-16 21:58:59,066 autoreload 1260 18456 C:\my_django_work\recipes\myapp\admin.py changed, reloading.
+INFO 2024-10-16 21:58:59,925 autoreload 10340 12276 Watching for file changes with StatReloader
+INFO 2024-10-16 21:59:40,066 autoreload 10340 12276 C:\my_django_work\recipes\myapp\admin.py changed, reloading.
+INFO 2024-10-16 21:59:41,063 autoreload 12592 13892 Watching for file changes with StatReloader
+INFO 2024-10-16 22:03:25,945 autoreload 12592 13892 C:\my_django_work\recipes\myapp\admin.py changed, reloading.
+INFO 2024-10-16 22:03:26,965 autoreload 10452 19144 Watching for file changes with StatReloader
+INFO 2024-10-16 22:03:37,648 autoreload 10452 19144 C:\my_django_work\recipes\myapp\admin.py changed, reloading.
+INFO 2024-10-16 22:03:38,519 autoreload 17180 14580 Watching for file changes with StatReloader
+INFO 2024-10-16 22:06:10,231 autoreload 17180 14580 C:\my_django_work\recipes\myapp\admin.py changed, reloading.
+INFO 2024-10-16 22:06:11,427 autoreload 6652 12292 Watching for file changes with StatReloader
+INFO 2024-10-16 22:06:45,289 autoreload 6652 12292 C:\my_django_work\recipes\myapp\admin.py changed, reloading.
+INFO 2024-10-16 22:06:46,037 autoreload 12916 4316 Watching for file changes with StatReloader
+INFO 2024-10-16 22:07:17,246 autoreload 12916 4316 C:\my_django_work\recipes\myapp\admin.py changed, reloading.
+INFO 2024-10-16 22:07:18,167 autoreload 5940 4536 Watching for file changes with StatReloader
+INFO 2024-10-16 22:17:01,659 basehttp 5940 7008 "GET /admin/ HTTP/1.1" 200 9019
+INFO 2024-10-16 22:17:01,704 basehttp 5940 7008 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-10-16 22:17:01,706 basehttp 5940 19176 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-10-16 22:17:01,707 basehttp 5940 13816 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2024-10-16 22:17:01,707 basehttp 5940 12544 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-10-16 22:17:01,715 basehttp 5940 15696 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-10-16 22:17:01,717 basehttp 5940 3236 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-10-16 22:17:01,720 basehttp 5940 3236 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-10-16 22:17:01,731 basehttp 5940 15696 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2024-10-16 22:17:01,731 basehttp 5940 3236 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2024-10-16 22:17:25,538 basehttp 5940 3236 "POST /admin/logout/ HTTP/1.1" 200 3819
+INFO 2024-10-16 22:17:32,022 basehttp 5940 3236 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-10-16 22:17:32,087 basehttp 5940 3236 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4361
+INFO 2024-10-16 22:17:32,111 basehttp 5940 3236 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2024-10-16 22:17:39,384 basehttp 5940 3236 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-10-16 22:17:39,407 basehttp 5940 3236 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4361
+INFO 2024-10-16 22:17:41,332 basehttp 5940 3236 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-10-16 22:17:41,360 basehttp 5940 3236 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4361
+INFO 2024-10-16 22:17:46,002 basehttp 5940 3236 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-10-16 22:17:46,022 basehttp 5940 3236 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4361
+INFO 2024-10-16 22:20:35,732 autoreload 5940 4536 C:\my_django_work\recipes\myapp\admin.py changed, reloading.
+INFO 2024-10-16 22:20:36,680 autoreload 6412 16044 Watching for file changes with StatReloader
+INFO 2024-10-16 22:21:22,462 autoreload 6412 16044 C:\my_django_work\recipes\myapp\admin.py changed, reloading.
+INFO 2024-10-16 22:21:23,392 autoreload 19388 17036 Watching for file changes with StatReloader
+INFO 2024-10-16 22:21:31,237 autoreload 19388 17036 C:\my_django_work\recipes\myapp\admin.py changed, reloading.
+INFO 2024-10-16 22:21:32,029 autoreload 9488 10732 Watching for file changes with StatReloader
+INFO 2024-10-16 22:22:24,871 autoreload 9488 10732 C:\my_django_work\recipes\recipes\urls.py changed, reloading.
+INFO 2024-10-16 22:22:25,659 autoreload 3240 1740 Watching for file changes with StatReloader
+INFO 2024-10-16 22:22:36,637 autoreload 3240 1740 C:\my_django_work\recipes\recipes\urls.py changed, reloading.
+INFO 2024-10-16 22:22:37,302 autoreload 16372 18888 Watching for file changes with StatReloader
+INFO 2024-10-16 22:23:02,802 autoreload 16372 18888 C:\my_django_work\recipes\recipes\urls.py changed, reloading.
+INFO 2024-10-16 22:23:03,605 autoreload 20464 14568 Watching for file changes with StatReloader
+INFO 2024-10-16 22:23:15,578 autoreload 20464 14568 C:\my_django_work\recipes\recipes\urls.py changed, reloading.
+INFO 2024-10-16 22:23:16,417 autoreload 18412 13196 Watching for file changes with StatReloader
+INFO 2024-10-16 22:23:24,046 autoreload 18412 13196 C:\my_django_work\recipes\recipes\urls.py changed, reloading.
+INFO 2024-10-16 22:23:24,796 autoreload 7888 1092 Watching for file changes with StatReloader
+INFO 2024-10-16 22:23:44,803 autoreload 7888 1092 C:\my_django_work\recipes\recipes\urls.py changed, reloading.
+INFO 2024-10-16 22:23:45,430 autoreload 10036 10700 Watching for file changes with StatReloader
+INFO 2024-10-16 22:25:12,216 autoreload 10036 10700 C:\my_django_work\recipes\myapp\admin.py changed, reloading.
+INFO 2024-10-16 22:25:13,004 autoreload 14132 20136 Watching for file changes with StatReloader
+INFO 2024-10-16 22:25:28,900 autoreload 14132 20136 C:\my_django_work\recipes\myapp\admin.py changed, reloading.
+INFO 2024-10-16 22:25:29,570 autoreload 12376 18512 Watching for file changes with StatReloader
+INFO 2024-10-18 22:21:02,608 autoreload 13368 5080 Watching for file changes with StatReloader
+INFO 2024-10-18 22:21:04,569 basehttp 13368 14212 "GET / HTTP/1.1" 200 301
+WARNING 2024-10-18 22:21:04,650 log 13368 14212 Not Found: /favicon.ico
+WARNING 2024-10-18 22:21:04,651 basehttp 13368 14212 "GET /favicon.ico HTTP/1.1" 404 6618
+WARNING 2024-10-18 22:21:30,984 log 13368 13928 Not Found: /user/registration/
+WARNING 2024-10-18 22:21:30,986 basehttp 13368 13928 "GET /user/registration/ HTTP/1.1" 404 6639
+INFO 2024-10-18 22:22:21,477 autoreload 13368 5080 C:\my_django_work\recipes\recipes\urls.py changed, reloading.
+INFO 2024-10-18 22:22:22,092 autoreload 2552 12108 Watching for file changes with StatReloader
+ERROR 2024-10-18 22:22:24,767 log 2552 17900 Internal Server Error: /user/registration/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\user_app\views.py", line 19, in registration
+    return render(request, 'signup.html', {'form': form})
+  File "C:\my_django_work\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: signup.html
+ERROR 2024-10-18 22:22:24,771 basehttp 2552 17900 "GET /user/registration/ HTTP/1.1" 500 81028
+INFO 2024-10-18 22:22:32,654 basehttp 2552 17240 "GET /user/ HTTP/1.1" 200 1588
+ERROR 2024-10-18 22:22:43,334 log 2552 13868 Internal Server Error: /user/registration/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\user_app\views.py", line 19, in registration
+    return render(request, 'signup.html', {'form': form})
+  File "C:\my_django_work\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: signup.html
+ERROR 2024-10-18 22:22:43,336 basehttp 2552 13868 "GET /user/registration/ HTTP/1.1" 500 80891
+INFO 2024-10-18 22:23:45,784 autoreload 2552 12108 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-18 22:23:46,637 autoreload 16884 10920 Watching for file changes with StatReloader
+INFO 2024-10-18 22:24:14,004 autoreload 16884 10920 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-18 22:24:14,912 autoreload 12988 17684 Watching for file changes with StatReloader
+INFO 2024-10-18 22:25:34,729 autoreload 12988 17684 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-18 22:25:35,311 autoreload 11568 3016 Watching for file changes with StatReloader
+ERROR 2024-10-18 22:25:38,673 log 11568 11760 Internal Server Error: /user/registration/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 246, in registration
+    return render(request, 'signup.html', {'form': form})
+  File "C:\my_django_work\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: signup.html
+ERROR 2024-10-18 22:25:38,676 basehttp 11568 11760 "GET /user/registration/ HTTP/1.1" 500 80777
+INFO 2024-10-18 22:26:26,537 autoreload 11568 3016 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-18 22:26:26,972 autoreload 9320 6028 Watching for file changes with StatReloader
+INFO 2024-10-18 22:26:29,758 basehttp 9320 19876 "GET /user/registration/ HTTP/1.1" 200 2043
+INFO 2024-10-18 22:28:57,442 basehttp 9320 14976 "POST /user/registration/ HTTP/1.1" 302 0
+INFO 2024-10-18 22:28:57,448 basehttp 9320 14976 "GET / HTTP/1.1" 200 301
+INFO 2024-10-18 22:30:51,731 autoreload 9320 6028 C:\my_django_work\recipes\recipes\settings.py changed, reloading.
+INFO 2024-10-18 22:30:52,492 autoreload 6268 15744 Watching for file changes with StatReloader
+INFO 2024-10-18 22:33:38,686 autoreload 6268 15744 C:\my_django_work\recipes\myapp\forms.py changed, reloading.
+INFO 2024-10-18 22:33:39,544 autoreload 15512 1384 Watching for file changes with StatReloader
+INFO 2024-10-18 22:34:21,954 autoreload 15512 1384 C:\my_django_work\recipes\myapp\models.py changed, reloading.
+INFO 2024-10-18 22:34:22,660 autoreload 2744 76 Watching for file changes with StatReloader
+INFO 2024-10-18 22:38:39,628 autoreload 14376 20456 Watching for file changes with StatReloader
+INFO 2024-10-18 22:39:23,995 autoreload 14376 20456 C:\my_django_work\recipes\myapp\forms.py changed, reloading.
+INFO 2024-10-18 22:39:27,634 autoreload 19568 8676 Watching for file changes with StatReloader
+INFO 2024-10-18 22:41:30,837 autoreload 19568 8676 C:\my_django_work\recipes\myapp\forms.py changed, reloading.
+INFO 2024-10-18 22:41:31,246 autoreload 4972 19144 Watching for file changes with StatReloader
+INFO 2024-10-18 22:41:50,864 autoreload 4972 19144 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-18 22:41:51,257 autoreload 5004 18040 Watching for file changes with StatReloader
+INFO 2024-10-18 22:41:56,903 basehttp 5004 14132 "GET /user/registration/ HTTP/1.1" 200 2043
+INFO 2024-10-18 22:41:58,743 basehttp 5004 14132 "GET /user/registration/ HTTP/1.1" 200 2043
+INFO 2024-10-18 22:43:13,006 autoreload 5004 18040 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-18 22:43:13,457 autoreload 18848 5952 Watching for file changes with StatReloader
+INFO 2024-10-18 22:43:14,799 basehttp 18848 1840 "GET /user/registration/ HTTP/1.1" 200 2043
+INFO 2024-10-18 22:43:17,132 basehttp 18848 1840 "GET /user/registration/ HTTP/1.1" 200 2043
+INFO 2024-10-18 22:44:47,884 autoreload 18848 5952 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-18 22:44:52,012 autoreload 12524 12016 Watching for file changes with StatReloader
+INFO 2024-10-18 22:44:57,716 basehttp 12524 20288 "GET /user/registration/ HTTP/1.1" 200 2747
+INFO 2024-10-18 22:46:30,436 autoreload 12524 12016 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-18 22:46:31,016 autoreload 9992 19108 Watching for file changes with StatReloader
+INFO 2024-10-18 22:49:55,808 autoreload 9992 19108 C:\my_django_work\recipes\myapp\models.py changed, reloading.
+INFO 2024-10-18 22:49:56,280 autoreload 11336 13392 Watching for file changes with StatReloader
+INFO 2024-10-18 22:50:24,248 autoreload 11336 13392 C:\my_django_work\recipes\myapp\models.py changed, reloading.
+INFO 2024-10-18 22:50:24,720 autoreload 15400 3164 Watching for file changes with StatReloader
+INFO 2024-10-18 22:50:51,592 autoreload 15400 3164 C:\my_django_work\recipes\myapp\models.py changed, reloading.
+INFO 2024-10-18 22:50:52,122 autoreload 8348 13340 Watching for file changes with StatReloader
+INFO 2024-10-18 22:51:07,871 autoreload 8348 13340 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-18 22:51:08,289 autoreload 5168 16944 Watching for file changes with StatReloader
+INFO 2024-10-18 22:51:42,655 autoreload 5168 16944 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-18 22:51:43,205 autoreload 8604 7064 Watching for file changes with StatReloader
+INFO 2024-10-18 22:52:05,145 autoreload 8604 7064 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-18 22:54:57,261 autoreload 10760 19368 Watching for file changes with StatReloader
+INFO 2024-10-18 22:55:36,955 autoreload 1256 12500 Watching for file changes with StatReloader
+INFO 2024-10-18 22:55:39,703 basehttp 1256 13004 "GET /user/registration/ HTTP/1.1" 200 2747
+INFO 2024-10-18 22:55:40,144 basehttp 1256 13004 "GET /user/registration/ HTTP/1.1" 200 2747
+INFO 2024-10-18 22:56:06,596 basehttp 1256 13004 "POST /user/registration/ HTTP/1.1" 302 0
+INFO 2024-10-18 22:56:06,602 basehttp 1256 13004 "GET / HTTP/1.1" 200 301
+INFO 2024-10-18 23:02:34,421 autoreload 19596 1976 Watching for file changes with StatReloader
+INFO 2024-10-18 23:02:41,682 basehttp 19596 18448 "GET /user/registration/ HTTP/1.1" 200 2747
+ERROR 2024-10-18 23:03:23,294 log 19596 16664 Internal Server Error: /user/registration/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: myapp_profile.age
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 221, in registration
+    Profile.objects.create(user=user)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\base.py", line 891, in save
+    self.save_base(
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\base.py", line 997, in save_base
+    updated = self._save_table(
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\base.py", line 1160, in _save_table
+    results = self._do_insert(
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\base.py", line 1201, in _do_insert
+    return manager._insert(
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\my_django_work\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: myapp_profile.age
+ERROR 2024-10-18 23:03:23,303 basehttp 19596 16664 "POST /user/registration/ HTTP/1.1" 500 156430
+INFO 2024-10-18 23:05:27,613 autoreload 15444 2240 Watching for file changes with StatReloader
+INFO 2024-10-18 23:05:32,262 basehttp 15444 14324 "GET /user/registration/ HTTP/1.1" 200 2747
+ERROR 2024-10-18 23:05:53,781 log 15444 14324 Internal Server Error: /user/registration/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: myapp_profile.age
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 221, in registration
+    Profile.objects.create(user=user)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\base.py", line 891, in save
+    self.save_base(
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\base.py", line 997, in save_base
+    updated = self._save_table(
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\base.py", line 1160, in _save_table
+    results = self._do_insert(
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\base.py", line 1201, in _do_insert
+    return manager._insert(
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\my_django_work\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: myapp_profile.age
+ERROR 2024-10-18 23:05:53,789 basehttp 15444 14324 "POST /user/registration/ HTTP/1.1" 500 156430
+INFO 2024-10-18 23:06:06,566 autoreload 15444 2240 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-18 23:06:06,989 autoreload 2996 15040 Watching for file changes with StatReloader
+INFO 2024-10-18 23:06:30,246 autoreload 20308 17660 Watching for file changes with StatReloader
+INFO 2024-10-18 23:06:34,950 basehttp 20308 3216 "GET /user/registration/ HTTP/1.1" 200 2747
+ERROR 2024-10-18 23:06:52,962 log 20308 3216 Internal Server Error: /user/registration/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: myapp_profile.user_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 223, in registration
+    profile.save()
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\base.py", line 891, in save
+    self.save_base(
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\base.py", line 997, in save_base
+    updated = self._save_table(
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\base.py", line 1160, in _save_table
+    results = self._do_insert(
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\base.py", line 1201, in _do_insert
+    return manager._insert(
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\my_django_work\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: myapp_profile.user_id
+ERROR 2024-10-18 23:06:52,971 basehttp 20308 3216 "POST /user/registration/ HTTP/1.1" 500 148430
+INFO 2024-10-18 23:08:17,318 autoreload 19832 10752 Watching for file changes with StatReloader
+INFO 2024-10-18 23:08:32,871 autoreload 19832 10752 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-18 23:08:33,253 autoreload 1220 17352 Watching for file changes with StatReloader
+INFO 2024-10-18 23:08:35,921 autoreload 11272 19476 Watching for file changes with StatReloader
+INFO 2024-10-18 23:08:55,522 autoreload 11272 19476 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-18 23:08:55,931 autoreload 9576 9624 Watching for file changes with StatReloader
+INFO 2024-10-18 23:09:34,170 autoreload 7840 16536 Watching for file changes with StatReloader
+INFO 2024-10-18 23:09:37,682 basehttp 7840 7148 "GET /user/registration/ HTTP/1.1" 200 2747
+INFO 2024-10-18 23:11:36,544 autoreload 4524 18836 Watching for file changes with StatReloader
+INFO 2024-10-18 23:11:40,423 basehttp 4524 11680 "GET /user/registration/ HTTP/1.1" 200 2747
+ERROR 2024-10-18 23:12:04,073 log 4524 11680 Internal Server Error: /user/registration/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 217, in registration
+    user = form.save()
+  File "C:\my_django_work\venv\lib\site-packages\django\contrib\auth\forms.py", line 256, in save
+    user = self.set_password_and_save(user, commit=commit)
+  File "C:\my_django_work\venv\lib\site-packages\django\contrib\auth\forms.py", line 165, in set_password_and_save
+    user.save()
+  File "C:\my_django_work\venv\lib\site-packages\django\contrib\auth\base_user.py", line 62, in save
+    super().save(*args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\base.py", line 891, in save
+    self.save_base(
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\base.py", line 997, in save_base
+    updated = self._save_table(
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\base.py", line 1160, in _save_table
+    results = self._do_insert(
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\base.py", line 1201, in _do_insert
+    return manager._insert(
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1848, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\base\operations.py", line 216, in fetch_returned_insert_columns
+    return cursor.fetchone()
+  File "C:\my_django_work\venv\lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\my_django_work\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\my_django_work\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+django.db.utils.OperationalError: database is locked
+ERROR 2024-10-18 23:12:04,079 basehttp 4524 11680 "POST /user/registration/ HTTP/1.1" 500 140384
+ERROR 2024-10-18 23:12:29,992 log 4524 11680 Internal Server Error: /user/registration/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 219, in registration
+    name = form.cleaned_data['name']
+KeyError: 'name'
+ERROR 2024-10-18 23:12:29,994 basehttp 4524 11680 "POST /user/registration/ HTTP/1.1" 500 68316
+INFO 2024-10-18 23:13:07,030 autoreload 4524 18836 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-18 23:13:07,453 autoreload 16592 10844 Watching for file changes with StatReloader
+INFO 2024-10-18 23:13:14,006 autoreload 18412 9412 Watching for file changes with StatReloader
+INFO 2024-10-18 23:13:17,434 basehttp 18412 7436 "GET /user/registration/ HTTP/1.1" 200 2747
+INFO 2024-10-18 23:13:34,466 basehttp 18412 7436 "POST /user/registration/ HTTP/1.1" 200 3051
+INFO 2024-10-18 23:16:11,554 autoreload 18412 9412 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-18 23:16:12,036 autoreload 3236 13436 Watching for file changes with StatReloader
+INFO 2024-10-18 23:17:45,599 autoreload 3236 13436 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-18 23:17:46,109 autoreload 2084 14444 Watching for file changes with StatReloader
+INFO 2024-10-18 23:18:01,836 autoreload 2084 14444 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-18 23:18:02,272 autoreload 2512 13616 Watching for file changes with StatReloader
+INFO 2024-10-18 23:19:16,638 autoreload 2512 13616 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-18 23:19:17,040 autoreload 8888 4340 Watching for file changes with StatReloader
+INFO 2024-10-18 23:19:22,492 basehttp 8888 16212 "GET /user/registration/ HTTP/1.1" 200 2747
+INFO 2024-10-18 23:19:40,950 basehttp 8888 16212 "POST /user/registration/ HTTP/1.1" 302 0
+INFO 2024-10-18 23:19:40,955 basehttp 8888 16212 "GET / HTTP/1.1" 200 301
+INFO 2024-10-18 23:20:10,490 basehttp 8888 16212 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-10-18 23:20:10,521 basehttp 8888 16212 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3930
+INFO 2024-10-18 23:20:10,545 basehttp 8888 17888 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-10-18 23:20:10,546 basehttp 8888 1064 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2024-10-18 23:20:10,546 basehttp 8888 9584 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-10-18 23:20:10,546 basehttp 8888 16212 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-10-18 23:20:10,547 basehttp 8888 2400 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-10-18 23:20:10,547 basehttp 8888 9796 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-10-18 23:20:10,550 basehttp 8888 9796 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+ERROR 2024-10-18 23:20:30,823 log 8888 9796 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\contrib\admin\sites.py", line 444, in login
+    return LoginView.as_view(**defaults)(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\views\decorators\debug.py", line 143, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\my_django_work\venv\lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\contrib\auth\views.py", line 89, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\views\generic\edit.py", line 151, in post
+    return self.form_valid(form)
+  File "C:\my_django_work\venv\lib\site-packages\django\contrib\auth\views.py", line 108, in form_valid
+    auth_login(self.request, form.get_user())
+  File "C:\my_django_work\venv\lib\site-packages\django\contrib\auth\__init__.py", line 124, in login
+    request.session.flush()
+  File "C:\my_django_work\venv\lib\site-packages\django\contrib\sessions\backends\base.py", line 418, in flush
+    self.delete()
+  File "C:\my_django_work\venv\lib\site-packages\django\contrib\sessions\backends\db.py", line 175, in delete
+    self.model.objects.get(session_key=session_key).delete()
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\base.py", line 1272, in delete
+    return collector.delete()
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\deletion.py", line 449, in delete
+    count = sql.DeleteQuery(model).delete_batch(
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\sql\subqueries.py", line 42, in delete_batch
+    num_deleted += self.do_query(
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\sql\subqueries.py", line 20, in do_query
+    cursor = self.get_compiler(using).execute_sql(CURSOR)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\my_django_work\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\my_django_work\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: database is locked
+ERROR 2024-10-18 23:20:30,834 basehttp 8888 9796 "POST /admin/login/?next=/admin/ HTTP/1.1" 500 218253
+INFO 2024-10-18 23:20:42,883 basehttp 8888 9796 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3930
+INFO 2024-10-18 23:20:50,432 basehttp 8888 9796 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-10-18 23:20:50,454 basehttp 8888 9796 "GET /admin/ HTTP/1.1" 200 7799
+INFO 2024-10-18 23:20:50,464 basehttp 8888 9796 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2024-10-18 23:20:50,469 basehttp 8888 9796 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2024-10-18 23:20:50,470 basehttp 8888 16212 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2024-10-18 23:20:53,225 basehttp 8888 16212 "GET /admin/auth/user/ HTTP/1.1" 200 13913
+INFO 2024-10-18 23:20:53,243 basehttp 8888 16212 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-10-18 23:20:53,244 basehttp 8888 17888 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-10-18 23:20:53,244 basehttp 8888 1064 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-10-18 23:20:53,244 basehttp 8888 9584 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-10-18 23:20:53,246 basehttp 8888 2400 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-10-18 23:20:53,250 basehttp 8888 16212 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-10-18 23:20:53,251 basehttp 8888 17888 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-10-18 23:20:53,254 basehttp 8888 1064 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-10-18 23:20:53,256 basehttp 8888 9584 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-10-18 23:20:53,261 basehttp 8888 9796 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-18 23:20:53,289 basehttp 8888 9584 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-10-18 23:20:53,294 basehttp 8888 9584 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2024-10-18 23:20:53,294 basehttp 8888 2400 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2024-10-18 23:20:53,417 basehttp 8888 17888 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 439
+INFO 2024-10-18 23:20:53,419 basehttp 8888 16212 "GET /static/admin/img/search.svg HTTP/1.1" 200 461
+INFO 2024-10-18 23:20:53,444 basehttp 8888 9796 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 563
+INFO 2024-10-18 23:20:53,447 basehttp 8888 1064 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1116
+INFO 2024-10-18 23:20:56,982 basehttp 8888 1064 "GET /admin/auth/user/8/change/ HTTP/1.1" 200 26141
+INFO 2024-10-18 23:20:56,994 basehttp 8888 1064 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2024-10-18 23:20:57,002 basehttp 8888 2400 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2024-10-18 23:20:57,003 basehttp 8888 9584 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2024-10-18 23:20:57,004 basehttp 8888 17888 "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2024-10-18 23:20:57,006 basehttp 8888 1064 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4646
+INFO 2024-10-18 23:20:57,008 basehttp 8888 9796 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15788
+INFO 2024-10-18 23:20:57,009 basehttp 8888 9584 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2024-10-18 23:20:57,012 basehttp 8888 16212 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-18 23:20:57,013 basehttp 8888 9584 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2024-10-18 23:20:57,064 basehttp 8888 9584 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 658
+INFO 2024-10-18 23:20:57,069 basehttp 8888 17888 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+INFO 2024-10-18 23:20:57,070 basehttp 8888 9796 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 658
+INFO 2024-10-18 23:20:57,071 basehttp 8888 1064 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1095
+INFO 2024-10-18 23:20:57,071 basehttp 8888 16212 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3325
+INFO 2024-10-18 23:21:09,203 basehttp 8888 16212 "GET /admin/myapp/recipes/ HTTP/1.1" 200 9884
+INFO 2024-10-18 23:21:09,218 basehttp 8888 16212 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-18 23:21:10,533 basehttp 8888 16212 "GET /admin/myapp/recipes_category/ HTTP/1.1" 200 8866
+INFO 2024-10-18 23:21:10,549 basehttp 8888 16212 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-18 23:21:11,446 basehttp 8888 16212 "GET /admin/myapp/recipes/ HTTP/1.1" 200 9884
+INFO 2024-10-18 23:21:11,460 basehttp 8888 16212 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-18 23:21:12,172 basehttp 8888 16212 "GET /admin/auth/user/ HTTP/1.1" 200 13913
+INFO 2024-10-18 23:21:12,190 basehttp 8888 16212 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-18 23:21:13,720 basehttp 8888 16212 "GET /admin/auth/user/8/change/ HTTP/1.1" 200 26141
+INFO 2024-10-18 23:21:13,738 basehttp 8888 16212 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-18 23:21:32,138 basehttp 8888 16212 "POST /admin/logout/ HTTP/1.1" 200 3819
+INFO 2024-10-18 23:25:40,476 autoreload 18532 9700 Watching for file changes with StatReloader
+INFO 2024-10-18 23:25:50,000 basehttp 18532 17100 "GET /user/registration/ HTTP/1.1" 200 2747
+ERROR 2024-10-18 23:26:08,655 log 18532 17100 Internal Server Error: /user/registration/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 229, in registration
+    email = form.cleaned_data.get['email']
+TypeError: 'builtin_function_or_method' object is not subscriptable
+ERROR 2024-10-18 23:26:08,656 basehttp 18532 17100 "POST /user/registration/ HTTP/1.1" 500 68605
+INFO 2024-10-18 23:29:53,768 autoreload 18532 9700 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-18 23:29:54,203 autoreload 14560 8276 Watching for file changes with StatReloader
+INFO 2024-10-18 23:29:58,845 basehttp 14560 18636 "GET /user/registration/ HTTP/1.1" 200 2747
+ERROR 2024-10-18 23:30:19,515 log 14560 18636 Internal Server Error: /user/registration/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 229, in registration
+    email = form.cleaned_data.get['email']
+TypeError: 'builtin_function_or_method' object is not subscriptable
+ERROR 2024-10-18 23:30:19,518 basehttp 14560 18636 "POST /user/registration/ HTTP/1.1" 500 68603
+INFO 2024-10-18 23:30:56,657 autoreload 14560 8276 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-18 23:30:59,476 autoreload 16348 8240 Watching for file changes with StatReloader
+INFO 2024-10-18 23:31:03,053 basehttp 16348 3944 "GET /user/registration/ HTTP/1.1" 200 2747
+INFO 2024-10-18 23:31:21,460 basehttp 16348 3944 "POST /user/registration/ HTTP/1.1" 302 0
+INFO 2024-10-18 23:31:21,475 basehttp 16348 3944 "GET / HTTP/1.1" 200 301
+INFO 2024-10-19 09:24:24,701 autoreload 18844 13944 Watching for file changes with StatReloader
+INFO 2024-10-19 09:24:37,405 basehttp 18844 5628 "GET /user/registration/ HTTP/1.1" 200 2747
+WARNING 2024-10-19 09:24:37,492 log 18844 5628 Not Found: /favicon.ico
+WARNING 2024-10-19 09:24:37,494 basehttp 18844 5628 "GET /favicon.ico HTTP/1.1" 404 7359
+INFO 2024-10-19 09:24:56,637 basehttp 18844 12916 "POST /user/registration/ HTTP/1.1" 200 2912
+INFO 2024-10-19 09:25:11,429 basehttp 18844 6388 "POST /user/registration/ HTTP/1.1" 302 0
+INFO 2024-10-19 09:25:11,439 basehttp 18844 6388 "GET / HTTP/1.1" 200 301
+INFO 2024-10-19 09:26:41,534 basehttp 18844 15368 "GET /user/registration/ HTTP/1.1" 200 2747
+INFO 2024-10-19 09:27:08,139 autoreload 18844 13944 C:\my_django_work\recipes\myapp\forms.py changed, reloading.
+INFO 2024-10-19 09:27:09,255 autoreload 19028 3692 Watching for file changes with StatReloader
+INFO 2024-10-19 09:27:25,722 autoreload 19028 3692 C:\my_django_work\recipes\myapp\forms.py changed, reloading.
+INFO 2024-10-19 09:27:26,463 autoreload 12244 2504 Watching for file changes with StatReloader
+INFO 2024-10-19 09:27:28,798 basehttp 12244 2576 "GET /user/registration/ HTTP/1.1" 200 2352
+INFO 2024-10-19 09:28:01,140 autoreload 12244 2504 C:\my_django_work\recipes\myapp\forms.py changed, reloading.
+INFO 2024-10-19 09:28:02,004 autoreload 5316 3700 Watching for file changes with StatReloader
+INFO 2024-10-19 09:29:42,939 autoreload 5316 3700 C:\my_django_work\recipes\myapp\forms.py changed, reloading.
+INFO 2024-10-19 09:29:43,725 autoreload 17976 6652 Watching for file changes with StatReloader
+INFO 2024-10-19 09:30:10,795 autoreload 17976 6652 C:\my_django_work\recipes\myapp\forms.py changed, reloading.
+INFO 2024-10-19 09:30:11,614 autoreload 18100 11556 Watching for file changes with StatReloader
+INFO 2024-10-19 09:30:19,451 autoreload 18100 11556 C:\my_django_work\recipes\myapp\forms.py changed, reloading.
+INFO 2024-10-19 09:30:20,401 autoreload 16036 13124 Watching for file changes with StatReloader
+INFO 2024-10-19 09:31:15,850 autoreload 16036 13124 C:\my_django_work\recipes\myapp\forms.py changed, reloading.
+INFO 2024-10-19 09:31:16,703 autoreload 11492 5236 Watching for file changes with StatReloader
+INFO 2024-10-19 09:31:18,337 basehttp 11492 3504 "GET /user/registration/ HTTP/1.1" 200 2339
+INFO 2024-10-19 09:31:36,305 autoreload 11492 5236 C:\my_django_work\recipes\myapp\forms.py changed, reloading.
+INFO 2024-10-19 09:31:37,067 autoreload 15336 7272 Watching for file changes with StatReloader
+INFO 2024-10-19 09:31:56,317 autoreload 15336 7272 C:\my_django_work\recipes\myapp\forms.py changed, reloading.
+INFO 2024-10-19 09:31:57,148 autoreload 12064 19108 Watching for file changes with StatReloader
+INFO 2024-10-19 09:32:17,422 autoreload 12064 19108 C:\my_django_work\recipes\myapp\forms.py changed, reloading.
+INFO 2024-10-19 09:32:18,261 autoreload 18368 15072 Watching for file changes with StatReloader
+INFO 2024-10-19 09:32:19,061 basehttp 18368 19404 "GET /user/registration/ HTTP/1.1" 200 2350
+INFO 2024-10-19 09:33:29,381 autoreload 18368 15072 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-19 09:33:30,376 autoreload 2732 18384 Watching for file changes with StatReloader
+INFO 2024-10-20 10:31:49,860 autoreload 19324 8728 Watching for file changes with StatReloader
+INFO 2024-10-20 10:32:00,486 basehttp 19324 16640 "GET /user/registration/ HTTP/1.1" 200 2350
+WARNING 2024-10-20 10:32:00,568 log 19324 16640 Not Found: /favicon.ico
+WARNING 2024-10-20 10:32:00,570 basehttp 19324 16640 "GET /favicon.ico HTTP/1.1" 404 7359
+INFO 2024-10-20 10:32:05,703 basehttp 19324 828 "GET /user/registration/ HTTP/1.1" 200 2350
+INFO 2024-10-20 10:32:28,329 basehttp 19324 9800 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-10-20 10:32:28,432 basehttp 19324 9800 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3930
+INFO 2024-10-20 10:32:28,506 basehttp 19324 9800 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-10-20 10:32:28,507 basehttp 19324 17712 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-10-20 10:32:28,508 basehttp 19324 9412 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-10-20 10:32:28,515 basehttp 19324 9412 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-10-20 10:32:28,520 basehttp 19324 9412 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2024-10-20 10:32:28,523 basehttp 19324 9412 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-10-20 10:32:28,529 basehttp 19324 9412 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-10-20 13:35:53,404 autoreload 12772 4356 Watching for file changes with StatReloader
+INFO 2024-10-20 13:36:22,917 autoreload 12772 4356 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-20 13:36:26,279 autoreload 1208 17744 Watching for file changes with StatReloader
+INFO 2024-10-20 13:36:58,906 autoreload 20688 13660 Watching for file changes with StatReloader
+INFO 2024-10-20 13:37:21,978 autoreload 20688 13660 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-20 13:37:22,677 autoreload 14512 10976 Watching for file changes with StatReloader
+INFO 2024-10-20 13:37:28,018 autoreload 7376 7240 Watching for file changes with StatReloader
+INFO 2024-10-20 13:41:04,407 autoreload 7376 7240 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-20 13:41:05,077 autoreload 19148 17692 Watching for file changes with StatReloader
+INFO 2024-10-20 13:54:37,678 autoreload 2912 17440 Watching for file changes with StatReloader
+INFO 2024-10-20 13:54:42,615 basehttp 2912 8236 "GET /user/registration/ HTTP/1.1" 200 2350
+INFO 2024-10-20 13:55:00,605 basehttp 2912 19880 "GET /user/login/ HTTP/1.1" 200 921
+INFO 2024-10-20 13:55:39,627 basehttp 2912 9944 "POST /user/login/ HTTP/1.1" 200 921
+INFO 2024-10-20 13:56:04,988 basehttp 2912 12532 "POST /user/login/ HTTP/1.1" 200 921
+INFO 2024-10-20 13:58:02,032 basehttp 2912 13636 "GET /user/registration/ HTTP/1.1" 200 2350
+INFO 2024-10-20 13:58:33,586 basehttp 2912 7324 "POST /user/registration/ HTTP/1.1" 302 0
+INFO 2024-10-20 13:58:33,600 basehttp 2912 7324 "GET / HTTP/1.1" 200 301
+INFO 2024-10-20 13:58:44,362 basehttp 2912 10744 "GET /user/registration/ HTTP/1.1" 200 2350
+INFO 2024-10-20 13:58:45,701 basehttp 2912 10744 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-10-20 13:58:45,760 basehttp 2912 10744 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3931
+INFO 2024-10-20 13:59:01,422 basehttp 2912 16956 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-10-20 13:59:01,488 basehttp 2912 16956 "GET /admin/ HTTP/1.1" 200 7799
+INFO 2024-10-20 13:59:01,505 basehttp 2912 16956 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2024-10-20 13:59:01,517 basehttp 2912 16956 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2024-10-20 13:59:01,524 basehttp 2912 12988 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2024-10-20 13:59:03,048 basehttp 2912 12988 "POST /admin/logout/ HTTP/1.1" 200 3819
+INFO 2024-10-20 13:59:11,468 basehttp 2912 12988 "GET /admin/login/ HTTP/1.1" 200 4348
+INFO 2024-10-20 13:59:20,238 basehttp 2912 12988 "GET /user/login/ HTTP/1.1" 200 921
+INFO 2024-10-20 13:59:34,582 basehttp 2912 1064 "POST /user/login/ HTTP/1.1" 200 921
+INFO 2024-10-20 14:00:24,262 basehttp 2912 15964 "GET /user/login/ HTTP/1.1" 200 921
+INFO 2024-10-20 14:00:26,264 basehttp 2912 15964 "GET /user/login/ HTTP/1.1" 200 921
+INFO 2024-10-20 14:00:34,291 basehttp 2912 15964 "GET /admin/login/ HTTP/1.1" 200 4348
+INFO 2024-10-20 14:00:40,485 basehttp 2912 15964 "GET /user/login/ HTTP/1.1" 200 921
+INFO 2024-10-20 14:01:07,269 autoreload 2912 17440 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-20 14:01:10,500 autoreload 11472 20928 Watching for file changes with StatReloader
+INFO 2024-10-20 14:01:13,648 basehttp 11472 14064 "GET /user/login/ HTTP/1.1" 200 915
+INFO 2024-10-20 14:01:28,528 basehttp 11472 14064 "POST /user/login/ HTTP/1.1" 200 915
+INFO 2024-10-20 14:02:18,449 autoreload 11472 20928 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-20 14:02:19,123 autoreload 4104 21328 Watching for file changes with StatReloader
+INFO 2024-10-20 14:02:24,475 basehttp 4104 20964 "GET /user/login/ HTTP/1.1" 200 915
+INFO 2024-10-20 14:03:31,405 autoreload 19336 308 Watching for file changes with StatReloader
+INFO 2024-10-20 14:03:35,003 basehttp 19336 8876 "GET /user/login/ HTTP/1.1" 200 1706
+INFO 2024-10-20 14:03:45,623 basehttp 19336 8876 "POST /user/login/ HTTP/1.1" 200 1706
+INFO 2024-10-20 14:05:09,398 autoreload 19336 308 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-20 14:05:10,221 autoreload 18896 14284 Watching for file changes with StatReloader
+INFO 2024-10-20 17:00:56,529 autoreload 20688 20648 Watching for file changes with StatReloader
+INFO 2024-10-20 17:01:00,995 basehttp 20688 15276 "GET /user/login/ HTTP/1.1" 200 1560
+INFO 2024-10-20 17:01:12,882 basehttp 20688 15276 "POST /user/login/ HTTP/1.1" 200 1560
+INFO 2024-10-20 17:01:22,661 basehttp 20688 15276 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-10-20 17:01:22,726 basehttp 20688 15276 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4361
+INFO 2024-10-20 17:12:13,660 autoreload 20688 20648 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-20 17:12:17,507 autoreload 16700 11296 Watching for file changes with StatReloader
+INFO 2024-10-20 17:13:21,586 autoreload 16700 11296 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-20 17:13:22,417 autoreload 13324 15600 Watching for file changes with StatReloader
+INFO 2024-10-20 17:13:28,698 basehttp 13324 17988 "GET /user/registration/ HTTP/1.1" 200 2350
+INFO 2024-10-20 17:13:37,872 basehttp 13324 12004 "GET /user/login/ HTTP/1.1" 200 1706
+INFO 2024-10-20 17:13:48,721 basehttp 13324 8872 "POST /user/login/ HTTP/1.1" 200 1706
+INFO 2024-10-20 17:14:09,211 basehttp 13324 20304 "POST /user/login/ HTTP/1.1" 200 1706
+INFO 2024-10-20 17:14:34,849 autoreload 13324 15600 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-20 17:14:35,580 autoreload 11328 19224 Watching for file changes with StatReloader
+ERROR 2024-10-20 17:14:36,290 log 11328 21024 Internal Server Error: /user/login/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 323, in user_login
+    return render(request, 'myapp/login1.html', {'form': form})
+  File "C:\my_django_work\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/login1.html
+ERROR 2024-10-20 17:14:36,307 basehttp 11328 21024 "GET /user/login/ HTTP/1.1" 500 80193
+INFO 2024-10-20 17:14:50,602 autoreload 11328 19224 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-20 17:14:51,369 autoreload 18688 8728 Watching for file changes with StatReloader
+INFO 2024-10-20 17:14:51,679 basehttp 18688 18124 "GET /user/login/ HTTP/1.1" 200 1706
+INFO 2024-10-20 17:19:26,740 autoreload 18688 8728 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-20 17:19:27,637 autoreload 19312 21500 Watching for file changes with StatReloader
+INFO 2024-10-20 17:20:00,573 autoreload 19312 21500 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-20 17:20:01,388 autoreload 11960 12060 Watching for file changes with StatReloader
+INFO 2024-10-20 17:20:09,135 autoreload 11960 12060 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-20 17:20:09,867 autoreload 14744 16440 Watching for file changes with StatReloader
+INFO 2024-10-20 17:20:38,444 autoreload 14744 16440 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-20 17:20:39,218 autoreload 4972 13640 Watching for file changes with StatReloader
+ERROR 2024-10-20 17:20:43,248 log 4972 16052 Internal Server Error: /user/login/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\my_django_work\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\my_django_work\venv\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\my_django_work\venv\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: user/login.html
+ERROR 2024-10-20 17:20:43,248 basehttp 4972 16052 "GET /user/login/ HTTP/1.1" 500 80422
+INFO 2024-10-20 17:21:20,785 autoreload 4972 13640 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-20 17:21:21,578 autoreload 21372 15208 Watching for file changes with StatReloader
+INFO 2024-10-20 17:21:22,867 basehttp 21372 4508 "GET /user/login/ HTTP/1.1" 200 1706
+INFO 2024-10-20 17:21:31,139 basehttp 21372 18048 "POST /user/login/ HTTP/1.1" 200 2312
+INFO 2024-10-20 17:21:46,295 basehttp 21372 17180 "POST /user/login/ HTTP/1.1" 302 0
+WARNING 2024-10-20 17:21:46,320 log 21372 17180 Not Found: /accounts/profile/
+WARNING 2024-10-20 17:21:46,320 basehttp 21372 17180 "GET /accounts/profile/ HTTP/1.1" 404 7656
+INFO 2024-10-20 17:23:28,076 autoreload 21372 15208 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-20 17:23:29,309 autoreload 15356 2416 Watching for file changes with StatReloader
+INFO 2024-10-20 17:23:44,615 autoreload 15356 2416 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-20 17:23:45,620 autoreload 11244 19852 Watching for file changes with StatReloader
+INFO 2024-10-20 17:23:51,801 basehttp 11244 20368 "GET /index/ HTTP/1.1" 200 301
+INFO 2024-10-20 17:23:59,039 basehttp 11244 20572 "GET /user/login/ HTTP/1.1" 200 1706
+INFO 2024-10-20 17:24:04,089 basehttp 11244 20572 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-10-20 17:24:04,205 basehttp 11244 20572 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3931
+INFO 2024-10-20 17:24:18,351 basehttp 11244 6456 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-10-20 17:24:18,419 basehttp 11244 6456 "GET /admin/ HTTP/1.1" 200 7799
+INFO 2024-10-20 17:24:20,363 basehttp 11244 6456 "POST /admin/logout/ HTTP/1.1" 200 3819
+INFO 2024-10-20 17:24:25,237 basehttp 11244 6456 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-10-20 17:24:25,264 basehttp 11244 6456 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4361
+INFO 2024-10-20 17:24:30,115 basehttp 11244 6860 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-10-20 17:24:30,133 basehttp 11244 6860 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4361
+INFO 2024-10-20 17:24:44,880 basehttp 11244 21316 "GET /user/login/ HTTP/1.1" 200 1706
+INFO 2024-10-20 17:24:53,825 basehttp 11244 18592 "POST /user/login/ HTTP/1.1" 200 2310
+ERROR 2024-10-20 17:25:05,745 log 11244 19808 Internal Server Error: /user/login/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'blog'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\views\decorators\debug.py", line 143, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\my_django_work\venv\lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\contrib\auth\views.py", line 89, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\my_django_work\venv\lib\site-packages\django\views\generic\edit.py", line 151, in post
+    return self.form_valid(form)
+  File "C:\my_django_work\venv\lib\site-packages\django\contrib\auth\views.py", line 109, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "C:\my_django_work\venv\lib\site-packages\django\http\response.py", line 618, in __init__
+    self["Location"] = iri_to_uri(redirect_to)
+  File "C:\my_django_work\venv\lib\site-packages\django\utils\encoding.py", line 134, in iri_to_uri
+    iri = str(iri)
+  File "C:\my_django_work\venv\lib\site-packages\django\utils\functional.py", line 119, in __str__
+    return str(self.__cast())
+  File "C:\my_django_work\venv\lib\site-packages\django\utils\functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+  File "C:\my_django_work\venv\lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'blog' is not a registered namespace
+ERROR 2024-10-20 17:25:05,753 basehttp 11244 19808 "POST /user/login/ HTTP/1.1" 500 152787
+INFO 2024-10-20 17:27:08,358 autoreload 11244 19852 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-20 17:27:09,526 autoreload 12656 12032 Watching for file changes with StatReloader
+INFO 2024-10-20 17:27:26,657 autoreload 12656 12032 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-20 17:27:27,408 autoreload 15524 19352 Watching for file changes with StatReloader
+INFO 2024-10-20 17:27:32,786 basehttp 15524 18944 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-10-20 17:27:32,831 basehttp 15524 18944 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4361
+INFO 2024-10-20 17:27:38,754 basehttp 15524 17348 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-10-20 17:27:38,771 basehttp 15524 17348 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4361
+WARNING 2024-10-20 17:27:46,694 log 15524 10136 Not Found: /user/insex
+WARNING 2024-10-20 17:27:46,694 basehttp 15524 10136 "GET /user/insex HTTP/1.1" 404 7635
+INFO 2024-10-20 17:27:58,619 basehttp 15524 11100 "GET /user/login/ HTTP/1.1" 200 1706
+INFO 2024-10-20 17:28:08,256 basehttp 15524 20364 "POST /user/login/ HTTP/1.1" 302 0
+INFO 2024-10-20 17:28:08,265 basehttp 15524 20364 "GET /index/ HTTP/1.1" 200 301
+INFO 2024-10-20 17:28:14,539 basehttp 15524 18404 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-10-20 17:28:14,585 basehttp 15524 18404 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3931
+INFO 2024-10-20 17:29:49,387 autoreload 15524 19352 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-20 17:29:50,232 autoreload 3052 10596 Watching for file changes with StatReloader
+INFO 2024-10-20 17:34:44,192 autoreload 3052 10596 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-20 17:34:44,817 autoreload 13320 16480 Watching for file changes with StatReloader
+INFO 2024-10-20 17:34:57,716 basehttp 13320 14064 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-10-20 17:34:57,754 basehttp 13320 14064 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3931
+INFO 2024-10-20 17:34:59,395 basehttp 13320 14064 "GET /recipe/ HTTP/1.1" 200 1884
+INFO 2024-10-20 17:35:40,512 basehttp 13320 17268 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-10-20 17:35:40,523 basehttp 13320 17268 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3931
+INFO 2024-10-20 17:35:50,475 basehttp 13320 15492 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-10-20 17:35:50,495 basehttp 13320 15492 "GET /admin/ HTTP/1.1" 200 7799
+INFO 2024-10-20 17:35:52,411 basehttp 13320 15492 "GET /admin/myapp/recipes/ HTTP/1.1" 200 9884
+INFO 2024-10-20 17:35:52,429 basehttp 13320 15492 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-10-20 17:35:52,433 basehttp 13320 18752 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-10-20 17:35:52,435 basehttp 13320 15312 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-10-20 17:35:52,435 basehttp 13320 15492 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-10-20 17:35:52,435 basehttp 13320 9448 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-10-20 17:35:52,439 basehttp 13320 2088 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-10-20 17:35:52,439 basehttp 13320 18752 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-10-20 17:35:52,440 basehttp 13320 15312 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-10-20 17:35:52,446 basehttp 13320 9448 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-10-20 17:35:52,447 basehttp 13320 17020 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 17:35:52,464 basehttp 13320 17020 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-10-20 17:35:52,477 basehttp 13320 9448 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2024-10-20 17:35:52,477 basehttp 13320 17020 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2024-10-20 17:35:52,529 basehttp 13320 18752 "GET /static/admin/img/search.svg HTTP/1.1" 200 461
+INFO 2024-10-20 17:35:53,526 basehttp 13320 18752 "GET /admin/myapp/recipes_category/ HTTP/1.1" 200 8866
+INFO 2024-10-20 17:35:53,528 basehttp 13320 18752 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 17:35:56,847 basehttp 13320 13968 "GET /admin/myapp/recipes_category/add/ HTTP/1.1" 200 11113
+INFO 2024-10-20 17:35:56,863 basehttp 13320 17416 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2024-10-20 17:35:56,863 basehttp 13320 13968 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2024-10-20 17:35:56,868 basehttp 13320 16248 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 17:35:56,869 basehttp 13320 13968 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2024-10-20 17:35:56,873 basehttp 13320 16248 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2024-10-20 17:37:09,886 basehttp 13320 20112 "GET /admin/myapp/recipes/ HTTP/1.1" 200 9884
+INFO 2024-10-20 17:37:09,904 basehttp 13320 20112 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 17:37:12,778 basehttp 13320 20112 "GET /admin/myapp/recipes/add/ HTTP/1.1" 200 15582
+INFO 2024-10-20 17:37:12,794 basehttp 13320 12024 "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2024-10-20 17:37:12,797 basehttp 13320 1488 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2024-10-20 17:37:12,801 basehttp 13320 20112 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 17:37:12,825 basehttp 13320 20112 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+INFO 2024-10-20 17:37:30,830 basehttp 13320 15728 "GET /admin/myapp/recipes/ HTTP/1.1" 200 9884
+INFO 2024-10-20 17:37:30,840 basehttp 13320 15728 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 17:37:34,316 basehttp 13320 15728 "GET /admin/myapp/recipes_category/ HTTP/1.1" 200 8866
+INFO 2024-10-20 17:37:34,337 basehttp 13320 15728 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 17:37:48,569 basehttp 13320 18972 "GET /admin/myapp/recipes/ HTTP/1.1" 200 9884
+INFO 2024-10-20 17:37:48,585 basehttp 13320 18972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 17:37:52,219 basehttp 13320 12716 "GET /admin/myapp/recipes/add/ HTTP/1.1" 200 15582
+INFO 2024-10-20 17:37:52,235 basehttp 13320 12716 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 17:38:33,627 autoreload 13320 16480 C:\my_django_work\recipes\myapp\admin.py changed, reloading.
+INFO 2024-10-20 17:38:34,104 autoreload 13136 9796 Watching for file changes with StatReloader
+WARNING 2024-10-20 17:38:34,288 log 13136 9192 Not Found: /admin/myapp/recipes_category/
+WARNING 2024-10-20 17:38:34,288 basehttp 13136 9192 "GET /admin/myapp/recipes_category/ HTTP/1.1" 404 5723
+INFO 2024-10-20 17:38:36,706 basehttp 13136 9192 "GET /admin/myapp/recipes/add/ HTTP/1.1" 200 13998
+INFO 2024-10-20 17:38:39,462 basehttp 13136 19548 "GET /admin/myapp/recipes/ HTTP/1.1" 200 9397
+INFO 2024-10-20 17:38:39,481 basehttp 13136 19548 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 17:38:45,844 autoreload 13136 9796 C:\my_django_work\recipes\myapp\admin.py changed, reloading.
+INFO 2024-10-20 17:38:46,343 autoreload 12032 8544 Watching for file changes with StatReloader
+INFO 2024-10-20 17:38:46,747 basehttp 12032 8392 "GET /admin/myapp/recipes/ HTTP/1.1" 200 9884
+INFO 2024-10-20 17:38:46,766 basehttp 12032 8392 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 17:38:48,729 basehttp 12032 8392 "GET /admin/myapp/recipes_category/ HTTP/1.1" 200 8866
+INFO 2024-10-20 17:38:48,750 basehttp 12032 8392 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 17:39:01,603 basehttp 12032 8796 "GET /admin/myapp/recipes/ HTTP/1.1" 200 9884
+INFO 2024-10-20 17:39:01,620 basehttp 12032 8796 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 17:39:04,682 basehttp 12032 8796 "GET /admin/myapp/recipes/add/ HTTP/1.1" 200 15582
+INFO 2024-10-20 17:39:04,698 basehttp 12032 8796 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 17:39:09,757 basehttp 12032 17920 "GET /admin/myapp/recipes_category/ HTTP/1.1" 200 8866
+INFO 2024-10-20 17:39:09,775 basehttp 12032 17920 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 17:45:21,725 basehttp 12032 4088 "GET /admin/myapp/recipes_category/ HTTP/1.1" 200 8866
+INFO 2024-10-20 17:45:21,741 basehttp 12032 4088 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 17:45:23,120 basehttp 12032 4088 "GET /admin/myapp/recipes_category/add/ HTTP/1.1" 200 11113
+INFO 2024-10-20 17:45:23,136 basehttp 12032 4088 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 17:46:09,668 basehttp 12032 4088 "POST /admin/myapp/recipes_category/add/ HTTP/1.1" 302 0
+INFO 2024-10-20 17:46:09,685 basehttp 12032 4088 "GET /admin/myapp/recipes_category/ HTTP/1.1" 200 10691
+INFO 2024-10-20 17:46:09,703 basehttp 12032 4088 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 17:46:09,718 basehttp 12032 4088 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2024-10-20 17:47:37,999 autoreload 12032 8544 C:\my_django_work\recipes\myapp\admin.py changed, reloading.
+INFO 2024-10-20 17:47:38,655 autoreload 17416 15596 Watching for file changes with StatReloader
+INFO 2024-10-20 17:47:53,188 autoreload 17416 15596 C:\my_django_work\recipes\myapp\admin.py changed, reloading.
+INFO 2024-10-20 17:47:53,692 autoreload 14888 12524 Watching for file changes with StatReloader
+INFO 2024-10-20 17:47:55,242 basehttp 14888 16828 "GET /admin/myapp/recipes_category/ HTTP/1.1" 200 13238
+INFO 2024-10-20 17:47:55,248 basehttp 14888 16828 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 17:48:14,182 basehttp 14888 16828 "GET /admin/myapp/recipes_category/add/ HTTP/1.1" 200 11113
+INFO 2024-10-20 17:48:14,215 basehttp 14888 16828 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 17:49:20,704 basehttp 14888 16828 "POST /admin/myapp/recipes_category/add/ HTTP/1.1" 302 0
+INFO 2024-10-20 17:49:20,708 basehttp 14888 16828 "GET /admin/myapp/recipes_category/ HTTP/1.1" 200 16771
+INFO 2024-10-20 17:49:20,738 basehttp 14888 16828 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 18:45:55,030 basehttp 14888 2348 "GET /admin/myapp/recipes_category/add/ HTTP/1.1" 200 11113
+INFO 2024-10-20 18:45:55,058 basehttp 14888 2348 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 18:46:16,766 basehttp 14888 2348 "POST /admin/myapp/recipes_category/add/ HTTP/1.1" 302 0
+INFO 2024-10-20 18:46:16,796 basehttp 14888 2348 "GET /admin/myapp/recipes_category/ HTTP/1.1" 200 19753
+INFO 2024-10-20 18:46:16,822 basehttp 14888 2348 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 18:47:00,416 basehttp 14888 2348 "GET /admin/myapp/recipes_category/add/ HTTP/1.1" 200 11113
+INFO 2024-10-20 18:47:00,447 basehttp 14888 2348 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 18:47:51,865 basehttp 14888 2348 "POST /admin/myapp/recipes_category/add/ HTTP/1.1" 302 0
+INFO 2024-10-20 18:47:51,882 basehttp 14888 2348 "GET /admin/myapp/recipes_category/ HTTP/1.1" 200 22710
+INFO 2024-10-20 18:47:51,916 basehttp 14888 2348 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 18:47:58,578 basehttp 14888 2348 "GET /admin/myapp/recipes_category/add/ HTTP/1.1" 200 11113
+INFO 2024-10-20 18:47:58,609 basehttp 14888 2348 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 18:49:04,595 basehttp 14888 2348 "POST /admin/myapp/recipes_category/add/ HTTP/1.1" 200 13317
+INFO 2024-10-20 18:49:04,616 basehttp 14888 2348 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 18:49:11,081 basehttp 14888 2348 "POST /admin/myapp/recipes_category/add/ HTTP/1.1" 302 0
+INFO 2024-10-20 18:49:11,114 basehttp 14888 2348 "GET /admin/myapp/recipes_category/ HTTP/1.1" 200 25172
+INFO 2024-10-20 18:49:11,138 basehttp 14888 2348 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 18:49:15,181 basehttp 14888 2348 "GET /admin/myapp/recipes/ HTTP/1.1" 200 9884
+INFO 2024-10-20 18:49:15,228 basehttp 14888 2348 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 18:49:17,450 basehttp 14888 2348 "GET /admin/myapp/recipes/add/ HTTP/1.1" 200 15823
+INFO 2024-10-20 18:49:17,476 basehttp 14888 2348 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 18:50:57,887 basehttp 14888 2348 "GET /admin/myapp/recipes/ HTTP/1.1" 200 9884
+INFO 2024-10-20 18:51:03,864 basehttp 14888 2348 "POST /admin/logout/ HTTP/1.1" 200 3819
+INFO 2024-10-20 18:53:04,372 autoreload 656 13668 Watching for file changes with StatReloader
+INFO 2024-10-20 18:53:12,990 basehttp 656 4900 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-10-20 18:53:13,123 basehttp 656 4900 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4361
+INFO 2024-10-20 18:53:21,525 basehttp 656 4900 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-10-20 18:53:21,600 basehttp 656 4900 "GET /admin/ HTTP/1.1" 200 9742
+INFO 2024-10-20 18:53:23,292 basehttp 656 4900 "GET /admin/myapp/recipes_category/ HTTP/1.1" 200 24939
+INFO 2024-10-20 18:53:23,335 basehttp 656 4900 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 18:53:26,002 basehttp 656 4900 "GET /admin/myapp/recipes/ HTTP/1.1" 200 9884
+INFO 2024-10-20 18:53:26,043 basehttp 656 4900 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 18:53:27,377 basehttp 656 4900 "GET /admin/myapp/recipes/add/ HTTP/1.1" 200 15672
+INFO 2024-10-20 18:53:27,403 basehttp 656 4900 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 18:56:41,669 basehttp 656 4900 "POST /admin/myapp/recipes/add/ HTTP/1.1" 200 22179
+INFO 2024-10-20 18:56:41,711 basehttp 656 4900 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 18:57:09,404 basehttp 656 4900 "POST /admin/myapp/recipes/add/ HTTP/1.1" 200 22203
+INFO 2024-10-20 18:57:09,428 basehttp 656 4900 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 18:57:17,866 basehttp 656 4900 "POST /admin/myapp/recipes/add/ HTTP/1.1" 302 0
+INFO 2024-10-20 18:57:17,900 basehttp 656 4900 "GET /admin/myapp/recipes/ HTTP/1.1" 200 19222
+INFO 2024-10-20 18:57:17,934 basehttp 656 4900 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 18:57:18,044 basehttp 656 4900 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1116
+INFO 2024-10-20 18:57:28,719 basehttp 656 4900 "GET /admin/myapp/recipes/1/change/ HTTP/1.1" 200 22553
+INFO 2024-10-20 18:57:28,750 basehttp 656 4900 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 18:57:38,016 basehttp 656 4900 "GET /admin/myapp/recipes/ HTTP/1.1" 200 18946
+INFO 2024-10-20 18:57:38,045 basehttp 656 4900 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 18:57:55,637 basehttp 656 4900 "POST /admin/logout/ HTTP/1.1" 200 3819
+INFO 2024-10-20 19:19:23,126 autoreload 17972 19280 Watching for file changes with StatReloader
+INFO 2024-10-20 19:19:28,991 basehttp 17972 16104 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-10-20 19:19:29,073 basehttp 17972 16104 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4361
+INFO 2024-10-20 19:19:29,429 basehttp 17972 9232 "GET /static/admin/css/login.css HTTP/1.1" 200 1012
+INFO 2024-10-20 19:19:29,429 basehttp 17972 16104 "GET /static/admin/css/base.css HTTP/1.1" 200 23271
+INFO 2024-10-20 19:19:29,431 basehttp 17972 15496 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18939
+INFO 2024-10-20 19:19:29,432 basehttp 17972 20204 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2960
+INFO 2024-10-20 19:19:29,435 basehttp 17972 2332 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2934
+INFO 2024-10-20 19:19:29,435 basehttp 17972 9880 "GET /static/admin/js/theme.js HTTP/1.1" 200 1704
+INFO 2024-10-20 19:19:29,441 basehttp 17972 9880 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3142
+INFO 2024-10-20 19:19:38,524 basehttp 17972 9880 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-10-20 19:19:38,607 basehttp 17972 9880 "GET /admin/ HTTP/1.1" 200 10165
+INFO 2024-10-20 19:19:38,634 basehttp 17972 9880 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 470
+INFO 2024-10-20 19:19:38,654 basehttp 17972 2332 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 383
+INFO 2024-10-20 19:19:38,655 basehttp 17972 9880 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 334
+INFO 2024-10-20 19:19:43,848 basehttp 17972 9880 "GET /admin/myapp/recipes/add/ HTTP/1.1" 200 15672
+INFO 2024-10-20 19:19:43,900 basehttp 17972 16104 "GET /static/admin/js/core.js HTTP/1.1" 200 6392
+INFO 2024-10-20 19:19:43,900 basehttp 17972 15496 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 355
+INFO 2024-10-20 19:19:43,902 basehttp 17972 9232 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9337
+INFO 2024-10-20 19:19:43,903 basehttp 17972 9880 "GET /static/admin/css/forms.css HTTP/1.1" 200 9218
+INFO 2024-10-20 19:19:43,924 basehttp 17972 2332 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 19:19:43,927 basehttp 17972 16104 "GET /static/admin/js/urlify.js HTTP/1.1" 200 8056
+INFO 2024-10-20 19:19:43,932 basehttp 17972 9232 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1574
+INFO 2024-10-20 19:19:43,935 basehttp 17972 15496 "GET /static/admin/js/actions.js HTTP/1.1" 200 8280
+INFO 2024-10-20 19:19:43,938 basehttp 17972 16104 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 601
+INFO 2024-10-20 19:19:43,939 basehttp 17972 2332 "GET /static/admin/css/widgets.css HTTP/1.1" 200 12157
+INFO 2024-10-20 19:19:43,942 basehttp 17972 20204 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 296030
+INFO 2024-10-20 19:19:43,946 basehttp 17972 9880 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 331297
+INFO 2024-10-20 19:19:43,954 basehttp 17972 9880 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 584
+INFO 2024-10-20 19:19:43,962 basehttp 17972 9880 "GET /static/admin/js/change_form.js HTTP/1.1" 200 622
+INFO 2024-10-20 19:25:29,461 basehttp 17972 21384 "POST /admin/myapp/recipes/add/ HTTP/1.1" 302 0
+INFO 2024-10-20 19:25:29,535 basehttp 17972 21384 "GET /admin/myapp/recipes/ HTTP/1.1" 200 26328
+INFO 2024-10-20 19:25:29,572 basehttp 17972 21384 "GET /static/admin/css/changelists.css HTTP/1.1" 200 7221
+INFO 2024-10-20 19:25:29,575 basehttp 17972 19604 "GET /static/admin/img/search.svg HTTP/1.1" 200 461
+INFO 2024-10-20 19:25:29,579 basehttp 17972 19604 "GET /static/admin/js/filters.js HTTP/1.1" 200 1008
+INFO 2024-10-20 19:25:29,579 basehttp 17972 18568 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 19:25:29,628 basehttp 17972 19604 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 334
+INFO 2024-10-20 19:25:29,628 basehttp 17972 18568 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 439
+INFO 2024-10-20 19:25:29,629 basehttp 17972 21384 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1116
+INFO 2024-10-20 19:28:04,692 basehttp 17972 21384 "GET /admin/myapp/recipes/add/ HTTP/1.1" 200 15672
+INFO 2024-10-20 19:28:04,709 basehttp 17972 21384 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 19:30:04,475 basehttp 17972 21384 "POST /admin/myapp/recipes/add/ HTTP/1.1" 302 0
+INFO 2024-10-20 19:30:04,484 basehttp 17972 21384 "GET /admin/myapp/recipes/ HTTP/1.1" 200 30404
+INFO 2024-10-20 19:30:04,508 basehttp 17972 21384 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 19:32:12,805 basehttp 17972 21384 "GET /admin/myapp/recipes_category/ HTTP/1.1" 200 24939
+INFO 2024-10-20 19:32:12,821 basehttp 17972 21384 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 19:32:16,340 basehttp 17972 21384 "GET /admin/myapp/recipes/ HTTP/1.1" 200 30173
+INFO 2024-10-20 19:32:16,357 basehttp 17972 21384 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 19:32:19,919 basehttp 17972 21384 "GET /admin/myapp/recipes/2/change/ HTTP/1.1" 200 23273
+INFO 2024-10-20 19:32:19,935 basehttp 17972 21384 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 19:32:43,545 basehttp 17972 21384 "GET /admin/myapp/recipes/ HTTP/1.1" 200 30173
+INFO 2024-10-20 19:32:43,562 basehttp 17972 21384 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 19:35:00,901 basehttp 17972 21384 "GET /admin/myapp/recipes/2/change/ HTTP/1.1" 200 23273
+INFO 2024-10-20 19:35:05,756 basehttp 17972 21384 "GET /admin/ HTTP/1.1" 200 10953
+INFO 2024-10-20 19:35:07,893 basehttp 17972 21384 "GET /admin/myapp/recipes/ HTTP/1.1" 200 30173
+INFO 2024-10-20 19:35:07,916 basehttp 17972 21384 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 19:35:10,201 basehttp 17972 21384 "GET /admin/myapp/recipes/add/ HTTP/1.1" 200 15672
+INFO 2024-10-20 19:35:10,229 basehttp 17972 21384 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 19:39:57,761 basehttp 17972 21384 "POST /admin/myapp/recipes/add/ HTTP/1.1" 302 0
+INFO 2024-10-20 19:39:57,778 basehttp 17972 21384 "GET /admin/myapp/recipes/ HTTP/1.1" 200 38499
+INFO 2024-10-20 19:39:57,811 basehttp 17972 21384 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 19:40:29,363 basehttp 17972 21384 "GET /admin/myapp/recipes/add/ HTTP/1.1" 200 15672
+INFO 2024-10-20 19:40:29,400 basehttp 17972 21384 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 19:43:13,621 basehttp 17972 21384 "POST /admin/myapp/recipes/add/ HTTP/1.1" 302 0
+INFO 2024-10-20 19:43:13,659 basehttp 17972 21384 "GET /admin/myapp/recipes/ HTTP/1.1" 200 44906
+INFO 2024-10-20 19:43:13,684 basehttp 17972 21384 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-10-20 19:43:20,237 basehttp 17972 21384 "POST /admin/logout/ HTTP/1.1" 200 3819
+INFO 2024-10-20 19:44:32,070 autoreload 19752 12124 Watching for file changes with StatReloader
+INFO 2024-10-20 19:44:34,460 basehttp 19752 9652 "GET / HTTP/1.1" 200 301
+INFO 2024-10-20 19:45:56,563 basehttp 19752 9652 "GET /hello/ HTTP/1.1" 200 26
+INFO 2024-10-20 19:46:55,014 basehttp 19752 9652 "GET /posts/10/ HTTP/1.1" 200 17
+INFO 2024-10-20 19:46:59,342 basehttp 19752 9652 "GET /posts/1/ HTTP/1.1" 200 16
+INFO 2024-10-20 19:47:05,463 basehttp 19752 9652 "GET /posts/111/ HTTP/1.1" 200 18
+WARNING 2024-10-20 19:47:57,395 log 19752 9652 Not Found: /author/1/
+WARNING 2024-10-20 19:47:57,395 basehttp 19752 9652 "GET /author/1/ HTTP/1.1" 404 5061
+INFO 2024-10-20 19:48:24,645 basehttp 19752 9652 "GET /author/41/ HTTP/1.1" 200 1309
+WARNING 2024-10-20 19:49:02,351 log 19752 9652 Not Found: /post/1/
+WARNING 2024-10-20 19:49:02,351 basehttp 19752 9652 "GET /post/1/ HTTP/1.1" 404 5326
+INFO 2024-10-20 19:49:16,526 basehttp 19752 9652 "GET /post/401/ HTTP/1.1" 200 676
+INFO 2024-10-20 19:52:35,025 autoreload 19752 12124 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-20 19:52:35,767 autoreload 19460 19560 Watching for file changes with StatReloader
+INFO 2024-10-20 19:52:36,257 basehttp 19460 5976 "GET /post/401/ HTTP/1.1" 200 676
+INFO 2024-10-20 19:52:43,385 basehttp 19460 5976 "GET /post/402/ HTTP/1.1" 200 694
+INFO 2024-10-20 19:54:43,464 autoreload 19460 19560 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-20 19:54:44,406 autoreload 14020 12988 Watching for file changes with StatReloader
+INFO 2024-10-20 19:55:44,282 autoreload 14020 12988 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-20 19:55:44,917 autoreload 9096 19724 Watching for file changes with StatReloader
+ERROR 2024-10-20 19:55:46,324 log 9096 20572 Internal Server Error: /post/402/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: post_full() got an unexpected keyword argument 'post_id'
+ERROR 2024-10-20 19:55:46,324 basehttp 9096 20572 "GET /post/402/ HTTP/1.1" 500 62698
+ERROR 2024-10-20 19:55:50,325 log 9096 20572 Internal Server Error: /post/1/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: post_full() got an unexpected keyword argument 'post_id'
+ERROR 2024-10-20 19:55:50,325 basehttp 9096 20572 "GET /post/1/ HTTP/1.1" 500 62541
+INFO 2024-10-20 19:56:38,195 autoreload 9096 19724 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-20 19:56:38,926 autoreload 4248 13688 Watching for file changes with StatReloader
+ERROR 2024-10-20 19:56:39,244 log 4248 15280 Internal Server Error: /post/1/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: post_full() got an unexpected keyword argument 'post_id'
+ERROR 2024-10-20 19:56:39,244 basehttp 4248 15280 "GET /post/1/ HTTP/1.1" 500 62678
+ERROR 2024-10-20 19:56:48,024 log 4248 15280 Internal Server Error: /post/402/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: post_full() got an unexpected keyword argument 'post_id'
+ERROR 2024-10-20 19:56:48,032 basehttp 4248 15280 "GET /post/402/ HTTP/1.1" 500 62698
+INFO 2024-10-20 19:56:57,302 autoreload 3132 15572 Watching for file changes with StatReloader
+INFO 2024-10-20 19:57:08,193 autoreload 3132 15572 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-20 19:57:08,862 autoreload 9644 11188 Watching for file changes with StatReloader
+WARNING 2024-10-20 19:57:09,488 log 9644 8736 Not Found: /post/402/
+WARNING 2024-10-20 19:57:09,488 basehttp 9644 8736 "GET /post/402/ HTTP/1.1" 404 7173
+INFO 2024-10-20 19:57:16,975 basehttp 9644 8736 "GET /post/1/ HTTP/1.1" 200 200
+INFO 2024-10-20 19:57:26,170 basehttp 9644 8736 "GET /post/1/ HTTP/1.1" 200 200
+INFO 2024-10-20 19:58:20,784 basehttp 9644 8736 "GET /post/5/ HTTP/1.1" 200 200
+WARNING 2024-10-20 19:58:24,975 log 9644 8736 Not Found: /post/6/
+WARNING 2024-10-20 19:58:24,975 basehttp 9644 8736 "GET /post/6/ HTTP/1.1" 404 7167
+INFO 2024-10-20 19:58:28,147 basehttp 9644 8736 "GET /post/1/ HTTP/1.1" 200 200
+INFO 2024-10-20 20:01:41,808 basehttp 9644 8736 "GET /post/1/ HTTP/1.1" 200 221
+INFO 2024-10-20 20:01:43,668 basehttp 9644 8736 "GET /post/1/ HTTP/1.1" 200 221
+INFO 2024-10-20 20:01:48,728 basehttp 9644 8736 "GET /post/1/ HTTP/1.1" 200 221
+INFO 2024-10-20 20:01:49,210 basehttp 9644 8736 "GET /post/1/ HTTP/1.1" 200 221
+INFO 2024-10-20 20:01:50,583 basehttp 9644 8736 "GET /post/1/ HTTP/1.1" 200 221
+INFO 2024-10-20 20:02:23,018 basehttp 9644 8736 "GET /post/1/ HTTP/1.1" 200 221
+INFO 2024-10-20 20:08:35,465 autoreload 9644 11188 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-20 20:08:36,255 autoreload 15612 3080 Watching for file changes with StatReloader
+ERROR 2024-10-20 20:08:41,318 log 15612 18748 Internal Server Error: /post/401/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: post_full() got an unexpected keyword argument 'recipe_id'
+ERROR 2024-10-20 20:08:41,318 basehttp 15612 18748 "GET /post/401/ HTTP/1.1" 500 62571
+INFO 2024-10-20 20:08:54,497 autoreload 15612 3080 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-20 20:08:55,239 autoreload 21460 15588 Watching for file changes with StatReloader
+WARNING 2024-10-20 20:08:55,572 log 21460 21128 Not Found: /post/401/
+WARNING 2024-10-20 20:08:55,572 basehttp 21460 21128 "GET /post/401/ HTTP/1.1" 404 7171
+WARNING 2024-10-20 20:09:09,310 log 21460 21128 Not Found: /post/401/
+WARNING 2024-10-20 20:09:09,310 basehttp 21460 21128 "GET /post/401/ HTTP/1.1" 404 7171
+INFO 2024-10-20 20:09:41,834 autoreload 21460 15588 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-20 20:09:42,605 autoreload 7072 18944 Watching for file changes with StatReloader
+INFO 2024-10-20 20:09:43,472 basehttp 7072 16984 "GET /post/401/ HTTP/1.1" 200 676
+INFO 2024-10-20 20:10:16,011 basehttp 7072 16984 "GET /post/401/ HTTP/1.1" 200 693
+INFO 2024-10-20 20:11:20,760 autoreload 7072 18944 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-20 20:11:21,628 autoreload 11416 2560 Watching for file changes with StatReloader
+INFO 2024-10-20 20:11:22,119 basehttp 11416 14372 "GET /post/401/ HTTP/1.1" 200 693
+INFO 2024-10-20 20:11:23,829 basehttp 11416 14372 "GET /post/401/ HTTP/1.1" 200 693
+INFO 2024-10-20 20:13:23,425 autoreload 11416 2560 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-20 20:13:24,212 autoreload 18364 3504 Watching for file changes with StatReloader
+WARNING 2024-10-20 20:13:24,466 log 18364 8112 Not Found: /post/401/
+WARNING 2024-10-20 20:13:24,466 basehttp 18364 8112 "GET /post/401/ HTTP/1.1" 404 5335
+INFO 2024-10-20 20:13:30,161 basehttp 18364 8112 "GET /post/1/ HTTP/1.1" 200 215
+INFO 2024-10-20 20:13:52,987 autoreload 18364 3504 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-20 20:13:53,798 autoreload 13080 15640 Watching for file changes with StatReloader
+INFO 2024-10-20 20:13:54,477 basehttp 13080 18776 "GET /post/1/ HTTP/1.1" 200 215
+INFO 2024-10-20 20:14:17,631 basehttp 13080 18776 "GET /post/1/ HTTP/1.1" 200 290
+INFO 2024-10-20 20:16:12,625 autoreload 13080 15640 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-10-20 20:16:13,310 autoreload 12684 20332 Watching for file changes with StatReloader
+INFO 2024-10-20 20:16:13,590 basehttp 12684 6100 "GET /post/1/ HTTP/1.1" 200 200
+INFO 2024-10-20 20:16:44,044 basehttp 12684 6100 "GET /post/1/ HTTP/1.1" 200 276
+INFO 2024-10-20 20:17:41,296 basehttp 12684 6100 "GET /post/1/ HTTP/1.1" 200 323
+INFO 2024-10-20 20:17:48,120 basehttp 12684 6100 "GET /post/1/ HTTP/1.1" 200 323
+INFO 2024-10-20 20:19:24,666 basehttp 12684 6100 "GET /post/1/ HTTP/1.1" 200 376
+WARNING 2024-10-20 20:19:24,692 log 12684 6100 Not Found: /post/1/media/kurica_v_multivarke.jpg
+WARNING 2024-10-20 20:19:24,692 basehttp 12684 6100 "GET /post/1/media/kurica_v_multivarke.jpg HTTP/1.1" 404 7713
+INFO 2024-10-20 20:19:40,885 basehttp 12684 6100 "GET /post/1/ HTTP/1.1" 200 376
+INFO 2024-10-20 20:20:15,120 basehttp 12684 6100 "GET /post/1/ HTTP/1.1" 200 379
+WARNING 2024-10-20 20:20:15,150 log 12684 6100 Not Found: /post/1/media/kurica_v_multivarke.jpg
+WARNING 2024-10-20 20:20:15,150 basehttp 12684 6100 "GET /post/1/media/kurica_v_multivarke.jpg HTTP/1.1" 404 7713
+INFO 2024-10-20 20:21:28,319 basehttp 12684 6100 "GET /post/1/ HTTP/1.1" 200 367
+WARNING 2024-10-20 20:21:28,345 log 12684 6100 Not Found: /post/1/media/spagetti.jpg
+WARNING 2024-10-20 20:21:28,345 basehttp 12684 6100 "GET /post/1/media/spagetti.jpg HTTP/1.1" 404 7680
+INFO 2024-10-20 20:21:37,352 basehttp 12684 6100 "GET /post/1/ HTTP/1.1" 200 369
+WARNING 2024-10-20 20:21:37,377 log 12684 6100 Not Found: /post/1/media/spagetti.jpg
+WARNING 2024-10-20 20:21:37,379 basehttp 12684 6100 "GET /post/1/media/spagetti.jpg HTTP/1.1" 404 7680
+INFO 2024-10-20 20:22:13,361 basehttp 12684 6100 "GET /post/1/ HTTP/1.1" 200 377
+WARNING 2024-10-20 20:22:13,388 log 12684 6100 Not Found: /post/1/recipes/media/spagetti.jpg
+WARNING 2024-10-20 20:22:13,389 basehttp 12684 6100 "GET /post/1/recipes/media/spagetti.jpg HTTP/1.1" 404 7704
+INFO 2024-10-20 20:22:15,821 basehttp 12684 6100 "GET /post/1/ HTTP/1.1" 200 377
+WARNING 2024-10-20 20:22:15,854 log 12684 6100 Not Found: /post/1/recipes/media/spagetti.jpg
+WARNING 2024-10-20 20:22:15,854 basehttp 12684 6100 "GET /post/1/recipes/media/spagetti.jpg HTTP/1.1" 404 7704
+INFO 2024-10-20 20:22:16,345 basehttp 12684 6100 "GET /post/1/ HTTP/1.1" 200 377
+WARNING 2024-10-20 20:22:16,384 log 12684 6100 Not Found: /post/1/recipes/media/spagetti.jpg
+WARNING 2024-10-20 20:22:16,384 basehttp 12684 6100 "GET /post/1/recipes/media/spagetti.jpg HTTP/1.1" 404 7704
+INFO 2024-10-20 20:23:30,375 basehttp 12684 13304 "GET /post/1/ HTTP/1.1" 200 375
+WARNING 2024-10-20 20:23:30,398 log 12684 13304 Not Found: /post/1/media/media/spagetti.jpg
+WARNING 2024-10-20 20:23:30,398 basehttp 12684 13304 "GET /post/1/media/media/spagetti.jpg HTTP/1.1" 404 7698
+INFO 2024-10-20 20:23:33,037 basehttp 12684 13304 "GET /post/1/ HTTP/1.1" 200 375
+WARNING 2024-10-20 20:23:33,062 log 12684 13304 Not Found: /post/1/media/media/spagetti.jpg
+WARNING 2024-10-20 20:23:33,062 basehttp 12684 13304 "GET /post/1/media/media/spagetti.jpg HTTP/1.1" 404 7698
+INFO 2024-10-20 20:23:33,557 basehttp 12684 13304 "GET /post/1/ HTTP/1.1" 200 375
+WARNING 2024-10-20 20:23:33,583 log 12684 13304 Not Found: /post/1/media/media/spagetti.jpg
+WARNING 2024-10-20 20:23:33,583 basehttp 12684 13304 "GET /post/1/media/media/spagetti.jpg HTTP/1.1" 404 7698
+INFO 2024-10-20 20:24:10,231 basehttp 12684 13304 "GET /post/1/ HTTP/1.1" 200 399
+INFO 2024-10-20 20:24:29,301 basehttp 12684 13304 "GET /post/1/ HTTP/1.1" 200 399
+INFO 2024-10-20 20:24:29,928 basehttp 12684 13304 "GET /post/1/ HTTP/1.1" 200 399
+INFO 2024-10-20 20:24:30,133 basehttp 12684 13304 "GET /post/1/ HTTP/1.1" 200 399
+INFO 2024-10-20 20:24:30,310 basehttp 12684 13304 "GET /post/1/ HTTP/1.1" 200 399
+INFO 2024-10-20 20:24:31,383 basehttp 12684 13304 "GET /post/1/ HTTP/1.1" 200 399
+INFO 2024-10-20 20:25:20,691 basehttp 12684 13304 "GET /post/1/ HTTP/1.1" 200 451
+WARNING 2024-10-20 20:25:20,711 log 12684 13304 Not Found: /post/1/img/Logo.png
+WARNING 2024-10-20 20:25:20,711 basehttp 12684 13304 "GET /post/1/img/Logo.png HTTP/1.1" 404 7662
+INFO 2024-10-20 20:26:29,781 basehttp 12684 13304 "GET /post/1/ HTTP/1.1" 200 410
+WARNING 2024-10-20 20:26:29,808 log 12684 13304 Not Found: /post/1/first.jpg
+WARNING 2024-10-20 20:26:29,808 log 12684 5128 Not Found: /post/1/img/Logo.png
+WARNING 2024-10-20 20:26:29,808 basehttp 12684 13304 "GET /post/1/first.jpg HTTP/1.1" 404 7653
+WARNING 2024-10-20 20:26:29,808 basehttp 12684 5128 "GET /post/1/img/Logo.png HTTP/1.1" 404 7662
+INFO 2024-10-20 20:26:46,922 basehttp 12684 5128 "GET /post/1/ HTTP/1.1" 200 412
+WARNING 2024-10-20 20:26:46,949 log 12684 13304 Not Found: /post/1/img/Logo.png
+WARNING 2024-10-20 20:26:46,949 log 12684 5128 Not Found: /post/1/first.jpg
+WARNING 2024-10-20 20:26:46,949 basehttp 12684 13304 "GET /post/1/img/Logo.png HTTP/1.1" 404 7662
+WARNING 2024-10-20 20:26:46,949 basehttp 12684 5128 "GET /post/1/first.jpg HTTP/1.1" 404 7653
+INFO 2024-10-20 20:26:47,413 basehttp 12684 5128 "GET /post/1/ HTTP/1.1" 200 412
+WARNING 2024-10-20 20:26:47,433 log 12684 13304 Not Found: /post/1/img/Logo.png
+WARNING 2024-10-20 20:26:47,448 log 12684 5128 Not Found: /post/1/first.jpg
+WARNING 2024-10-20 20:26:47,448 basehttp 12684 13304 "GET /post/1/img/Logo.png HTTP/1.1" 404 7662
+WARNING 2024-10-20 20:26:47,448 basehttp 12684 5128 "GET /post/1/first.jpg HTTP/1.1" 404 7653
+INFO 2024-10-20 20:26:47,578 basehttp 12684 5128 "GET /post/1/ HTTP/1.1" 200 412
+WARNING 2024-10-20 20:26:47,617 log 12684 5128 Not Found: /post/1/first.jpg
+WARNING 2024-10-20 20:26:47,617 log 12684 13304 Not Found: /post/1/img/Logo.png
+WARNING 2024-10-20 20:26:47,617 basehttp 12684 5128 "GET /post/1/first.jpg HTTP/1.1" 404 7653
+WARNING 2024-10-20 20:26:47,617 basehttp 12684 13304 "GET /post/1/img/Logo.png HTTP/1.1" 404 7662
+INFO 2024-10-20 20:26:47,764 basehttp 12684 13304 "GET /post/1/ HTTP/1.1" 200 412
+WARNING 2024-10-20 20:26:47,783 log 12684 5128 Not Found: /post/1/img/Logo.png
+WARNING 2024-10-20 20:26:47,798 log 12684 13304 Not Found: /post/1/first.jpg
+WARNING 2024-10-20 20:26:47,798 basehttp 12684 13304 "GET /post/1/first.jpg HTTP/1.1" 404 7653
+WARNING 2024-10-20 20:26:47,798 basehttp 12684 5128 "GET /post/1/img/Logo.png HTTP/1.1" 404 7662
+INFO 2024-10-20 20:26:47,914 basehttp 12684 5128 "GET /post/1/ HTTP/1.1" 200 412
+WARNING 2024-10-20 20:26:47,951 log 12684 13304 Not Found: /post/1/img/Logo.png
+WARNING 2024-10-20 20:26:47,951 log 12684 5128 Not Found: /post/1/first.jpg
+WARNING 2024-10-20 20:26:47,951 basehttp 12684 13304 "GET /post/1/img/Logo.png HTTP/1.1" 404 7662
+WARNING 2024-10-20 20:26:47,951 basehttp 12684 5128 "GET /post/1/first.jpg HTTP/1.1" 404 7653
+INFO 2024-10-20 20:26:48,082 basehttp 12684 5128 "GET /post/1/ HTTP/1.1" 200 412
+WARNING 2024-10-20 20:26:48,100 log 12684 5128 Not Found: /post/1/first.jpg
+WARNING 2024-10-20 20:26:48,115 log 12684 13304 Not Found: /post/1/img/Logo.png
+WARNING 2024-10-20 20:26:48,115 basehttp 12684 5128 "GET /post/1/first.jpg HTTP/1.1" 404 7653
+WARNING 2024-10-20 20:26:48,115 basehttp 12684 13304 "GET /post/1/img/Logo.png HTTP/1.1" 404 7662
+INFO 2024-10-20 20:27:10,840 basehttp 12684 13304 "GET /post/1/ HTTP/1.1" 200 412
+WARNING 2024-10-20 20:27:10,864 log 12684 13304 Not Found: /post/1/first.jpg
+WARNING 2024-10-20 20:27:10,864 log 12684 5128 Not Found: /post/1/img/Logo.png
+WARNING 2024-10-20 20:27:10,864 basehttp 12684 13304 "GET /post/1/first.jpg HTTP/1.1" 404 7653
+WARNING 2024-10-20 20:27:10,864 basehttp 12684 5128 "GET /post/1/img/Logo.png HTTP/1.1" 404 7662
+INFO 2024-10-20 20:31:30,261 autoreload 12684 20332 C:\my_django_work\recipes\recipes\settings.py changed, reloading.
+INFO 2024-10-20 20:32:56,435 autoreload 17892 21300 Watching for file changes with StatReloader
+INFO 2024-10-20 20:32:59,249 basehttp 17892 12364 "GET /post/1/ HTTP/1.1" 200 424
+WARNING 2024-10-20 20:32:59,283 log 17892 12364 Not Found: /media//media/first.jpg
+WARNING 2024-10-20 20:32:59,290 log 17892 15380 Not Found: /post/1/img/Logo.png
+WARNING 2024-10-20 20:32:59,294 basehttp 17892 12364 "GET /media//media/first.jpg HTTP/1.1" 404 7671
+WARNING 2024-10-20 20:32:59,295 basehttp 17892 15380 "GET /post/1/img/Logo.png HTTP/1.1" 404 7662
+INFO 2024-10-20 20:32:59,394 basehttp 17892 15380 "GET /post/1/ HTTP/1.1" 200 424
+WARNING 2024-10-20 20:32:59,427 log 17892 15380 Not Found: /media//media/first.jpg
+WARNING 2024-10-20 20:32:59,427 log 17892 12364 Not Found: /post/1/img/Logo.png
+WARNING 2024-10-20 20:32:59,427 basehttp 17892 15380 "GET /media//media/first.jpg HTTP/1.1" 404 7671
+WARNING 2024-10-20 20:32:59,427 basehttp 17892 12364 "GET /post/1/img/Logo.png HTTP/1.1" 404 7662
+INFO 2024-10-20 20:33:01,271 basehttp 17892 12364 "GET /post/1/ HTTP/1.1" 200 424
+WARNING 2024-10-20 20:33:01,299 log 17892 12364 Not Found: /media//media/first.jpg
+WARNING 2024-10-20 20:33:01,308 log 17892 15380 Not Found: /post/1/img/Logo.png
+WARNING 2024-10-20 20:33:01,308 basehttp 17892 12364 "GET /media//media/first.jpg HTTP/1.1" 404 7671
+WARNING 2024-10-20 20:33:01,308 basehttp 17892 15380 "GET /post/1/img/Logo.png HTTP/1.1" 404 7662
+INFO 2024-10-20 20:33:11,823 basehttp 17892 15380 "GET /post/1/ HTTP/1.1" 200 423
+WARNING 2024-10-20 20:33:11,854 log 17892 15380 Not Found: /media/media/first.jpg
+WARNING 2024-10-20 20:33:11,861 log 17892 12364 Not Found: /post/1/img/Logo.png
+WARNING 2024-10-20 20:33:11,861 basehttp 17892 15380 "GET /media/media/first.jpg HTTP/1.1" 404 7668
+WARNING 2024-10-20 20:33:11,866 basehttp 17892 12364 "GET /post/1/img/Logo.png HTTP/1.1" 404 7662
+INFO 2024-10-20 20:33:21,594 basehttp 17892 12364 "GET /post/1/ HTTP/1.1" 200 417
+WARNING 2024-10-20 20:33:21,623 log 17892 12364 Not Found: /media/first.jpg
+WARNING 2024-10-20 20:33:21,623 log 17892 15380 Not Found: /post/1/img/Logo.png
+WARNING 2024-10-20 20:33:21,623 basehttp 17892 12364 "GET /media/first.jpg HTTP/1.1" 404 7650
+WARNING 2024-10-20 20:33:21,631 basehttp 17892 15380 "GET /post/1/img/Logo.png HTTP/1.1" 404 7662
+INFO 2024-10-20 20:33:50,859 basehttp 17892 15380 "GET /post/1/ HTTP/1.1" 200 411
+WARNING 2024-10-20 20:33:50,887 log 17892 15380 Not Found: /first.jpg
+WARNING 2024-10-20 20:33:50,892 log 17892 12364 Not Found: /post/1/img/Logo.png
+WARNING 2024-10-20 20:33:50,893 basehttp 17892 15380 "GET /first.jpg HTTP/1.1" 404 7632
+WARNING 2024-10-20 20:33:50,894 basehttp 17892 12364 "GET /post/1/img/Logo.png HTTP/1.1" 404 7662
+INFO 2024-10-20 20:35:37,230 basehttp 17892 8124 "GET /post/1/ HTTP/1.1" 200 2277
+WARNING 2024-10-20 20:35:37,243 log 17892 8124 Not Found: /first.jpg
+WARNING 2024-10-20 20:35:37,244 basehttp 17892 8124 "GET /first.jpg HTTP/1.1" 404 7632
+INFO 2024-10-20 20:38:26,735 autoreload 17892 21300 C:\my_django_work\recipes\recipes\settings.py changed, reloading.
+INFO 2024-10-20 20:38:27,317 autoreload 4504 7240 Watching for file changes with StatReloader
+INFO 2024-10-20 20:38:32,754 autoreload 4504 7240 C:\my_django_work\recipes\recipes\settings.py changed, reloading.
+INFO 2024-10-20 20:38:33,159 autoreload 1032 17952 Watching for file changes with StatReloader
+INFO 2024-10-20 20:39:26,637 autoreload 1032 17952 C:\my_django_work\recipes\recipes\settings.py changed, reloading.
+INFO 2024-10-20 20:41:27,589 autoreload 3916 11276 Watching for file changes with StatReloader
+INFO 2024-10-20 20:41:30,765 basehttp 3916 4252 "GET /post/1/ HTTP/1.1" 200 2276
+WARNING 2024-10-20 20:41:30,789 log 3916 4252 Not Found: /post/1/first.jpg
+WARNING 2024-10-20 20:41:30,790 basehttp 3916 4252 "GET /post/1/first.jpg HTTP/1.1" 404 7653
+INFO 2024-10-20 20:41:32,892 basehttp 3916 4252 "GET /post/1/ HTTP/1.1" 200 2276
+WARNING 2024-10-20 20:41:32,905 log 3916 4252 Not Found: /post/1/first.jpg
+WARNING 2024-10-20 20:41:32,905 basehttp 3916 4252 "GET /post/1/first.jpg HTTP/1.1" 404 7653
+INFO 2024-10-20 20:41:52,919 basehttp 3916 4252 "GET /post/1/ HTTP/1.1" 200 2276
+WARNING 2024-10-20 20:41:52,932 log 3916 4252 Not Found: /post/1/first.jpg
+WARNING 2024-10-20 20:41:52,932 basehttp 3916 4252 "GET /post/1/first.jpg HTTP/1.1" 404 7653
+INFO 2024-10-20 20:41:55,063 basehttp 3916 4252 "GET /post/1/ HTTP/1.1" 200 2276
+WARNING 2024-10-20 20:41:55,089 log 3916 4252 Not Found: /post/1/first.jpg
+WARNING 2024-10-20 20:41:55,090 basehttp 3916 4252 "GET /post/1/first.jpg HTTP/1.1" 404 7653
+INFO 2024-10-20 20:41:55,561 basehttp 3916 4252 "GET /post/1/ HTTP/1.1" 200 2276
+WARNING 2024-10-20 20:41:55,582 log 3916 4252 Not Found: /post/1/first.jpg
+WARNING 2024-10-20 20:41:55,582 basehttp 3916 4252 "GET /post/1/first.jpg HTTP/1.1" 404 7653
+INFO 2024-10-20 20:41:56,924 basehttp 3916 4252 "GET /post/1/ HTTP/1.1" 200 2276
+WARNING 2024-10-20 20:41:56,940 log 3916 4252 Not Found: /post/1/first.jpg
+WARNING 2024-10-20 20:41:56,941 basehttp 3916 4252 "GET /post/1/first.jpg HTTP/1.1" 404 7653
+INFO 2024-10-20 20:46:56,541 basehttp 3916 13796 "GET /post/1/ HTTP/1.1" 200 4383
+INFO 2024-10-20 20:47:16,539 basehttp 3916 13796 "GET /post/1/ HTTP/1.1" 200 4425
+WARNING 2024-10-20 20:47:16,552 log 3916 13796 Not Found: /post/1/first.jpg
+WARNING 2024-10-20 20:47:16,553 basehttp 3916 13796 "GET /post/1/first.jpg HTTP/1.1" 404 7653
+INFO 2024-10-20 20:47:34,825 basehttp 3916 13796 "GET /post/1/ HTTP/1.1" 200 4476
+WARNING 2024-10-20 20:47:34,838 log 3916 13796 Not Found: /post/1/first.jpg
+WARNING 2024-10-20 20:47:34,839 basehttp 3916 13796 "GET /post/1/first.jpg HTTP/1.1" 404 7653
+INFO 2024-10-20 20:48:01,868 basehttp 3916 13796 "GET /post/1/ HTTP/1.1" 200 4494
+WARNING 2024-10-20 20:48:01,881 log 3916 13796 Not Found: /media/first.jpg
+WARNING 2024-10-20 20:48:01,882 basehttp 3916 13796 "GET /media/first.jpg HTTP/1.1" 404 7650
+INFO 2024-10-20 20:48:04,661 basehttp 3916 13796 "GET /post/1/ HTTP/1.1" 200 4494
+WARNING 2024-10-20 20:48:04,673 log 3916 13796 Not Found: /media/first.jpg
+WARNING 2024-10-20 20:48:04,673 basehttp 3916 13796 "GET /media/first.jpg HTTP/1.1" 404 7650
+INFO 2024-10-20 20:48:22,742 basehttp 3916 13796 "GET /post/1/ HTTP/1.1" 200 4500
+WARNING 2024-10-20 20:48:22,757 log 3916 13796 Not Found: /media/media/first.jpg
+WARNING 2024-10-20 20:48:22,758 basehttp 3916 13796 "GET /media/media/first.jpg HTTP/1.1" 404 7668
+INFO 2024-10-20 20:56:58,644 autoreload 3916 11276 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-20 20:56:59,298 autoreload 6076 9156 Watching for file changes with StatReloader
+INFO 2024-10-20 20:57:14,796 autoreload 6076 9156 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-20 20:57:15,232 autoreload 20376 14016 Watching for file changes with StatReloader
+INFO 2024-10-20 20:57:26,611 autoreload 20376 14016 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-20 20:57:27,119 autoreload 3212 15496 Watching for file changes with StatReloader
+INFO 2024-10-20 20:57:29,534 basehttp 3212 10860 "GET /post/1/ HTTP/1.1" 200 4500
+INFO 2024-10-20 20:57:29,604 basehttp 3212 10860 "GET /media/media/first.jpg HTTP/1.1" 200 227810
+INFO 2024-10-20 20:58:38,480 basehttp 3212 11024 "GET /post/1/ HTTP/1.1" 200 2359
+INFO 2024-10-20 20:59:58,861 basehttp 3212 14212 "GET /post/1/ HTTP/1.1" 200 6809
+INFO 2024-10-20 21:00:12,344 basehttp 3212 14212 "GET /post/2/ HTTP/1.1" 200 7577
+INFO 2024-10-20 21:00:43,972 basehttp 3212 14212 "GET /post/2/ HTTP/1.1" 200 7577
+INFO 2024-10-20 21:01:38,064 basehttp 3212 14212 "GET /post/2/ HTTP/1.1" 200 7653
+INFO 2024-10-20 21:01:53,338 basehttp 3212 14212 "GET /post/2/ HTTP/1.1" 200 7664
+INFO 2024-10-20 21:03:01,573 basehttp 3212 14212 "GET /post/2/ HTTP/1.1" 200 7717
+WARNING 2024-10-20 21:03:01,585 log 3212 14212 Not Found: /post/2/media/morkovniy_rulet.jpg
+WARNING 2024-10-20 21:03:01,585 basehttp 3212 14212 "GET /post/2/media/morkovniy_rulet.jpg HTTP/1.1" 404 7960
+INFO 2024-10-20 21:03:35,048 basehttp 3212 14212 "GET /post/2/ HTTP/1.1" 200 7726
+INFO 2024-10-20 21:03:35,062 basehttp 3212 14212 "GET /media/media/morkovniy_rulet.jpg HTTP/1.1" 200 301117
+INFO 2024-10-20 21:03:40,933 basehttp 3212 14212 "GET /post/1/ HTTP/1.1" 200 6963
+INFO 2024-10-20 21:03:40,951 basehttp 3212 14212 "GET /media/media/kurica_v_multivarke.jpg HTTP/1.1" 200 273506
+INFO 2024-10-20 21:03:50,926 basehttp 3212 14212 "GET /post/3/ HTTP/1.1" 200 4322
+INFO 2024-10-20 21:03:50,943 basehttp 3212 14212 "GET /media/media/kompot_iz_kuragi.jpg HTTP/1.1" 200 152396
+INFO 2024-10-20 21:04:20,013 basehttp 3212 14212 "GET /post/1/ HTTP/1.1" 200 6963
+INFO 2024-10-20 21:04:26,820 basehttp 3212 14212 "GET /post/2/ HTTP/1.1" 200 7726
+INFO 2024-10-20 21:04:34,759 basehttp 3212 14212 "GET /post/3/ HTTP/1.1" 200 4322
+INFO 2024-10-20 21:06:17,178 autoreload 3212 15496 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-20 21:06:17,988 autoreload 2452 3992 Watching for file changes with StatReloader
+INFO 2024-10-20 21:06:23,495 basehttp 2452 18808 "GET /recipe/3/ HTTP/1.1" 200 4322
+INFO 2024-10-20 21:06:26,450 basehttp 2452 18808 "GET /recipe/4/ HTTP/1.1" 200 8432
+INFO 2024-10-20 21:06:26,715 basehttp 2452 18808 "GET /media/media/zapekanka.jpg HTTP/1.1" 200 331021
+INFO 2024-10-20 21:26:40,571 autoreload 2452 3992 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-20 21:26:42,926 autoreload 18464 2664 Watching for file changes with StatReloader
+INFO 2024-10-20 21:29:25,277 autoreload 18464 2664 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-20 21:29:26,286 autoreload 448 7276 Watching for file changes with StatReloader
+INFO 2024-10-20 21:29:29,947 autoreload 448 7276 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-10-20 21:29:30,665 autoreload 12788 12784 Watching for file changes with StatReloader
+INFO 2024-10-20 21:32:04,791 autoreload 17040 13388 Watching for file changes with StatReloader
+INFO 2024-10-20 21:32:21,705 basehttp 17040 16332 "GET /category/1/ HTTP/1.1" 200 3108
+INFO 2024-10-20 21:32:21,985 basehttp 17040 16332 "GET /media/media/pervye_bluda.jpg HTTP/1.1" 200 153428
+INFO 2024-10-20 21:32:31,367 basehttp 17040 19752 "GET /category/2/ HTTP/1.1" 200 3550
+INFO 2024-10-20 21:32:31,401 basehttp 17040 19752 "GET /media/media/vtorye_bluda.jpg HTTP/1.1" 200 229632
+INFO 2024-10-20 21:33:33,930 basehttp 17040 6608 "GET /category/3/ HTTP/1.1" 200 3265
+INFO 2024-10-20 21:33:33,962 basehttp 17040 6608 "GET /media/media/zakuski.jpg HTTP/1.1" 200 217762

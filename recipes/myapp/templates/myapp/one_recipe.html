@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}Рецепт{% endblock %}
+
+{% block content %}
+    <form method="post" enctype="multipart/form-data">
+        <h3>{{ recipe.name }}</h3>
+        <img src="/media/{{ recipe.image }}" />
+<!--        <img src="/media/media/first.jpg" alt="logo"/>-->
+        <p>{{ recipe.description }}</p>
+        <h2> Ингредиенты: </h2>
+        <p>{{ recipe.products }}</p>
+        <h3> Время приготовления: </h3>
+        <p>{{ recipe.cooking_time }} минут</p>
+        <h2> Приготовление блюда по шагам: </h2>
+        <p>{{ recipe.cooking_steps }}</p>
+    </form>
+<form method="post" enctype="multipart/form-data">
+
+{% endblock %}

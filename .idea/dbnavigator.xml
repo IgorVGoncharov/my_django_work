@@ -31,6 +31,9 @@
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
     <filter-actions connection-id="fdbcc4e8-826d-461b-87ef-26e1da302074" dataset="main.myapp_user" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="fdbcc4e8-826d-461b-87ef-26e1da302074" dataset="main.myapp_recipes_category" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="fdbcc4e8-826d-461b-87ef-26e1da302074" dataset="main.auth_user" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="fdbcc4e8-826d-461b-87ef-26e1da302074" dataset="main.myapp_profile" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="fdbcc4e8-826d-461b-87ef-26e1da302074" dataset="main.myapp_post" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="fdbcc4e8-826d-461b-87ef-26e1da302074" dataset="main.myapp_recipes" active-filter-id="84a166b7-4e67-4f59-9700-7ddd78d50abc">
       <filter id="84a166b7-4e67-4f59-9700-7ddd78d50abc" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
@@ -111,7 +114,7 @@
           <tcp-port-to value="4999" />
           <debugger-type value="JDBC" />
         </debugger>
-        <object-filters hide-empty-schemas="false" hide-pseudo-columns="false" hide-audit-columns="false">
+        <object-filters hide-empty-schemas="true" hide-pseudo-columns="false" hide-audit-columns="false">
           <object-filters />
           <object-type-filter use-master-settings="true">
             <object-type name="SCHEMA" enabled="true" />
