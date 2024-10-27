@@ -3,6 +3,8 @@ import datetime
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
 from django.contrib.auth.forms import AuthenticationForm
+from django.core.exceptions import ValidationError
+from .models import Recipes_category, Recipes
 
 
 
@@ -66,17 +68,24 @@ class UserForm(forms.Form):#++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
 class RecipeForm(forms.Form):
-    name = forms.CharField(min_length=3, max_length=50,
+    name = forms.CharField(min_length=3, max_length=50, label="Название рецепта",
                            widget=forms.TextInput(attrs={'class': 'form-control',
                                                          'placeholder': 'Введите название рецепта'}))
-    description = forms.CharField(widget=forms.Textarea(attrs={'class': 'form-control'}))
-    cooking_steps = forms.CharField(widget=forms.Textarea(attrs={'class': 'form-control'}))
-    cooking_time = forms.TimeField(widget=forms.TimeInput(attrs={'class': 'form-control', 'type': 'time'}))
-    image = forms.ImageField()
-    author = forms.CharField(max_length=100,
+    description = forms.CharField(label="Описание рецепта", widget=forms.Textarea(attrs={'class': 'form-control'}))
+    cooking_steps = forms.CharField(label="Шаги приготовления", widget=forms.Textarea(attrs={'class': 'form-control'}))
+    cooking_time = forms.IntegerField(label="Время приготовления", widget=forms.TextInput(attrs={'class': 'form-control'}))
+    image = forms.ImageField(label="Картинка",)
+    author = forms.CharField(max_length=100, label="Автор",
                              widget=forms.TextInput(attrs={'class': 'form-control',
                                                                   'placeholder': 'Введите имя автора'}))
-    products = forms.CharField(widget=forms.Textarea(attrs={'class': 'form-control'}))
+    products = forms.CharField(label="Используемые продукты", widget=forms.Textarea(attrs={'class': 'form-control'}))
+    category = forms.ChoiceField(label="Выбор категрии рецепта",
+                                choices=[('1', 'Первые блюда'),
+                                          ('2', 'Вторые блюда'),
+                                          ('3', 'Закуски'),
+                                          ('4', 'Салаты'),
+                                          ('5', 'Напитки')],
+                               widget=forms.Select(attrs={'class': 'form-check-input'}))
 
 
 class SignUpForm(UserCreationForm): #Готово+++++++++++++++++++++++++++++++++++
@@ -119,3 +128,37 @@ class LoginForm(AuthenticationForm):
     class Meta:
         model = User
         fields = ['username', 'password']
+
+# class LetTryForm(forms.Form):
+#     name = forms.CharField(min_length=3, max_length=50, label="Название рецепта",
+#                            widget=forms.TextInput(attrs={'class': 'form-control',
+#                                                          'placeholder': 'Введите название рецепта'}))
+
+class AddPostForm(forms.ModelForm):
+    category = forms.ModelChoiceField(queryset=Recipes_category.objects.all(), empty_label="Категория не выбрана: ",
+                                      label="Категории рецептов")
+
+    class Meta:
+        model = Recipes
+        fields = ['name', 'description', 'cooking_steps', 'cooking_time', 'image', 'author', 'products', 'category']
+        widgets = {
+            'name': forms.TextInput(attrs={'class': 'form-input'}),
+            'description': forms.Textarea(attrs={'cols': 50, 'rows': 5}),
+        }
+        labels = {'slug': 'URL',
+                  'name': 'Название рецепта: ',
+                  'description': 'Описание рецепта: ',
+                  'cooking_steps': 'Шига приготовления: ',
+                  'cooking_time': 'Время приготовления: ',
+                  'image': 'Картинка: ',
+                  'author': 'Автор: ',
+                  'products': 'Используемые продукты: ',
+                  }
+
+    def clean_title(self):
+        title = self.cleaned_data['name']
+        if len(title) > 50:
+            raise ValidationError("Длина превышает 50 символов")
+
+        return title
+

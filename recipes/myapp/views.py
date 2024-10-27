@@ -2,7 +2,7 @@ import logging
 from django.core.files.storage import FileSystemStorage
 from django.views import View
 from django.http import HttpResponse, JsonResponse
-from django.views.generic import TemplateView
+from django.views.generic import TemplateView, FormView, CreateView, UpdateView
 from django.shortcuts import render, get_object_or_404, redirect
 from .models import Author, Post, Recipes_category, Profile, Recipes
 from .forms import ImageForm, RecipeForm, SignUpForm
@@ -13,8 +13,24 @@ from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth.views import LoginView
 from django.urls import reverse_lazy
 from .forms import LoginForm
+from .forms import AddPostForm
+from random import sample
+from django.contrib.auth import logout
+from django.shortcuts import redirect
 
 
+
+menu = [{'title': "О сайте", 'url_name': 'about'},
+        {'title': "Добавить статью", 'url_name': 'add_page'},
+        {'title': "Обратная связь", 'url_name': 'contact'},
+        {'title': "Войти", 'url_name': 'login'}
+        ]
+
+# menu = [{'title': "О сайте", 'url_name': 'about'},
+#         {'title': "Добавить статью", 'url_name': 'add_page'},
+#         {'title': "Обратная связь", 'url_name': 'contact'},
+#         {'title': "Войти", 'url_name': 'login'}
+#         ]
 
 # logger = logging.getLogger(__name__)
 #
@@ -105,10 +121,11 @@ def author_posts(request, author_id):
     author = get_object_or_404(Author, pk=author_id)
     posts = Post.objects.filter(author=author).order_by('-id')[:5]
     return render(request, 'myapp/author_posts.html', {'author': author, 'posts': posts})
+    # return render(request, 'myapp/author_posts.html', {'author': author})
 
-# def post_full(request, post_id):
-#     post = get_object_or_404(Post, pk=post_id)
-#     return render(request, 'myapp/post_full.html', {'post': post})
+def post_full(request, post_id):
+    post = get_object_or_404(Post, pk=post_id)
+    return render(request, 'myapp/post_full.html', {'post': post})
 
 logger = logging.getLogger(__name__)
 
@@ -282,6 +299,10 @@ class user_login(LoginView):#++++Готово+++
     def get_success_url(self):
         return reverse_lazy('index')
 
+def logout_view(request):
+    logout(request)
+    return redirect('/')
+
 def one_recipe(request, recipe_id): #+++Готово+++
     '''Форма отдельного рецепта'''
     rec = get_object_or_404(Recipes, pk=recipe_id)
@@ -291,3 +312,73 @@ def one_category(request, category_id): #+++Готово+++
     '''Форма отдельной категории'''
     category = get_object_or_404(Recipes_category, pk=category_id)
     return render(request, 'myapp/one_category.html', {'category': category})
+
+
+
+def recipe_full(request, recipe_id):#+++Готово+++
+    """Форма для ссылки на отдельный рецепт"""
+    recipe = get_object_or_404(Post, pk=recipe_id)
+    return render(request, 'myapp/recipe_full.html', {'recipe': recipe})
+
+def five_recipes(request):#+++Готово+++
+    """Форма для пяти случаных рецептов"""
+    recipes = Recipes.objects.all().order_by('?')[:5]
+    return render(request, 'myapp/all_recipes.html', {'recipes': recipes})
+
+def all_categorys(request):#+++Готово+++
+    """Форма для всехкатегорий рецептов"""
+    categorys = Recipes_category.objects.all()
+    return render(request, 'myapp/all_category.html', {'categorys': categorys})
+
+def all_recipes(request):#+++Готово+++
+    """Форма для всех рецептов"""
+    recipes = Recipes.objects.all()
+    return render(request, 'myapp/all_recipes.html', {'recipes': recipes})
+
+def category_full(request, category_id):#+++Готово+++
+    """Форма для ссылки на отдельный рецепт"""
+    category = get_object_or_404(Recipes_category, pk=category_id)
+    return render(request, 'myapp/recipe_full.html', {'category': category})
+
+# class let_try(CreateView):
+#     form_class = LetTryForm
+#     template_name = 'myapp/add_recipe.html'
+#     success_url = reverse_lazy('myapp/login.html')
+#     extra_context = {
+#         'menu': menu,
+#         'title': 'Добавление статьи',
+#     }
+
+# class AddPage(CreateView):
+#     form_class = AddPostForm
+#     # model = Women
+#     # fields = ['title', 'slug', 'content', 'is_published']
+#     template_name = 'women/addpage.html'
+#     # success_url = reverse_lazy('home')
+#     extra_context = {
+#         'menu': menu,
+#         'title': 'Добавление статьи',
+#     }
+
+class AddPage(CreateView):
+    form_class = AddPostForm
+    # model = Women
+    # fields = ['title', 'slug', 'content', 'is_published']
+    template_name = 'myapp/addpage.html'
+    success_url = reverse_lazy('index')
+    extra_context = {
+        'menu': menu,
+        'title': 'Добавление рецепта',
+    }
+
+class UpdatePage(UpdateView):
+    model = Recipes
+    fields = ['name', 'description', 'cooking_steps', 'cooking_time', 'image', 'author', 'products', 'category']
+    template_name = 'myapp/addpage.html'
+    # template_name = 'myapp/one_recipe.html'
+    success_url = reverse_lazy('index')
+    extra_context = {
+        'menu': menu,
+        'title': 'Редактирование рецепта',
+    }
+

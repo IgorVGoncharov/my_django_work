@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}Категории рецептов{% endblock %}
+
+{% block content %}
+    <form method="post" enctype="multipart/form-data">
+    <h2>Все категории рецептов:</h2>
+        {% for category in categorys %}
+            <h3><a href={% url 'one_category' category.id %}>{{ category.category_name }}</a></h3>
+            <img src="/media/{{ category.image }}" />
+            <p>{{ category.category_description }}</p>
+        {% endfor %}
+{% endblock %}

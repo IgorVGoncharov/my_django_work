@@ -58,6 +58,10 @@ class Recipes(models.Model): #рецепты
     def __str__(self):
         return self.name
 
+    def get_summary(self):
+        words = self.description.split()
+        return f'{" ".join(words[:40])}...'
+
 class Profile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     email = models.EmailField()

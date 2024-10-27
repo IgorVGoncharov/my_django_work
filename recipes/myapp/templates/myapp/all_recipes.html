@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}Рецепты{% endblock %}
+
+{% block content %}
+    <form method="post" enctype="multipart/form-data">
+    <h2 class="all_recipes_h3 title_recipies">Рецепты:</h2>
+        {% for recipe in recipes %}
+        <div class="name_recipes">
+            <h3 class="all_recipes_h3 name_recipes">{{ recipe.name }}</h3>
+            <div class="container title_recipies">
+                <img src="/media/{{ recipe.image }}" />
+                <div class="all_recipes_describ">
+                    <p>{{ recipe.get_summary }}</p>
+                    <h3><a href={% url 'recipe_full' recipe.id %}>Подробнее...</a></h3>
+                </div>
+            </div>>
+        </div>
+        {% endfor %}
+{% endblock %}
