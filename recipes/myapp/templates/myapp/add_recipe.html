@@ -3,10 +3,14 @@
 {% block title %}Добавление категории рецепта{% endblock %}
 
 {% block content %}
-<h3>{{ message }}</h3>
+
+<h1 class="all_title">{{ message }}</h1>
 <form action="" method="post" enctype="multipart/form-data">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <input type="submit" value="Отправить">
+        <div class="add_recipe ">
+             {% csrf_token %}
+            {{ form.as_table }}
+        </div>
+    <input class="send_button btn-new btn-new:hover" type="submit" value="Отправить">
 </form>
+
 {% endblock %}

@@ -6,41 +6,28 @@
     <title>{% block title %}Сайт{% endblock %}</title>
     <link rel="stylesheet" href="{% static 'css/style.css'%}" type="text/css">
 </head>
-{% if user.is_authenticated %}
-    <div class="dropdown">
-        <button class="btn btn-primary my-btn dropdown-toggle me-3" type="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-            {{ request.user }}
-        </button>
-        <ul class="dropdown-menu dd-color">
-            <li><a class="dropdown-item dd-item-color" href="{% url 'logout' %}">Выйти</a></li>
-        </ul>
-</div>
-{% else %}
-    <li class="nav-item">
-        <a class="nav-link btn btn-primary my-btn me-3"
-            href="{% url 'login' %}">Войти</a>
-    </li>
-{% endif %}
 <header >
     <div class="container base_header">
-        <div class="header_img">
-            <img src="/media/1676681428_grizly-club-p-kotelok-na-kostre-klipart-1.png" alt="logo">
-        </div>
-         <nav class="header_nav">
-             <a href={% url 'five_recipes' %}>Главная страница</a>
-             <a href={% url 'all_recipes' %}>Все рецепты</a>
-             <a href={% url 'all_categorys' %}>Категории рецептов</a>
-             <a href="#">Добавить рецепт</a>
-             <a href={% url 'login' %}>Войти</a>
-             <a href={% url 'registration' %}>Зарегистрироваться</a>
+         <nav class="header_nav text_shadow">
+             <a class="text_color" href={% url 'five_recipes' %}>Главная страница</a>
+             <a class="text_color" href={% url 'all_recipes' %}>Все рецепты</a>
+             <a class="text_color" href={% url 'all_categorys' %}>Категории рецептов</a>
+             <a class="text_color" href={% url 'add_recipe' %}>Добавить рецепт</a>
+             <a class="text_color" href={% url 'registration' %}>Регистрация</a>
+             {% if user.is_authenticated %}
+                <div >
+                    <a class="text_color" href="{% url 'logout' %}">Выйти</a>
+                    <a> ({{ request.user }}) </a>
+                </div>
+            {% else %}
+                    <a class="text_color" href="{% url 'login' %}">Войти</a>
+            {% endif %}
          </nav>
     </div>
 </header>
-<body>
+<body class="base_background_image">
     {% block content %}
         <p>Скоро тут появится текст...</p>
     {% endblock %}
-<footer>Базовый шаблон проекта</footer>
 </body>
 </html>

@@ -3,11 +3,12 @@
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
+    font-family: cursive;
 
 }
 
 :root {
-    --font-family: "Gilroy-Bold", sans-serif;
+    --font-family: cursive;
     --second-family: "Gilroy-Medium", sans-serif;
 }
 
@@ -21,21 +22,45 @@ img {
 
 }
 
-.container {
-    display: flex
+
+
+.header_img{
+    max-width: 20%;
+    width: 20 px
 }
+
+
+
+
+
+
 
 .base_header{
-    background-color: #f1e5a9
+    position: relative;
+    background-color: transparent;
+
 }
 
-.title_recipies{
-    background-color: #fffabb
+.base_header::before{
+    background-image: url("/media/888.jpg");
+    background-position: center center;
+    background-color: transparent;
+    opacity: 0.3;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    z-index: -1;
 }
 
-.name_recipes{
-    background-color: #f1cea6
+
+
+.text_shadow{
+    text-shadow: 2px 1px 2px black, 0 0 1em white, 0 0 1em blue;
 }
+
+
 
 .all_recipes_h3{
     font-size: 40px;
@@ -43,46 +68,197 @@ img {
     padding: 10px 0;
 }
 
-.all_recipes_describ{
+
+
+
+
+
+
+
+.one_recipe_title{
     font-size: 30px;
-    text-align: left;
-    gap: 37px;
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em white;
+    color: #89aa65;
+    padding: 15px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.send_button{
+   margin-left: 30px;
+   margin-bottom: 30px;
+}
+
+.add_user{
+    display: flex;
+    flex-flow: column wrap;
+
+}
+
+
+
+.rec_edit{
+    margin-left: 600px;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px blue, 0 0 5em white, 0 0 0.2em black;
+    font-size: 20px;
+}
+
+.edit_rec_page{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.add_recipe{
+    display: flex;
+    flex-flow: column wrap;
+    padding-right: 1000px;
+    padding-left: 20px;
+    gap: 5px;
+    font-size: 20px;
+    margin: 10px;
+    text-shadow: 0px 0px 0px black, 0 0 1em white, 0 0 0.8em blue;
+}
+
+.all_recipes_describ{
+    font-size: 25px;
     padding: 0px 20px;
 }
 
-.border{
-    border-color: blue;
-    border-width: 1px;
-    border-style: solid
+.all_title{
+    font-family: cursive;
+    color: #89aa65;
+    text-align: center;
+    text-shadow: 2px 1px 2px black, 0 0 1em white, 0 0 0.2em white;
 }
 
-.header_img{
-    max-width: 20%;
-    width: 20 px
+.base_background_image{
+    background-image: url("/media/555.png");
+}
+
+.border{
+    border: 5px ridge #89aa65;
+    border-radius: 30px
+}
+
+.btn-new {
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: darkblue;
+    font-family: cursive;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #ececec 0%, #ffd395 51%, #ececec 100%);
+    width: 10em;
+    height: 2em;
+}
+
+.btn-new:hover {
+     background-position: right center;
+}
+
+.cat_descript{
+    font-size: 15px;
+    padding-left: 5px
+}
+
+.container {
+    display: flex
 }
 
 .header_nav {
-
-    font-family: var(--font-family);
-    font-weight: 600;
-    color: #000;
+    color: #89aa65;
     margin-bottom: 10px;
     display: flex;
-    text-align: left;
-    gap: 37px;
+    text-align: center;
+    gap: 24px;
     padding: 50px 0;
-    font-size: 28px;
+    font-size: 30px;
+    padding-left: 15px
 }
 
-.form-label {
-    display: inline-block;
-    min-width: 150px;
-    vertical-align: top;
+.link{
+    color: #89aa65;
+    font-size: 25px;
+    text-shadow: 2px 1px 2px black, 0 0 5em white, 0 0 0.8em blue;
+    padding: 15px 0;
 }
 
-.form-error ul {
-    list-style: none;
-    padding: 0;
-    color: #CC0000;
+.one_recipe_img{
+    margin-left: auto;
+    margin-right: auto;
+    transform: scale(1.3);
+    padding: 50px 0;
 }
+
+.recipe_name{
+    text-shadow: 2px 1px 2px black, 0 0 1em white, 0 0 0.8em orange;
+    text-align: center;
+}
+
+.recipe_img_pad{
+    padding-left: 20px
+}
+
+.small_title{
+    color: #89aa65;
+    text-align: left;
+    text-shadow: 2px 1px 2px black, 0 0 1em white, 0 0 0.8em orange;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.text_color{
+    color: #89aa65;
+}
+
+.text_margin{
+    margin-left: 10px;
+    padding-left:20px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+.change_link{
+    display: block;
+    text-align: center;
+
+}
+
 

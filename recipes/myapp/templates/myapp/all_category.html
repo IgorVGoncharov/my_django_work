@@ -3,11 +3,19 @@
 {% block title %}Категории рецептов{% endblock %}
 
 {% block content %}
-    <form method="post" enctype="multipart/form-data">
-    <h2>Все категории рецептов:</h2>
-        {% for category in categorys %}
-            <h3><a href={% url 'one_category' category.id %}>{{ category.category_name }}</a></h3>
-            <img src="/media/{{ category.image }}" />
-            <p>{{ category.category_description }}</p>
+    <div class="base_background_image">
+        <form method="post" enctype="multipart/form-data">
+        <h1 class="all_title">Категории рецептов:</h1>
+            {% for category in categorys %}
+                <div class="container border">
+                    <img class="recipe_img_pad" src="/media/{{ category.image }}" />
+                    <div class="all_recipes_describ">
+                        <h3 class="recipe_name text_color">{{ category.category_name }}</h3>
+                        <p class="cat_descript">{{ category.category_description }}</p>
+                        <h3><a class="link" href={% url 'recipes_by_category' category.id %}>
+                            Показать все рецепты в этой категории...</a></h3>
+                    </div>
+                </div>
+       </div>
         {% endfor %}
 {% endblock %}

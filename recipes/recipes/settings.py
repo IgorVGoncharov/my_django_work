@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'myapp'
-    # 'user_app.apps.UserAppConfig',
 ]
 
 MIDDLEWARE = [
@@ -118,11 +117,24 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
-STATIC_URL = '/static/'
-
+STATIC_URL = 'static/'
 STATICFILES_DIRS = [
-   os.path.join(BASE_DIR, "static"),
+    BASE_DIR / 'static',
 ]
+
+
+# STATIC_URL = '/static/'
+# STATICFILES_DIRS = (
+#     'static',
+# )
+# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+# STATIC_URL = '/static/'
+#
+# # STATICFILES_DIRS = [
+# #    os.path.join(BASE_DIR, "static"),
+# # ]
+# STATICFILES_DIRS = [os.path.join(BASE_DIR, 'path_to_static_dir')]
 
 MEDIA_URL = '/media/'
 # MEDIA_ROOT = BASE_DIR / 'media'
@@ -169,5 +181,3 @@ LOGGING = {
     },
 }
 
-# LOGOUT_REDIRECT_URL = '/'
-# LOGOUT_REDIRECT_URL = 'blog:index'

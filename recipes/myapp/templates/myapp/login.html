@@ -1,23 +1,13 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h2>Авторизация</h2>
-<!--<form method="post">-->
-<!--    {% csrf_token %}-->
-<!--    {% if form.non_field_errors %}-->
-<!--        <div class="alert alert-danger">-->
-<!--            {{ form.non_field_errors }}-->
-<!--        </div>-->
-<!--    {% endif %}-->
-<!--    {% for field in form %}-->
-<!--        <p class="form-label">{{ field.label }}</p>-->
-<!--        <p>{{ field }}</p>-->
-<!--    {% endfor %}-->
-<!--    <button type="submit" class="btn btn-outline-success">Войти</button>-->
-<!--</form>-->
+<h1 class="all_title">Авторизация</h1>
+
 <form method="post">
+    <div class="add_recipe">
     {% csrf_token %}
     {{ form.as_p }}
-    <button type="submit">Отправить</button>
+    </div>
+    <button class="send_button btn-new btn-new:hover" type="submit">Отправить</button>
 </form>
 {% endblock %}
