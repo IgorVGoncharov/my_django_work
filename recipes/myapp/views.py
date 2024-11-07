@@ -1,5 +1,4 @@
 from django.core.files.storage import FileSystemStorage
-from django.http import HttpResponse
 from django.views.generic import UpdateView
 from django.shortcuts import render, get_object_or_404
 from .models import Recipes_category, Profile, Recipes
@@ -10,9 +9,6 @@ from django.urls import reverse_lazy
 from .forms import LoginForm, RecipeForm
 from django.contrib.auth import logout
 from django.shortcuts import redirect
-
-# def index(request):
-#     return HttpResponse("Hello, world!")
 
 def five_recipes(request):
     """Форма для пяти случаных рецептов"""
