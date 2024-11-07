@@ -24,7 +24,10 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="fdbcc4e8-826d-461b-87ef-26e1da302074" object-ref="schemas/main/tables/myapp_recipes" />
+      <object connection-id="fdbcc4e8-826d-461b-87ef-26e1da302074" object-ref="schemas/main/tables/myapp_recipes_category" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="fdbcc4e8-826d-461b-87ef-26e1da302074" />

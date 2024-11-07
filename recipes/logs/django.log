@@ -14574,3 +14574,507 @@ INFO 2024-11-05 23:00:26,284 basehttp 19716 23108 "GET /recipe/1/ HTTP/1.1" 200 
 INFO 2024-11-05 23:00:28,627 basehttp 19716 23108 "GET /user_check/1/ HTTP/1.1" 200 1147
 INFO 2024-11-05 23:00:32,913 basehttp 19716 23108 "GET /user/logout/ HTTP/1.1" 200 1005
 INFO 2024-11-05 23:00:36,697 basehttp 19716 23108 "GET / HTTP/1.1" 200 4819
+INFO 2024-11-06 08:06:12,627 autoreload 21232 18180 Watching for file changes with StatReloader
+INFO 2024-11-06 08:06:16,601 basehttp 21232 14104 "GET / HTTP/1.1" 200 5943
+INFO 2024-11-06 08:06:17,367 basehttp 21232 11372 "GET /media/media/big_366898.jpg HTTP/1.1" 304 0
+INFO 2024-11-06 08:06:17,472 basehttp 21232 14104 "GET /static/css/style.css HTTP/1.1" 200 3795
+INFO 2024-11-06 08:06:17,490 basehttp 21232 14104 "GET /media/555.png HTTP/1.1" 304 0
+WARNING 2024-11-06 08:06:17,682 log 21232 14104 Not Found: /favicon.ico
+WARNING 2024-11-06 08:06:17,684 basehttp 21232 14104 "GET /favicon.ico HTTP/1.1" 404 7474
+INFO 2024-11-06 08:06:21,460 basehttp 21232 4080 "GET /add_recipe/ HTTP/1.1" 200 1046
+INFO 2024-11-06 08:06:21,519 basehttp 21232 4080 "GET /static/css/style.css HTTP/1.1" 304 0
+INFO 2024-11-06 08:06:23,207 basehttp 21232 4080 "GET /user/login/ HTTP/1.1" 200 1731
+INFO 2024-11-06 08:06:45,474 basehttp 21232 4080 "POST /user/login/ HTTP/1.1" 302 0
+INFO 2024-11-06 08:06:45,493 basehttp 21232 4080 "GET / HTTP/1.1" 200 6132
+INFO 2024-11-06 08:06:45,516 basehttp 21232 4080 "GET /static/css/style.css HTTP/1.1" 304 0
+INFO 2024-11-06 08:06:47,347 basehttp 21232 4080 "GET /add_recipe/ HTTP/1.1" 200 4043
+INFO 2024-11-06 08:06:57,910 basehttp 21232 4080 "GET /add_recipe/ HTTP/1.1" 200 4043
+INFO 2024-11-06 08:06:57,931 basehttp 21232 4080 "GET /static/css/style.css HTTP/1.1" 200 3731
+INFO 2024-11-06 08:15:02,833 basehttp 21232 16656 "POST /add_recipe/ HTTP/1.1" 200 1062
+INFO 2024-11-06 08:15:02,858 basehttp 21232 16656 "GET /static/css/style.css HTTP/1.1" 200 3793
+INFO 2024-11-06 08:22:56,034 basehttp 21232 4104 "GET / HTTP/1.1" 200 6063
+INFO 2024-11-06 08:22:56,051 basehttp 21232 4104 "GET /static/css/style.css HTTP/1.1" 200 2460
+INFO 2024-11-06 08:24:04,542 basehttp 21232 4104 "GET / HTTP/1.1" 200 5503
+INFO 2024-11-06 08:24:04,574 basehttp 21232 4104 "GET /media/media/big_366898_Nwx8Q2L.jpg HTTP/1.1" 200 45593
+INFO 2024-11-06 08:24:04,574 basehttp 21232 14564 "GET /static/css/style.css HTTP/1.1" 200 3242
+INFO 2024-11-06 08:25:46,054 basehttp 21232 14564 "GET / HTTP/1.1" 200 5962
+INFO 2024-11-06 08:25:46,077 basehttp 21232 14564 "GET /static/css/style.css HTTP/1.1" 200 3330
+INFO 2024-11-06 20:21:38,381 autoreload 10196 22824 Watching for file changes with StatReloader
+INFO 2024-11-06 20:22:00,849 basehttp 10196 22468 "GET / HTTP/1.1" 200 6146
+INFO 2024-11-06 20:22:01,376 basehttp 10196 22468 "GET /static/css/style.css HTTP/1.1" 200 3328
+INFO 2024-11-06 20:22:01,381 basehttp 10196 22468 "GET /media/555.png HTTP/1.1" 304 0
+INFO 2024-11-06 20:22:01,381 basehttp 10196 1004 "GET /media/888.jpg HTTP/1.1" 304 0
+WARNING 2024-11-06 20:22:01,482 log 10196 1004 Not Found: /favicon.ico
+WARNING 2024-11-06 20:22:01,483 basehttp 10196 1004 "GET /favicon.ico HTTP/1.1" 404 7474
+INFO 2024-11-06 20:22:54,777 basehttp 10196 4752 "GET / HTTP/1.1" 200 5985
+INFO 2024-11-06 20:22:55,403 basehttp 10196 4752 "GET /static/css/style.css HTTP/1.1" 200 3851
+INFO 2024-11-06 20:22:55,425 basehttp 10196 9984 "GET /media/media/kurica_v_multivarke.jpg HTTP/1.1" 200 273506
+INFO 2024-11-06 20:22:55,428 basehttp 10196 19684 "GET /media/media/tefteli.jpg HTTP/1.1" 200 286243
+INFO 2024-11-06 20:22:55,435 basehttp 10196 19532 "GET /media/media/spagetti.jpg HTTP/1.1" 200 229750
+INFO 2024-11-06 20:22:55,435 basehttp 10196 16724 "GET /media/media/pirog_s_lisichkami.jpg HTTP/1.1" 200 266760
+INFO 2024-11-06 20:22:55,436 basehttp 10196 5220 "GET /media/media/kabachki.jpg HTTP/1.1" 200 243886
+INFO 2024-11-06 20:22:55,448 basehttp 10196 9984 "GET /media/888.jpg HTTP/1.1" 200 181654
+INFO 2024-11-06 20:22:55,485 basehttp 10196 4752 "GET /media/555.png HTTP/1.1" 200 5326948
+WARNING 2024-11-06 20:22:55,634 log 10196 4752 Not Found: /favicon.ico
+WARNING 2024-11-06 20:22:55,635 basehttp 10196 4752 "GET /favicon.ico HTTP/1.1" 404 7474
+INFO 2024-11-06 20:23:03,726 basehttp 10196 18708 "GET / HTTP/1.1" 200 6004
+INFO 2024-11-06 20:23:03,742 basehttp 10196 4528 "GET /static/css/style.css HTTP/1.1" 200 3328
+INFO 2024-11-06 20:23:03,747 basehttp 10196 18708 "GET /media/media/zapekanka.jpg HTTP/1.1" 200 331021
+INFO 2024-11-06 20:23:03,747 basehttp 10196 5028 "GET /media/media/morkovniy_rulet.jpg HTTP/1.1" 200 301117
+INFO 2024-11-06 20:23:04,552 basehttp 10196 5028 "GET / HTTP/1.1" 200 5938
+INFO 2024-11-06 20:23:04,563 basehttp 10196 4528 "GET /static/css/style.css HTTP/1.1" 304 0
+INFO 2024-11-06 20:23:04,565 basehttp 10196 18708 "GET /media/media/big_366898.jpg HTTP/1.1" 200 45593
+INFO 2024-11-06 20:23:04,568 basehttp 10196 5028 "GET /media/media/salat_s_baklaz.jpg HTTP/1.1" 200 255306
+INFO 2024-11-06 20:23:16,899 basehttp 10196 5028 "GET / HTTP/1.1" 200 5864
+INFO 2024-11-06 20:23:16,912 basehttp 10196 4528 "GET /static/css/style.css HTTP/1.1" 304 0
+INFO 2024-11-06 20:23:16,916 basehttp 10196 5028 "GET /media/media/rublenniye_kotlety.jpg HTTP/1.1" 200 244685
+INFO 2024-11-06 20:23:16,916 basehttp 10196 18708 "GET /media/media/kompot_iz_kuragi.jpg HTTP/1.1" 200 152396
+INFO 2024-11-06 20:23:22,648 basehttp 10196 18708 "GET /recipe/9/ HTTP/1.1" 200 7948
+INFO 2024-11-06 20:23:22,663 basehttp 10196 18708 "GET /static/css/style.css HTTP/1.1" 304 0
+INFO 2024-11-06 20:23:30,563 basehttp 10196 18708 "GET /user_check/9/ HTTP/1.1" 200 1009
+INFO 2024-11-06 20:23:30,578 basehttp 10196 18708 "GET /static/css/style.css HTTP/1.1" 304 0
+INFO 2024-11-06 20:23:33,312 basehttp 10196 18708 "GET / HTTP/1.1" 200 5968
+INFO 2024-11-06 20:23:33,325 basehttp 10196 18708 "GET /static/css/style.css HTTP/1.1" 304 0
+INFO 2024-11-06 20:23:34,102 basehttp 10196 18708 "GET /all_recipes/ HTTP/1.1" 200 12153
+INFO 2024-11-06 20:23:34,119 basehttp 10196 18708 "GET /media/media/big_366898_Nwx8Q2L.jpg HTTP/1.1" 200 45593
+INFO 2024-11-06 20:23:41,933 basehttp 10196 18708 "GET /all_categorys/ HTTP/1.1" 200 16036
+INFO 2024-11-06 20:23:41,946 basehttp 10196 18708 "GET /static/css/style.css HTTP/1.1" 304 0
+INFO 2024-11-06 20:23:41,959 basehttp 10196 18708 "GET /media/media/pervye_bluda.jpg HTTP/1.1" 200 153428
+INFO 2024-11-06 20:23:41,960 basehttp 10196 5028 "GET /media/media/vtorye_bluda.jpg HTTP/1.1" 200 229632
+INFO 2024-11-06 20:23:41,961 basehttp 10196 8184 "GET /media/media/napitki.jpg HTTP/1.1" 200 104530
+INFO 2024-11-06 20:23:41,961 basehttp 10196 4528 "GET /media/media/zakuski.jpg HTTP/1.1" 200 217762
+INFO 2024-11-06 20:23:41,963 basehttp 10196 16936 "GET /media/media/salat.jpg HTTP/1.1" 200 225351
+INFO 2024-11-06 20:23:43,232 basehttp 10196 16936 "GET /recipe_by_cat/1/ HTTP/1.1" 200 2416
+INFO 2024-11-06 20:23:48,343 basehttp 10196 16936 "GET /recipe_by_cat/2/ HTTP/1.1" 200 7048
+INFO 2024-11-06 20:23:48,358 basehttp 10196 16936 "GET /static/css/style.css HTTP/1.1" 304 0
+INFO 2024-11-06 20:23:57,512 basehttp 10196 16936 "GET /recipe_by_cat/4/ HTTP/1.1" 200 2105
+INFO 2024-11-06 20:23:57,528 basehttp 10196 16936 "GET /static/css/style.css HTTP/1.1" 304 0
+INFO 2024-11-06 20:24:12,438 basehttp 10196 16936 "GET /recipe_by_cat/1/ HTTP/1.1" 200 2416
+INFO 2024-11-06 20:24:12,453 basehttp 10196 16936 "GET /static/css/style.css HTTP/1.1" 304 0
+INFO 2024-11-06 20:24:29,185 basehttp 10196 16936 "GET /recipe_by_cat/1/ HTTP/1.1" 200 2416
+INFO 2024-11-06 20:24:29,200 basehttp 10196 16936 "GET /static/css/style.css HTTP/1.1" 304 0
+INFO 2024-11-06 20:27:04,551 autoreload 10196 22824 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 20:27:05,077 autoreload 9604 1576 Watching for file changes with StatReloader
+INFO 2024-11-06 20:27:08,207 basehttp 9604 6804 "GET /recipe_by_cat/1/ HTTP/1.1" 200 2516
+INFO 2024-11-06 20:27:08,215 basehttp 9604 6804 "GET /static/css/style.css HTTP/1.1" 304 0
+INFO 2024-11-06 20:27:37,668 autoreload 9604 1576 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 20:27:38,227 autoreload 18944 14256 Watching for file changes with StatReloader
+ERROR 2024-11-06 20:27:38,819 log 18944 13200 Internal Server Error: /recipe_by_cat/1/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 153, in recipes_by_category
+    return render(request, 'myapp/all_recipes.html', {'recipes': recipes, "title": f"Рецепты в категории {category.name}: "})
+AttributeError: 'QuerySet' object has no attribute 'name'
+ERROR 2024-11-06 20:27:38,822 basehttp 18944 13200 "GET /recipe_by_cat/1/ HTTP/1.1" 500 67052
+INFO 2024-11-06 20:28:26,993 autoreload 18944 14256 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 20:28:27,592 autoreload 23432 15372 Watching for file changes with StatReloader
+INFO 2024-11-06 20:28:28,968 basehttp 23432 10156 "GET /recipe_by_cat/1/ HTTP/1.1" 200 2590
+INFO 2024-11-06 20:28:28,980 basehttp 23432 10156 "GET /static/css/style.css HTTP/1.1" 304 0
+INFO 2024-11-06 20:29:13,346 autoreload 23432 15372 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 20:29:13,854 autoreload 3716 12244 Watching for file changes with StatReloader
+ERROR 2024-11-06 20:29:17,419 log 3716 14372 Internal Server Error: /recipe_by_cat/1/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 153, in recipes_by_category
+    return render(request, 'myapp/all_recipes.html', {'recipes': recipes, "title": f"Рецепты в категории {category.category_nam}: "})
+AttributeError: 'QuerySet' object has no attribute 'category_nam'
+ERROR 2024-11-06 20:29:17,422 basehttp 3716 14372 "GET /recipe_by_cat/1/ HTTP/1.1" 500 66963
+INFO 2024-11-06 20:29:24,584 autoreload 3716 12244 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 20:29:25,041 autoreload 12640 3840 Watching for file changes with StatReloader
+ERROR 2024-11-06 20:29:26,299 log 12640 20556 Internal Server Error: /recipe_by_cat/1/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 153, in recipes_by_category
+    return render(request, 'myapp/all_recipes.html', {'recipes': recipes, "title": f"Рецепты в категории {category.category_name}: "})
+AttributeError: 'QuerySet' object has no attribute 'category_name'
+ERROR 2024-11-06 20:29:26,303 basehttp 12640 20556 "GET /recipe_by_cat/1/ HTTP/1.1" 500 66969
+INFO 2024-11-06 20:30:14,825 autoreload 12640 3840 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 20:30:15,336 autoreload 13804 4204 Watching for file changes with StatReloader
+ERROR 2024-11-06 20:30:17,462 log 13804 8788 Internal Server Error: /recipe_by_cat/1/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 152, in recipes_by_category
+    return render(request, 'myapp/all_recipes.html', {'recipes': recipes, "title": f"Рецепты в категории {recipes.category}: "})
+AttributeError: 'QuerySet' object has no attribute 'category'
+ERROR 2024-11-06 20:30:17,465 basehttp 13804 8788 "GET /recipe_by_cat/1/ HTTP/1.1" 500 66660
+INFO 2024-11-06 20:30:43,576 autoreload 13804 4204 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 20:30:44,075 autoreload 9944 3768 Watching for file changes with StatReloader
+INFO 2024-11-06 20:30:45,824 basehttp 9944 21756 "GET /recipe_by_cat/1/ HTTP/1.1" 200 2516
+INFO 2024-11-06 20:30:45,836 basehttp 9944 21756 "GET /static/css/style.css HTTP/1.1" 304 0
+INFO 2024-11-06 20:32:11,587 autoreload 9944 3768 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 20:32:13,324 autoreload 2112 20300 Watching for file changes with StatReloader
+INFO 2024-11-06 20:32:14,201 basehttp 2112 19472 "GET /recipe_by_cat/1/ HTTP/1.1" 200 2426
+INFO 2024-11-06 20:32:14,216 basehttp 2112 19472 "GET /static/css/style.css HTTP/1.1" 304 0
+INFO 2024-11-06 20:32:43,708 autoreload 2112 20300 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 20:32:44,266 autoreload 12496 1276 Watching for file changes with StatReloader
+INFO 2024-11-06 20:32:44,656 basehttp 12496 12604 "GET /all_categorys/ HTTP/1.1" 200 16036
+INFO 2024-11-06 20:32:46,975 basehttp 12496 12440 "GET /recipe_by_cat/1/ HTTP/1.1" 200 2450
+INFO 2024-11-06 20:32:50,027 basehttp 12496 12440 "GET /all_categorys/ HTTP/1.1" 200 16036
+INFO 2024-11-06 20:32:52,148 basehttp 12496 12440 "GET /recipe_by_cat/2/ HTTP/1.1" 200 7082
+INFO 2024-11-06 20:32:54,813 basehttp 12496 12440 "GET /all_categorys/ HTTP/1.1" 200 16036
+INFO 2024-11-06 20:32:57,029 basehttp 12496 7608 "GET /recipe_by_cat/3/ HTTP/1.1" 200 3066
+INFO 2024-11-06 20:33:00,946 basehttp 12496 7608 "GET /all_categorys/ HTTP/1.1" 200 16036
+INFO 2024-11-06 20:33:02,871 basehttp 12496 7608 "GET /recipe_by_cat/1/ HTTP/1.1" 200 2450
+INFO 2024-11-06 20:33:05,702 basehttp 12496 6400 "GET / HTTP/1.1" 200 5443
+INFO 2024-11-06 20:33:11,333 basehttp 12496 6400 "GET /all_recipes/ HTTP/1.1" 200 12153
+INFO 2024-11-06 20:33:11,345 basehttp 12496 6400 "GET /static/css/style.css HTTP/1.1" 304 0
+INFO 2024-11-06 20:33:17,764 basehttp 12496 11312 "GET /all_categorys/ HTTP/1.1" 200 16036
+INFO 2024-11-06 20:33:23,720 basehttp 12496 11312 "GET /recipe_by_cat/1/ HTTP/1.1" 200 2450
+INFO 2024-11-06 20:33:29,258 basehttp 12496 9936 "GET /add_recipe/ HTTP/1.1" 200 1034
+INFO 2024-11-06 20:33:33,735 basehttp 12496 9936 "GET / HTTP/1.1" 200 5947
+INFO 2024-11-06 20:33:34,754 basehttp 12496 9936 "GET /recipe/2/ HTTP/1.1" 200 8986
+INFO 2024-11-06 20:33:37,094 basehttp 12496 14520 "GET /user_check/2/ HTTP/1.1" 200 1009
+INFO 2024-11-06 20:33:41,384 basehttp 12496 14520 "GET /user/login/ HTTP/1.1" 200 1770
+INFO 2024-11-06 20:33:49,386 basehttp 12496 22360 "POST /user/login/ HTTP/1.1" 302 0
+INFO 2024-11-06 20:33:49,398 basehttp 12496 22360 "GET / HTTP/1.1" 200 5954
+INFO 2024-11-06 20:33:54,395 basehttp 12496 22360 "GET /add_recipe/ HTTP/1.1" 200 4042
+INFO 2024-11-06 20:34:00,075 basehttp 12496 20040 "GET /user/registration/ HTTP/1.1" 200 3442
+INFO 2024-11-06 20:34:03,979 basehttp 12496 20040 "GET /add_recipe/ HTTP/1.1" 200 4042
+INFO 2024-11-06 20:34:29,341 basehttp 12496 4876 "GET /add_recipe/ HTTP/1.1" 200 4052
+INFO 2024-11-06 20:34:29,352 basehttp 12496 4876 "GET /static/css/style.css HTTP/1.1" 304 0
+INFO 2024-11-06 20:35:07,367 basehttp 12496 20020 "GET /add_recipe/ HTTP/1.1" 200 4042
+INFO 2024-11-06 20:35:39,859 basehttp 12496 19728 "GET /add_recipe/ HTTP/1.1" 200 4042
+INFO 2024-11-06 20:35:39,928 basehttp 12496 19728 "GET /static/css/style.css HTTP/1.1" 200 3350
+INFO 2024-11-06 20:36:04,418 basehttp 12496 23268 "GET / HTTP/1.1" 200 6037
+INFO 2024-11-06 20:36:04,431 basehttp 12496 23268 "GET /static/css/style.css HTTP/1.1" 304 0
+INFO 2024-11-06 20:36:07,869 basehttp 12496 23268 "GET /user/logout/ HTTP/1.1" 200 993
+INFO 2024-11-06 20:36:07,884 basehttp 12496 23268 "GET /static/css/style.css HTTP/1.1" 304 0
+INFO 2024-11-06 20:38:07,521 autoreload 12496 1276 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-11-06 20:38:08,219 autoreload 3500 15476 Watching for file changes with StatReloader
+INFO 2024-11-06 20:39:07,170 autoreload 3500 15476 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 20:39:07,815 autoreload 18304 1420 Watching for file changes with StatReloader
+INFO 2024-11-06 20:39:08,367 basehttp 18304 18648 "GET / HTTP/1.1" 200 5351
+INFO 2024-11-06 20:39:08,383 basehttp 18304 18648 "GET /static/css/style.css HTTP/1.1" 304 0
+INFO 2024-11-06 20:39:09,565 basehttp 18304 18648 "GET /recipe/10/ HTTP/1.1" 200 9337
+INFO 2024-11-06 20:39:23,800 autoreload 18304 1420 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-11-06 20:39:24,266 autoreload 18796 20012 Watching for file changes with StatReloader
+INFO 2024-11-06 20:39:25,152 basehttp 18796 22800 "GET /recipe/10/ HTTP/1.1" 200 9337
+INFO 2024-11-06 20:39:30,817 autoreload 18796 20012 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-11-06 20:39:31,494 autoreload 13500 15724 Watching for file changes with StatReloader
+WARNING 2024-11-06 20:39:32,346 log 13500 3928 Not Found: /recipe/10/
+WARNING 2024-11-06 20:39:32,347 basehttp 13500 3928 "GET /recipe/10/ HTTP/1.1" 404 6621
+INFO 2024-11-06 20:39:33,900 autoreload 13500 15724 C:\my_django_work\recipes\myapp\urls.py changed, reloading.
+INFO 2024-11-06 20:39:34,387 autoreload 14040 23348 Watching for file changes with StatReloader
+INFO 2024-11-06 20:39:35,820 basehttp 14040 16992 "GET /recipe/10/ HTTP/1.1" 200 9337
+INFO 2024-11-06 20:39:35,832 basehttp 14040 16992 "GET /static/css/style.css HTTP/1.1" 304 0
+INFO 2024-11-06 20:39:52,328 autoreload 14040 23348 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 20:39:52,816 autoreload 20060 20004 Watching for file changes with StatReloader
+INFO 2024-11-06 20:42:20,935 autoreload 20060 20004 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 20:42:21,363 autoreload 9344 9488 Watching for file changes with StatReloader
+INFO 2024-11-06 20:46:52,414 autoreload 9344 9488 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 20:46:52,918 autoreload 16768 17936 Watching for file changes with StatReloader
+INFO 2024-11-06 20:47:48,453 autoreload 16768 17936 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 20:47:48,854 autoreload 12636 8760 Watching for file changes with StatReloader
+INFO 2024-11-06 20:47:54,152 basehttp 12636 22252 "GET / HTTP/1.1" 200 5935
+INFO 2024-11-06 20:47:54,358 basehttp 12636 22252 "GET /static/css/style.css HTTP/1.1" 304 0
+INFO 2024-11-06 20:47:55,857 basehttp 12636 22252 "GET /all_recipes/ HTTP/1.1" 200 12153
+INFO 2024-11-06 20:47:56,815 basehttp 12636 14940 "GET /all_categorys/ HTTP/1.1" 200 16036
+INFO 2024-11-06 20:47:57,635 basehttp 12636 14940 "GET /add_recipe/ HTTP/1.1" 200 1034
+INFO 2024-11-06 20:47:59,077 basehttp 12636 14940 "GET /user/registration/ HTTP/1.1" 200 3358
+INFO 2024-11-06 20:48:01,476 basehttp 12636 14940 "GET / HTTP/1.1" 200 5484
+INFO 2024-11-06 20:48:02,682 basehttp 12636 14940 "GET /recipe/9/ HTTP/1.1" 200 7948
+INFO 2024-11-06 20:48:04,750 basehttp 12636 14940 "GET /user_check/9/ HTTP/1.1" 200 1009
+INFO 2024-11-06 20:48:06,622 basehttp 12636 9804 "GET / HTTP/1.1" 200 5443
+INFO 2024-11-06 20:53:25,938 autoreload 12636 8760 C:\my_django_work\recipes\myapp\forms.py changed, reloading.
+INFO 2024-11-06 20:53:26,996 autoreload 18248 22304 Watching for file changes with StatReloader
+INFO 2024-11-06 21:39:07,587 autoreload 12580 14356 Watching for file changes with StatReloader
+INFO 2024-11-06 21:41:12,707 autoreload 12580 14356 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 21:41:13,303 autoreload 8080 2112 Watching for file changes with StatReloader
+INFO 2024-11-06 21:41:15,057 basehttp 8080 16096 "GET / HTTP/1.1" 200 5797
+INFO 2024-11-06 21:41:15,081 basehttp 8080 16096 "GET /static/css/style.css HTTP/1.1" 304 0
+WARNING 2024-11-06 21:41:15,222 log 8080 16096 Not Found: /favicon.ico
+WARNING 2024-11-06 21:41:15,223 basehttp 8080 16096 "GET /favicon.ico HTTP/1.1" 404 6906
+INFO 2024-11-06 21:41:22,526 basehttp 8080 16096 "GET /all_recipes/ HTTP/1.1" 200 12153
+INFO 2024-11-06 21:41:22,559 basehttp 8080 16096 "GET /media/media/big_366898_Nwx8Q2L.jpg HTTP/1.1" 304 0
+INFO 2024-11-06 21:41:24,991 basehttp 8080 8012 "GET / HTTP/1.1" 200 5956
+INFO 2024-11-06 21:41:40,387 basehttp 8080 8012 "GET /all_recipes/ HTTP/1.1" 200 12153
+INFO 2024-11-06 21:41:49,762 basehttp 8080 8012 "GET /all_categorys/ HTTP/1.1" 200 16036
+INFO 2024-11-06 21:41:57,671 basehttp 8080 8012 "GET /add_recipe/ HTTP/1.1" 200 1034
+INFO 2024-11-06 21:41:59,492 basehttp 8080 8012 "GET / HTTP/1.1" 200 5931
+INFO 2024-11-06 21:42:01,738 basehttp 8080 8012 "GET /recipe/3/ HTTP/1.1" 200 5533
+INFO 2024-11-06 21:42:10,048 basehttp 8080 8012 "GET /user_check/3/ HTTP/1.1" 200 1009
+INFO 2024-11-06 21:42:13,940 basehttp 8080 8012 "GET /user/login/ HTTP/1.1" 200 1770
+INFO 2024-11-06 21:42:21,019 basehttp 8080 8012 "POST /user/login/ HTTP/1.1" 200 2027
+INFO 2024-11-06 21:42:31,518 basehttp 8080 8012 "POST /user/login/ HTTP/1.1" 302 0
+INFO 2024-11-06 21:42:31,528 basehttp 8080 8012 "GET / HTTP/1.1" 200 6039
+INFO 2024-11-06 21:42:34,141 basehttp 8080 8012 "GET /recipe/4/ HTTP/1.1" 200 9767
+INFO 2024-11-06 21:42:37,006 basehttp 8080 8012 "GET /user_check/4/ HTTP/1.1" 302 0
+INFO 2024-11-06 21:42:37,056 basehttp 8080 8012 "GET /edit/4/ HTTP/1.1" 200 11409
+INFO 2024-11-06 21:42:49,685 basehttp 8080 8012 "POST /edit/4/ HTTP/1.1" 302 0
+INFO 2024-11-06 21:42:49,691 basehttp 8080 8012 "GET /change_rec_confirm/ HTTP/1.1" 200 1079
+INFO 2024-11-06 21:42:53,974 basehttp 8080 8012 "GET / HTTP/1.1" 200 6087
+INFO 2024-11-06 21:43:02,714 basehttp 8080 8012 "GET /all_recipes/ HTTP/1.1" 200 12237
+INFO 2024-11-06 21:43:08,824 basehttp 8080 8012 "GET /recipe/1/ HTTP/1.1" 200 8294
+INFO 2024-11-06 21:43:13,282 basehttp 8080 8012 "GET /user_check/1/ HTTP/1.1" 200 1135
+INFO 2024-11-06 21:43:17,557 basehttp 8080 8012 "GET /all_categorys/ HTTP/1.1" 200 16120
+INFO 2024-11-06 21:43:21,037 basehttp 8080 8012 "GET /recipe_by_cat/1/ HTTP/1.1" 200 2534
+INFO 2024-11-06 21:43:25,206 basehttp 8080 8012 "GET /recipe/23/ HTTP/1.1" 200 6628
+INFO 2024-11-06 21:43:30,882 basehttp 8080 8012 "GET /all_categorys/ HTTP/1.1" 200 16120
+INFO 2024-11-06 21:43:34,350 basehttp 8080 8012 "GET /recipe_by_cat/5/ HTTP/1.1" 200 2090
+INFO 2024-11-06 21:43:37,695 basehttp 8080 8012 "GET /recipe/3/ HTTP/1.1" 200 5617
+INFO 2024-11-06 21:43:40,130 basehttp 8080 8012 "GET /user_check/3/ HTTP/1.1" 200 1135
+INFO 2024-11-06 21:43:49,174 basehttp 8080 8012 "GET / HTTP/1.1" 200 5420
+INFO 2024-11-06 21:43:50,619 basehttp 8080 8012 "GET /recipe/9/ HTTP/1.1" 200 8032
+INFO 2024-11-06 21:43:52,953 basehttp 8080 8012 "GET /user_check/9/ HTTP/1.1" 200 1135
+INFO 2024-11-06 21:43:55,632 basehttp 8080 8012 "GET / HTTP/1.1" 200 6176
+INFO 2024-11-06 21:43:57,388 basehttp 8080 8012 "GET /recipe/6/ HTTP/1.1" 200 11390
+INFO 2024-11-06 21:43:59,689 basehttp 8080 8012 "GET /user_check/6/ HTTP/1.1" 200 1135
+INFO 2024-11-06 21:44:01,575 basehttp 8080 8012 "GET /all_recipes/ HTTP/1.1" 200 12237
+INFO 2024-11-06 21:44:04,714 basehttp 8080 8012 "GET /recipe/28/ HTTP/1.1" 200 1974
+INFO 2024-11-06 21:44:06,874 basehttp 8080 8012 "GET /user_check/28/ HTTP/1.1" 302 0
+INFO 2024-11-06 21:44:06,887 basehttp 8080 8012 "GET /edit/28/ HTTP/1.1" 200 3671
+INFO 2024-11-06 21:44:09,407 basehttp 8080 8012 "POST /edit/28/ HTTP/1.1" 302 0
+INFO 2024-11-06 21:44:09,414 basehttp 8080 8012 "GET /change_rec_confirm/ HTTP/1.1" 200 1079
+INFO 2024-11-06 21:44:16,971 basehttp 8080 8012 "GET /user/logout/ HTTP/1.1" 200 993
+INFO 2024-11-06 21:44:19,105 basehttp 8080 8012 "GET /user/login/ HTTP/1.1" 200 1770
+INFO 2024-11-06 21:44:26,951 basehttp 8080 8012 "POST /user/login/ HTTP/1.1" 302 0
+INFO 2024-11-06 21:44:26,959 basehttp 8080 8012 "GET / HTTP/1.1" 200 6003
+INFO 2024-11-06 21:44:29,249 basehttp 8080 8012 "GET /recipe/10/ HTTP/1.1" 200 9421
+INFO 2024-11-06 21:44:31,414 basehttp 8080 8012 "GET /user/registration/ HTTP/1.1" 200 3442
+INFO 2024-11-06 21:44:32,041 basehttp 8080 8012 "GET /add_recipe/ HTTP/1.1" 200 4042
+ERROR 2024-11-06 21:44:48,654 log 8080 8012 Internal Server Error: /add_recipe/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp.views.add_recipe didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-11-06 21:44:48,656 basehttp 8080 8012 "POST /add_recipe/ HTTP/1.1" 500 69421
+INFO 2024-11-06 21:45:09,255 basehttp 8080 8012 "POST /add_recipe/ HTTP/1.1" 200 1062
+INFO 2024-11-06 21:45:12,983 basehttp 8080 8012 "GET /add_recipe/ HTTP/1.1" 200 4042
+ERROR 2024-11-06 21:45:22,183 log 8080 8012 Internal Server Error: /add_recipe/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp.views.add_recipe didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-11-06 21:45:22,184 basehttp 8080 8012 "POST /add_recipe/ HTTP/1.1" 500 69421
+INFO 2024-11-06 21:48:54,781 autoreload 8080 2112 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 21:48:55,593 autoreload 14448 8816 Watching for file changes with StatReloader
+INFO 2024-11-06 21:48:58,620 basehttp 14448 12100 "POST /add_recipe/ HTTP/1.1" 200 1061
+INFO 2024-11-06 21:48:58,632 basehttp 14448 12100 "GET /static/css/style.css HTTP/1.1" 304 0
+INFO 2024-11-06 21:49:31,178 autoreload 14448 8816 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 21:49:31,629 autoreload 16740 23132 Watching for file changes with StatReloader
+INFO 2024-11-06 21:49:31,764 basehttp 16740 24080 "GET /add_recipe/ HTTP/1.1" 200 4042
+INFO 2024-11-06 21:50:02,602 basehttp 16740 24080 "POST /add_recipe/ HTTP/1.1" 200 1061
+INFO 2024-11-06 21:50:13,597 autoreload 16740 23132 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 21:50:14,078 autoreload 21348 1972 Watching for file changes with StatReloader
+INFO 2024-11-06 21:50:15,063 basehttp 21348 22224 "GET /add_recipe/ HTTP/1.1" 200 4042
+INFO 2024-11-06 21:51:10,123 autoreload 21348 1972 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 21:51:10,642 autoreload 1300 22156 Watching for file changes with StatReloader
+INFO 2024-11-06 21:51:26,931 basehttp 1300 23212 "POST /add_recipe/ HTTP/1.1" 200 1061
+INFO 2024-11-06 21:51:42,041 autoreload 1300 22156 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 21:51:42,649 autoreload 9732 296 Watching for file changes with StatReloader
+INFO 2024-11-06 21:51:43,380 basehttp 9732 10480 "GET /add_recipe/ HTTP/1.1" 200 4042
+INFO 2024-11-06 21:52:01,244 basehttp 9732 10480 "POST /add_recipe/ HTTP/1.1" 200 1061
+INFO 2024-11-06 21:52:54,038 basehttp 9732 9416 "GET / HTTP/1.1" 200 5442
+INFO 2024-11-06 21:52:55,043 basehttp 9732 9416 "GET /static/css/style.css HTTP/1.1" 200 3350
+INFO 2024-11-06 21:52:55,046 basehttp 9732 19112 "GET /media/media/spagetti.jpg HTTP/1.1" 200 229750
+INFO 2024-11-06 21:52:55,047 basehttp 9732 16612 "GET /media/media/big_366898_Nwx8Q2L.jpg HTTP/1.1" 200 45593
+INFO 2024-11-06 21:52:55,056 basehttp 9732 9416 "GET /media/888.jpg HTTP/1.1" 200 181654
+INFO 2024-11-06 21:52:55,057 basehttp 9732 4184 "GET /media/media/salat_s_baklaz.jpg HTTP/1.1" 200 255306
+INFO 2024-11-06 21:52:55,059 basehttp 9732 16328 "GET /media/media/kurica_v_multivarke.jpg HTTP/1.1" 200 273506
+INFO 2024-11-06 21:52:55,060 basehttp 9732 3696 "GET /media/media/rublenniye_kotlety.jpg HTTP/1.1" 200 244685
+INFO 2024-11-06 21:52:55,397 basehttp 9732 19112 "GET /media/555.png HTTP/1.1" 200 5326948
+WARNING 2024-11-06 21:52:55,408 log 9732 19112 Not Found: /favicon.ico
+WARNING 2024-11-06 21:52:55,408 basehttp 9732 19112 "GET /favicon.ico HTTP/1.1" 404 6906
+INFO 2024-11-06 21:52:56,194 basehttp 9732 19112 "GET /add_recipe/ HTTP/1.1" 200 1034
+INFO 2024-11-06 21:52:59,175 basehttp 9732 13248 "GET /user/login/ HTTP/1.1" 200 1770
+INFO 2024-11-06 21:53:06,748 basehttp 9732 13248 "POST /user/login/ HTTP/1.1" 200 2027
+INFO 2024-11-06 21:53:13,500 basehttp 9732 13248 "POST /user/login/ HTTP/1.1" 302 0
+INFO 2024-11-06 21:53:13,509 basehttp 9732 13248 "GET / HTTP/1.1" 200 5537
+INFO 2024-11-06 21:53:13,526 basehttp 9732 20524 "GET /media/media/big_366898_DWDX5Kx.jpg HTTP/1.1" 200 45593
+INFO 2024-11-06 21:53:13,530 basehttp 9732 4756 "GET /media/media/morkovniy_rulet.jpg HTTP/1.1" 200 301117
+INFO 2024-11-06 21:53:13,532 basehttp 9732 9088 "GET /media/media/tefteli.jpg HTTP/1.1" 200 286243
+INFO 2024-11-06 21:53:13,532 basehttp 9732 13248 "GET /media/media/zapekanka.jpg HTTP/1.1" 200 331021
+INFO 2024-11-06 22:04:23,064 basehttp 9732 16744 "GET /add_recipe/ HTTP/1.1" 200 4042
+INFO 2024-11-06 22:04:23,077 basehttp 9732 16744 "GET /static/css/style.css HTTP/1.1" 304 0
+INFO 2024-11-06 22:05:18,323 autoreload 9732 296 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 22:05:18,791 autoreload 13184 24248 Watching for file changes with StatReloader
+INFO 2024-11-06 22:06:18,964 autoreload 13184 24248 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 22:06:19,404 autoreload 9220 1772 Watching for file changes with StatReloader
+INFO 2024-11-06 22:06:19,637 basehttp 9220 7296 "GET /add_recipe/ HTTP/1.1" 200 4042
+INFO 2024-11-06 22:06:32,598 basehttp 9220 7296 "POST /add_recipe/ HTTP/1.1" 200 1061
+INFO 2024-11-06 22:06:45,669 autoreload 17628 22908 Watching for file changes with StatReloader
+INFO 2024-11-06 22:06:48,328 basehttp 17628 996 "GET / HTTP/1.1" 200 6092
+INFO 2024-11-06 22:06:48,419 basehttp 17628 996 "GET /media/media/kabachki.jpg HTTP/1.1" 200 243886
+INFO 2024-11-06 22:06:50,364 basehttp 17628 996 "GET /add_recipe/ HTTP/1.1" 200 4042
+INFO 2024-11-06 22:07:03,434 basehttp 17628 996 "POST /add_recipe/ HTTP/1.1" 200 1061
+INFO 2024-11-06 22:07:40,022 autoreload 17628 22908 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 22:07:40,631 autoreload 19132 8620 Watching for file changes with StatReloader
+INFO 2024-11-06 22:08:56,166 autoreload 19132 8620 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 22:08:56,793 autoreload 9392 8224 Watching for file changes with StatReloader
+INFO 2024-11-06 22:08:57,457 basehttp 9392 18592 "GET /add_recipe/ HTTP/1.1" 200 4042
+ERROR 2024-11-06 22:09:11,548 log 9392 18592 Internal Server Error: /add_recipe/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 126, in add_recipe
+    return render(request, 'myapp/add_recipe.html', {'title': title})
+UnboundLocalError: local variable 'title' referenced before assignment
+ERROR 2024-11-06 22:09:11,552 basehttp 9392 18592 "POST /add_recipe/ HTTP/1.1" 500 69380
+INFO 2024-11-06 22:09:46,942 autoreload 9392 8224 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 22:09:47,419 autoreload 14604 4872 Watching for file changes with StatReloader
+INFO 2024-11-06 22:09:50,332 basehttp 14604 6048 "POST /add_recipe/ HTTP/1.1" 200 1439
+INFO 2024-11-06 22:10:01,787 basehttp 14604 6048 "GET /add_recipe/ HTTP/1.1" 200 4042
+INFO 2024-11-06 22:10:16,243 basehttp 14604 6048 "POST /add_recipe/ HTTP/1.1" 200 1439
+INFO 2024-11-06 22:11:07,530 autoreload 14604 4872 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 22:11:08,101 autoreload 23944 19320 Watching for file changes with StatReloader
+INFO 2024-11-06 22:11:08,738 basehttp 23944 4584 "GET /add_recipe/ HTTP/1.1" 200 4042
+INFO 2024-11-06 22:11:12,650 basehttp 23944 4584 "POST /add_recipe/ HTTP/1.1" 200 1473
+INFO 2024-11-06 22:11:29,200 autoreload 23944 19320 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 22:11:29,653 autoreload 22788 13392 Watching for file changes with StatReloader
+INFO 2024-11-06 22:11:52,387 autoreload 22788 13392 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 22:11:52,908 autoreload 8632 11008 Watching for file changes with StatReloader
+INFO 2024-11-06 22:12:36,068 autoreload 8632 11008 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 22:12:36,544 autoreload 3516 18108 Watching for file changes with StatReloader
+INFO 2024-11-06 22:12:37,945 basehttp 3516 14716 "GET /add_recipe/ HTTP/1.1" 200 4042
+ERROR 2024-11-06 22:12:51,345 log 3516 14716 Internal Server Error: /add_recipe/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp.views.add_recipe didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-11-06 22:12:51,347 basehttp 3516 14716 "POST /add_recipe/ HTTP/1.1" 500 69451
+INFO 2024-11-06 22:13:57,944 autoreload 3516 18108 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 22:13:58,554 autoreload 12240 17120 Watching for file changes with StatReloader
+ERROR 2024-11-06 22:14:01,023 log 12240 19828 Internal Server Error: /add_recipe/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp.views.add_recipe didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-11-06 22:14:01,025 basehttp 12240 19828 "POST /add_recipe/ HTTP/1.1" 500 69451
+INFO 2024-11-06 22:14:14,589 autoreload 12240 17120 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 22:14:15,202 autoreload 24116 14844 Watching for file changes with StatReloader
+INFO 2024-11-06 22:14:16,460 basehttp 24116 19640 "POST /add_recipe/ HTTP/1.1" 200 1473
+INFO 2024-11-06 22:14:16,470 basehttp 24116 19640 "GET /static/css/style.css HTTP/1.1" 304 0
+INFO 2024-11-06 22:14:18,729 basehttp 24116 19640 "GET /add_recipe/ HTTP/1.1" 200 4042
+INFO 2024-11-06 22:14:34,187 autoreload 24116 14844 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 22:14:34,800 autoreload 8920 17036 Watching for file changes with StatReloader
+INFO 2024-11-06 22:14:35,833 basehttp 8920 21252 "POST /add_recipe/ HTTP/1.1" 200 1095
+INFO 2024-11-06 22:14:54,690 autoreload 8920 17036 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 22:14:55,155 autoreload 9000 9524 Watching for file changes with StatReloader
+INFO 2024-11-06 22:14:55,438 basehttp 9000 11776 "GET /add_recipe/ HTTP/1.1" 200 4042
+ERROR 2024-11-06 22:14:57,810 log 9000 11776 Internal Server Error: /add_recipe/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp.views.add_recipe didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-11-06 22:14:57,811 basehttp 9000 11776 "POST /add_recipe/ HTTP/1.1" 500 69451
+INFO 2024-11-06 22:15:25,483 autoreload 9000 9524 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 22:15:26,001 autoreload 11680 18864 Watching for file changes with StatReloader
+ERROR 2024-11-06 22:15:27,175 log 11680 6520 Internal Server Error: /add_recipe/
+Traceback (most recent call last):
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_django_work\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\my_django_work\recipes\myapp\views.py", line 125, in add_recipe
+    return render(request, 'myapp/confirm.html', {'message': message})
+UnboundLocalError: local variable 'message' referenced before assignment
+ERROR 2024-11-06 22:15:27,177 basehttp 11680 6520 "POST /add_recipe/ HTTP/1.1" 500 69149
+INFO 2024-11-06 22:15:40,780 autoreload 11680 18864 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 22:15:41,199 autoreload 15604 2740 Watching for file changes with StatReloader
+INFO 2024-11-06 22:16:15,517 autoreload 15604 2740 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 22:16:16,059 autoreload 17748 10712 Watching for file changes with StatReloader
+INFO 2024-11-06 22:16:16,919 basehttp 17748 872 "POST /add_recipe/ HTTP/1.1" 200 1116
+INFO 2024-11-06 22:16:46,296 autoreload 17748 10712 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 22:16:46,786 autoreload 18224 24036 Watching for file changes with StatReloader
+INFO 2024-11-06 22:16:48,107 basehttp 18224 9492 "GET /add_recipe/ HTTP/1.1" 200 4042
+INFO 2024-11-06 22:16:49,649 basehttp 18224 9492 "POST /add_recipe/ HTTP/1.1" 200 1116
+INFO 2024-11-06 22:17:06,964 autoreload 18224 24036 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 22:17:07,454 autoreload 18972 15216 Watching for file changes with StatReloader
+INFO 2024-11-06 22:17:08,184 basehttp 18972 15576 "GET /add_recipe/ HTTP/1.1" 200 4042
+INFO 2024-11-06 22:17:09,955 basehttp 18972 15576 "POST /add_recipe/ HTTP/1.1" 200 1116
+INFO 2024-11-06 22:17:34,682 autoreload 18972 15216 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 22:17:35,251 autoreload 23012 4332 Watching for file changes with StatReloader
+INFO 2024-11-06 22:17:36,107 basehttp 23012 1684 "GET /add_recipe/ HTTP/1.1" 200 4042
+INFO 2024-11-06 22:17:37,935 basehttp 23012 1684 "POST /add_recipe/ HTTP/1.1" 200 4249
+INFO 2024-11-06 22:17:49,382 basehttp 23012 1684 "GET /add_recipe/ HTTP/1.1" 200 4042
+INFO 2024-11-06 22:18:13,040 basehttp 23012 1684 "POST /add_recipe/ HTTP/1.1" 200 4253
+INFO 2024-11-06 22:18:53,483 autoreload 23012 4332 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 22:18:53,951 autoreload 6884 21528 Watching for file changes with StatReloader
+INFO 2024-11-06 22:19:00,445 basehttp 6884 17560 "POST /add_recipe/ HTTP/1.1" 200 4315
+INFO 2024-11-06 22:19:15,117 autoreload 6884 21528 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-06 22:19:15,629 autoreload 18072 13816 Watching for file changes with StatReloader
+INFO 2024-11-06 22:19:29,534 basehttp 18072 11612 "POST /add_recipe/ HTTP/1.1" 200 4319
+INFO 2024-11-06 22:19:53,583 basehttp 18072 11612 "GET /add_recipe/ HTTP/1.1" 200 4042
+INFO 2024-11-06 22:19:55,619 basehttp 18072 11612 "GET / HTTP/1.1" 200 4901
+INFO 2024-11-06 22:19:55,630 basehttp 18072 10036 "GET /media/media/big_366898_DWDX5Kx.jpg HTTP/1.1" 304 0
+INFO 2024-11-06 22:19:55,692 basehttp 18072 11612 "GET /media/media/big_366898.jpg HTTP/1.1" 200 45593
+INFO 2024-11-06 22:19:56,835 basehttp 18072 11612 "GET /recipe/29/ HTTP/1.1" 200 1974
+INFO 2024-11-06 22:19:58,806 basehttp 18072 11612 "GET /user_check/29/ HTTP/1.1" 302 0
+INFO 2024-11-06 22:19:58,829 basehttp 18072 11612 "GET /edit/29/ HTTP/1.1" 200 3671
+INFO 2024-11-06 22:20:21,402 basehttp 18072 11612 "GET /user/registration/ HTTP/1.1" 200 3442
+INFO 2024-11-06 22:21:01,563 basehttp 18072 11612 "POST /user/registration/ HTTP/1.1" 200 3714
+INFO 2024-11-06 22:21:13,705 basehttp 18072 11612 "GET /user/registration/ HTTP/1.1" 200 3442
+INFO 2024-11-06 22:21:32,830 basehttp 18072 11612 "POST /user/registration/ HTTP/1.1" 200 3695
+INFO 2024-11-06 22:21:37,217 basehttp 18072 11612 "GET /add_recipe/ HTTP/1.1" 200 4042
+INFO 2024-11-06 22:21:54,628 basehttp 18072 11612 "POST /add_recipe/ HTTP/1.1" 200 4288
+INFO 2024-11-06 22:22:10,650 basehttp 18072 11612 "POST /add_recipe/ HTTP/1.1" 200 1062
+INFO 2024-11-06 22:22:22,066 basehttp 18072 11612 "GET /user/logout/ HTTP/1.1" 200 993
+INFO 2024-11-06 22:22:23,506 basehttp 18072 11612 "GET /add_recipe/ HTTP/1.1" 200 1034
+INFO 2024-11-06 22:22:28,680 basehttp 18072 11612 "GET / HTTP/1.1" 200 5461
+INFO 2024-11-06 22:22:28,701 basehttp 18072 11612 "GET /media/media/pirog_s_lisichkami.jpg HTTP/1.1" 200 266760
+INFO 2024-11-06 22:22:29,954 basehttp 18072 11612 "GET /recipe/6/ HTTP/1.1" 200 11306
+INFO 2024-11-06 22:22:32,843 basehttp 18072 11612 "GET /user_check/6/ HTTP/1.1" 200 1009
+INFO 2024-11-06 22:26:19,734 autoreload 18072 13816 C:\my_django_work\recipes\myapp\forms.py changed, reloading.
+INFO 2024-11-06 22:26:20,293 autoreload 14920 5988 Watching for file changes with StatReloader
+INFO 2024-11-07 08:26:52,773 autoreload 18204 16416 Watching for file changes with StatReloader
+INFO 2024-11-07 08:28:25,393 autoreload 18204 16416 C:\my_django_work\recipes\myapp\views.py changed, reloading.
+INFO 2024-11-07 08:28:26,024 autoreload 14564 14500 Watching for file changes with StatReloader
+INFO 2024-11-07 08:29:03,713 autoreload 14564 14500 C:\my_django_work\recipes\recipes\urls.py changed, reloading.
+INFO 2024-11-07 08:29:04,322 autoreload 20440 18360 Watching for file changes with StatReloader
+INFO 2024-11-07 08:29:10,612 basehttp 20440 13632 "GET / HTTP/1.1" 200 5873
+INFO 2024-11-07 08:29:11,356 basehttp 20440 7476 "GET /static/css/style.css HTTP/1.1" 304 0
+INFO 2024-11-07 08:29:11,367 basehttp 20440 7476 "GET /media/555.png HTTP/1.1" 304 0
+INFO 2024-11-07 08:29:11,468 basehttp 20440 13632 "GET /media/media/kompot_iz_kuragi.jpg HTTP/1.1" 200 152396
+WARNING 2024-11-07 08:29:11,787 log 20440 13632 Not Found: /favicon.ico
+WARNING 2024-11-07 08:29:11,788 basehttp 20440 13632 "GET /favicon.ico HTTP/1.1" 404 6273
+INFO 2024-11-07 08:29:15,112 basehttp 20440 5644 "GET /all_recipes/ HTTP/1.1" 200 11736
+INFO 2024-11-07 08:29:15,184 basehttp 20440 5644 "GET /media/media/big_366898.jpg HTTP/1.1" 304 0
+INFO 2024-11-07 08:29:23,066 basehttp 20440 5644 "GET /all_categorys/ HTTP/1.1" 200 16036
+INFO 2024-11-07 08:29:23,115 basehttp 20440 5644 "GET /media/media/pervye_bluda.jpg HTTP/1.1" 200 153428
+INFO 2024-11-07 08:29:23,120 basehttp 20440 14876 "GET /media/media/napitki.jpg HTTP/1.1" 200 104530
+INFO 2024-11-07 08:29:23,121 basehttp 20440 21704 "GET /media/media/vtorye_bluda.jpg HTTP/1.1" 200 229632
+INFO 2024-11-07 08:29:23,123 basehttp 20440 22488 "GET /media/media/salat.jpg HTTP/1.1" 200 225351
+INFO 2024-11-07 08:29:23,124 basehttp 20440 7932 "GET /media/media/zakuski.jpg HTTP/1.1" 200 217762
+INFO 2024-11-07 08:29:27,913 basehttp 20440 22488 "GET /recipe_by_cat/1/ HTTP/1.1" 200 2033
+INFO 2024-11-07 08:29:31,758 basehttp 20440 22488 "GET /all_categorys/ HTTP/1.1" 200 16036
+INFO 2024-11-07 08:29:33,810 basehttp 20440 22488 "GET /recipe_by_cat/2/ HTTP/1.1" 200 7082
+INFO 2024-11-07 08:29:37,589 basehttp 20440 22488 "GET /all_categorys/ HTTP/1.1" 200 16036
+INFO 2024-11-07 08:29:39,910 basehttp 20440 22488 "GET /recipe_by_cat/3/ HTTP/1.1" 200 3066
+INFO 2024-11-07 08:29:42,490 basehttp 20440 22488 "GET /all_categorys/ HTTP/1.1" 200 16036
+INFO 2024-11-07 08:29:44,917 basehttp 20440 22488 "GET /recipe_by_cat/4/ HTTP/1.1" 200 2117
+INFO 2024-11-07 08:29:46,665 basehttp 20440 22488 "GET /all_categorys/ HTTP/1.1" 200 16036
+INFO 2024-11-07 08:29:49,673 basehttp 20440 22488 "GET /recipe_by_cat/5/ HTTP/1.1" 200 2006

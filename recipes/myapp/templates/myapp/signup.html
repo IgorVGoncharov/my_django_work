@@ -1,14 +1,12 @@
 {% extends 'base.html' %}
 
 {% block content %}
-
-<h1 class="all_title">Регистрация</h1>
-<form method="post">
-    <div class="add_recipe">
-        {% csrf_token %}
-        {{ form.as_table }}
-    </div>
-    <button class="send_button btn-new btn-new:hover" type="submit">Отправить</button>
-</form>
-
+    <h1 class="all_title">Регистрация</h1>
+    <form method="post">
+        <div class="add_recipe">
+            {% csrf_token %}
+            {{ form.as_table }}
+        </div>
+        <button class="send_button btn-new btn-new:hover" type="submit">Отправить</button>
+    </form>
 {% endblock %}

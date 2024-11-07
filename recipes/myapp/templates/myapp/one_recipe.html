@@ -5,10 +5,8 @@
 {% block content %}
         <form method="post" enctype="multipart/form-data">
             <h1 class="all_title">{{ recipe.name }}</h1>
-
             <img class="one_recipe_img" src="/media/{{ recipe.image }}" />
                 <p class="text_margin">{{ recipe.description }}</p>
-
                 <h2 class="small_title"> Ингредиенты: </h2>
                 <div class="text_margin border">
                      <p >{{ recipe.products|linebreaks }}</p>
@@ -24,6 +22,4 @@
                     (Редактирование рецепта)</a>
             </div>
         </form>
-<form method="post" enctype="multipart/form-data">
-
 {% endblock %}

@@ -1,15 +1,14 @@
 {% extends 'base.html' %}
 
-{% block title %}Добавление категории рецепта{% endblock %}
+{% block title %}Изменение рецепта{% endblock %}
 
 {% block content %}
-<h1 class="all_title">{{title}}</h1>
-<form action="" method="post" enctype="multipart/form-data">
-     <div class="add_recipe">
-    {% csrf_token %}
-    {{ form.as_table }}
-    </div>
-    <button class="send_button btn-new btn-new:hover" type="submit">Сохранить</button>
-
-</form>
+    <h1 class="all_title">{{title}}</h1>
+    <form action="" method="post" enctype="multipart/form-data">
+         <div class="add_recipe">
+            {% csrf_token %}
+            {{ form.as_table }}
+        </div>
+        <button class="send_button btn-new btn-new:hover" type="submit">Сохранить</button>
+    </form>
 {% endblock %}
