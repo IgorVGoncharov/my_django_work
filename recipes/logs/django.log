@@ -15125,3 +15125,4 @@ INFO 2024-11-07 13:25:41,340 basehttp 24388 3020 "GET /user/logout/ HTTP/1.1" 20
 INFO 2024-11-07 13:34:36,076 autoreload 24388 5708 C:\my_django_work\recipes\recipes\settings.py changed, reloading.
 INFO 2024-11-07 13:34:41,384 autoreload 9224 19516 Watching for file changes with StatReloader
 INFO 2024-11-07 13:35:15,230 autoreload 9224 19516 C:\my_django_work\recipes\recipes\settings.py changed, reloading.
+INFO 2024-11-08 08:06:29,807 autoreload 14528 8248 Watching for file changes with StatReloader

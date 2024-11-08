@@ -7,8 +7,9 @@
         <h1 class="all_title">{{ title }}</h1>
         {% for recipe in recipes %}
             <div class="container border">
-                <img class="recipe_img_pad" src="/media/{{ recipe.image }}">
+                <!--<img class="recipe_img_pad" src="/media/{{ recipe.image }}">-->
                 <div class="all_recipes_describ">
+                    <img class="one_recipe_img border" src="/media/{{ recipe.image }}">
                     <h3 class="recipe_name text_color">{{ recipe.name }}</h3>
                     <p>{{ recipe.get_summary }}</p>
                     <h3><a class="link" href={% url 'recipe_full' recipe.id %}>Подробнее...</a></h3>
